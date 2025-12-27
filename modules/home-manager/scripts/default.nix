@@ -27,7 +27,6 @@ with lib; let
     else builtins.replaceStrings [" " "'" "\"" "&" "|" ";" "$" "`" "(" ")" "[" "]" "{" "}" "<" ">" "\\"] ["_" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""] name;
 in {
   bakkes-config-sync = pkgs.writeShellScriptBin "bakkes-config-sync" ''
-    #!/usr/bin/env bash
     set -euo pipefail
 
     log() { echo "[$(date +%H:%M:%S)] $1"; }
@@ -84,7 +83,6 @@ EOF
   '';
 
   bakkes-plugin-sync = pkgs.writeShellScriptBin "bakkes-plugin-sync" ''
-    #!/usr/bin/env bash
     set -euo pipefail
     shopt -s nullglob
 
@@ -131,7 +129,7 @@ EOF
 
         if ! is_plugin_wanted "$PLUGIN_NAME"; then
             log "Removing plugin: $PLUGIN_NAME"
-
+            
             while IFS= read -r file || [[ -n "$file" ]]; do
                 [[ -z "$file" ]] && continue
 
@@ -246,7 +244,6 @@ EOF
 
   # Steam launch wrapper: bakkes-launcher %command%
   bakkes-launcher = pkgs.writeShellScriptBin "bakkes-launcher" ''
-    #!/usr/bin/env bash
     set -uo pipefail
 
     BAKKES_LOG="''${XDG_STATE_HOME:-$HOME/.local/state}/bakkesmod/launcher.log"
@@ -349,6 +346,10 @@ EOF
         WINEDEBUG=-all WINEFSYNC=1 WINEPREFIX="$RL_PREFIX/pfx" "$PROTON/bin/wine64" ${cfg.package}/bin/BakkesMod.exe 2>/dev/null &
         BAKKES_PID=$!
         log "BakkesMod PID: $BAKKES_PID"
+
+        # Refocus Rocket League after BakkesMod launches
+        ${pkgs.coreutils}/bin/sleep 2
+        ${pkgs.wmctrl}/bin/wmctrl -a "Rocket League" 2>/dev/null || log "Could not refocus game window"
 
         # On first run, wait for data dir and sync
         if [ ! -d "$BAKKES_DATA" ]; then
