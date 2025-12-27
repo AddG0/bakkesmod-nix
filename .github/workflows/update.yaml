@@ -1,0 +1,51 @@
+name: Update Plugins
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Setup Nix cache
+        uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: Update plugin metadata (fast)
+        run: |
+          nix run .#update -- --no-hash --data-dir ./data
+
+      - name: Update plugin hashes
+        run: |
+          nix run .#update -- --data-dir ./data --parallel 8
+        timeout-minutes: 60
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/plugins.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json
+          git commit -m "chore: update plugin data
+
+          Updated $(date -u +%Y-%m-%d)
+
+          $(git diff --cached --stat)"
+          git push

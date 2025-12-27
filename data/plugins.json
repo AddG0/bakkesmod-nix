@@ -1,0 +1,2546 @@
+[
+  {
+    "id": 8,
+    "name": "Boost Recharge",
+    "version": "1.0.4",
+    "description": "Custom boost recharge mode for Freeplay and Workshop maps",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_068a51cd9dcb71b233aa1958eaa574e8310a00cfbd010aee25e6fa80eed616ce.zip",
+    "hash": "sha256-fBBqahntkw6Jt0J80Q8BUvw/vaV/HUDvJTdE76YN0vc="
+  },
+  {
+    "id": 10,
+    "name": "Air Recovery (Bumps)",
+    "version": "1.0.2",
+    "description": "Just like the RecoveryPlugin bumps you off the ground. This plugin bumps you in the air.",
+    "url": "https://cdn.bakkesplugins.com/uploads/10_43d40f1e83dc4d563b123bd9745368e85cf5c838aaba286c38d94a9cc8b7e369.zip",
+    "hash": "sha256-/9xwUQZ8IJcOnGyqlou9w+4MW3T5Q11975pfUntNYLE="
+  },
+  {
+    "id": 12,
+    "name": "Custom Gravity",
+    "version": "1.0.5",
+    "description": "Custom Gravity in any direction and any strength. Upwards, to the left, diagonally, whatever you want.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_55fe74a7676595d76b2075726043bb74e023086b32cae9eff270ee49712b671f.zip",
+    "hash": "sha256-zwYHShCtlofp8kB3ZkB18H4EFsTNYOUmyKtbinMoSS8="
+  },
+  {
+    "id": 13,
+    "name": "gidekPlugin",
+    "version": "1.0.5",
+    "description": "MMR/Wins/Losses Counter",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_7b520fd8e43b7b124f8f26331c9b0aae76b3477b06921dadc18119ecd6d07b4b.zip",
+    "hash": "sha256-lVIyVo+r5unX7fAP0sre1QIaIy9if/ns/MW2gzAlVbk="
+  },
+  {
+    "id": 14,
+    "name": "Instant Suite",
+    "version": "1.0.7",
+    "description": "Waste no time between games! Auto-queue, Instant Freeplay, or exit to Main Menu, right after a match ends! Configurable!",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_a915af54d773bf24c55e09d4898e85ff4f9f6fcbba9dc779087c8cb5eab33129.zip",
+    "hash": "sha256-KVLEs6bqvJLPLBLh7nzRzWQxq2odzGv1s0yFxbpjnY8="
+  },
+  {
+    "id": 19,
+    "name": "Hitbox Plugin",
+    "version": "1.0.5",
+    "description": "Draws a wireframe hitbox around the car during freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/3_f5a77b7f7f50b3a0d8e493705c00ac97391080b090ad5aace2dc64fb65a6985e.zip",
+    "hash": "sha256-ZyQnTchxPPJzylYTaUHdQCqOvy+yDvWfQIKam3ZSA4k="
+  },
+  {
+    "id": 20,
+    "name": "FlightPlugin",
+    "version": "1.0.0",
+    "description": "It lifts you up when you go fast.",
+    "url": "https://cdn.bakkesplugins.com/uploads/Bakkes_ee390af7377f4a204f1f0d027f5acd45d32152e26da07e659d422a1bd1d877eb.zip",
+    "hash": "sha256-cmuSj7ULYPPZKtXh+/7FsnEwdlULXy0qaEU2FwNCqXg="
+  },
+  {
+    "id": 21,
+    "name": "Discord Rich Presence Integration",
+    "version": "1.0.7",
+    "description": "Integrates Discord Rich Presence into Rocket League",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_5d8bc5a17ad95282f08fc616f37ed1421bef70ab895b13123e3730da51ab2f73.zip",
+    "hash": "sha256-6HdjutA7Oi9dTa9yRL8p1zITKZ4MlprlNGxZ9kUaS4g="
+  },
+  {
+    "id": 22,
+    "name": "Curveball plugin",
+    "version": "1.0.2",
+    "description": "Adds Magnus force to the ball, as seen in SunlessKhan's video",
+    "url": "https://cdn.bakkesplugins.com/uploads/Simple_AOB_5f0d0b760832e815063c1e5cfc55bd279ff1a31c162d970132ecf4c360fc15dd.zip",
+    "hash": "sha256-4fETQLhpm8rhxb1TANSEgDHDfOhoASqNoaf1RRp1ciI="
+  },
+  {
+    "id": 25,
+    "name": "SciencePlugin",
+    "version": "1.0.2",
+    "description": "Shows information about car and ball in freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_417615668127765735be2cb717ffbbec3950ac73fe1865536e7eafe8cad71030.zip",
+    "hash": "sha256-f9Ur0LNySLSu3WyCPtKbQIliJkM+llxM6uhYi/YzrWA="
+  },
+  {
+    "id": 26,
+    "name": "Rocket Plugin",
+    "version": "1.0.28",
+    "description": "A Bakkesmod plugin for joining, hosting and manipulating local games.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_f18558671746cfce5fd8b95970d3072c6f62108e0265af6a6d46636b0a1c4576.zip",
+    "hash": "sha256-Xi+gURJz4Z5qMFHA1U3Rm63K/Xi3jlbu4b/SsEO4pWo="
+  },
+  {
+    "id": 27,
+    "name": "Celebration Plugin",
+    "version": "1.0.7",
+    "description": "Practice your post-game celebrations in freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_3bf0c512d9e5b1b2a9d0329c074a7bee990b785c81dc0ce86f75bcae2c5fb7d9.zip",
+    "hash": "sha256-g8hrq6JIZEqjw+B3JsA2gSNgK8eeYAANCWXaj+BvYdk="
+  },
+  {
+    "id": 30,
+    "name": "RocketStats",
+    "version": "1.0.47",
+    "description": "RocketStats is a Plugin working with bakkesmod, allowing to display some information in game and/or OBS",
+    "url": "https://cdn.bakkesplugins.com/uploads/25_d5389fbb9ad3b7ef19a6907ccecfbfd843cfea7f1858cf35589257990f8b1c60.zip",
+    "hash": "sha256-1kzAGBbCFzu3QXxPzlDPzTbOJn7PUZIMV3UhtXBL070="
+  },
+  {
+    "id": 31,
+    "name": "Freestyle Training",
+    "version": "1.0.4",
+    "description": "Improve aerial car control with auto air-roll + randomization",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_f711f2e86b50091a6d4a7888f6f35b33f17a676466e0c6be5860ee5d4c944911.zip",
+    "hash": "sha256-dSSS20186HXSfMR0qk0QeuWtuvc8xhKeg7XQfpO3Jgo="
+  },
+  {
+    "id": 33,
+    "name": "Shot Logger",
+    "version": "1.0.3",
+    "description": "This plugins shows the speed of every shot in the chat window and allows saving the information to a file too.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_0dacd21ef22056f07b51e50940d394080134765d01fcbffad127a71b8596026b.zip",
+    "hash": "sha256-RQSHhQznpoe6tpGdkYO0qX5u5Kci4vIVjaht/F1WPgI="
+  },
+  {
+    "id": 34,
+    "name": "First Person",
+    "version": "1.0.7",
+    "description": "Play Rocket League from a first person perspective",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_06e6b1822e557649b648ac606bb321cbce0d05f60640e4ac797c05e36d211dba.zip",
+    "hash": "sha256-nCVHpqhk1HKg4jWal+64yvf3ND1lSEM6LephdpSR53A="
+  },
+  {
+    "id": 35,
+    "name": "Python Bindings",
+    "version": "1.0.0",
+    "description": "A plugin with bindings between the BakkesmodSDK and python",
+    "url": "https://cdn.bakkesplugins.com/uploads/Bakkes_0f0c1d0f1828a65b58e10c4d357bc8118576d2a08e52bcecea6e4c381aa0fc25.zip",
+    "hash": "sha256-Bcxr6tnScqmnilCL2aM0EJoxk+GsqoZG6OkL6UM7EZA="
+  },
+  {
+    "id": 36,
+    "name": "FIFA Plugin",
+    "version": "1.0.7",
+    "description": "This plugin changes the player cam to a FIFA view",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_d14f5f4a2e3038af120945a172d6654cb43c939bdfdbdca6ae7716952e1810ab.zip",
+    "hash": "sha256-wThoQlTK8pc3vjv6q4IhXZjIrtSzDpTCuEIhyzWnn+Q="
+  },
+  {
+    "id": 39,
+    "name": "SessionStats",
+    "version": "1.0.5",
+    "description": "Open Source plugin: Tracks and displays wins/losses/streak/mmr for a Rocket League session.  Options for both in-game screen display, and OBS integration, as well as keeping separate statistics for each game mode.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_f19bb8dadf0d3e6964bde15a25e98ba38d331a3ef3a29d7b7a8c01f24fdb41d5.zip",
+    "hash": "sha256-FxVYVi4nZsi8X2FnDsgsKYnbBUNfp+kXqc5wOz7HlHM="
+  },
+  {
+    "id": 40,
+    "name": "Car Switching Plugin",
+    "version": "1.0.2",
+    "description": "A new game mode where you can press a button to switch which car you are controlling.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_24887f5c5820c5e13de2b8b73c83b9dbce981f61fb51efac5154f339d5216d37.zip",
+    "hash": "sha256-LSk7l15OjflYimkXiHX5jOEKIcRelHsigZC/Bzh7W0o="
+  },
+  {
+    "id": 42,
+    "name": "Kickoff Timer Plugin",
+    "version": "1.0.6",
+    "description": "Measures your Kickoff Speed",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_60e4288b29196c4f1242aae2334e4d78c56a2c35debb9eb57713e21a356839b5.zip",
+    "hash": "sha256-y2OmsZUKif4S40bk4uuCzNXoKqhrMajjto+oNzFHNXI="
+  },
+  {
+    "id": 43,
+    "name": "Replay Stats Box",
+    "version": "1.0.3",
+    "description": "Shows player stats box in replays",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_6494c67c3a86c5f57cf6202a57f7370bee1bc2693f8e07a8aeb3607b6bfc43b1.zip",
+    "hash": "sha256-xQiR/AIj3iOb/SCMNHR5brTN9YCbsnCi8DVX+4ebDXc="
+  },
+  {
+    "id": 50,
+    "name": "BakkesMod Graphs",
+    "version": "1.0.5",
+    "description": "Quick data visualization for plugin developers",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_5eb47bebeca2bd34a0a4ab96499500ed462f60b38b15cc5df4cb83c253d38d4b.zip",
+    "hash": "sha256-g3iStpX1gyeq5HpV9yZFIYD8AJDvHeAL9o3bM2SqcRo="
+  },
+  {
+    "id": 51,
+    "name": "AudioManager",
+    "version": "1.0.2",
+    "description": "Automatically change volume/play/pause/skip music based on events or (controller) keybindings",
+    "url": "https://cdn.bakkesplugins.com/uploads/3_8d2380f27b58ca102d8c5f39c8f73e56ebbb66294c8bcad481412424494213dd.zip",
+    "hash": "sha256-WZ+YCa649WVecVAKk7YrX2qo6dRa6lJy6SgLWBuv2sU="
+  },
+  {
+    "id": 52,
+    "name": "Scoreblock",
+    "version": "1.0.0",
+    "description": "Live in the moment by blocking score and time remaining from view.  A custom request for a \"GC in all modes\"",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_a660192eeb1f973fa731dc5d7da9dec7bcc0cf2f2912a18ca14d368e11c5f9f4.zip",
+    "hash": "sha256-gE1rN2dhtBiW4qVEFthSQLpINVEI2AeiAMizas1tnRI="
+  },
+  {
+    "id": 53,
+    "name": "AuroraGSI",
+    "version": "1.0.3",
+    "description": "Interactive RGB effects on your keyboard and other rgb devices.",
+    "url": "https://cdn.bakkesplugins.com/uploads/3_194352f40b6e59498d43ae483f5c1a04d72894abf71ce6c33102365f30e83c81.zip",
+    "hash": "sha256-ja7c9lj+yblog3//fNrdRvj2vAn4AsyeCg04z+I1oIQ="
+  },
+  {
+    "id": 54,
+    "name": "Joystick Self-Check",
+    "version": "1.0.3",
+    "description": "Visualize and self-check accuracy of joystick inputs",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_c0d180d3884fef23bf59879a0017f6dcd6d4586831a44f0b111b1ad06919d6bb.zip",
+    "hash": "sha256-gwG+H5VJq7iQBAWFDn14TlLSoWEoVDNMAHl3dfc3OsY="
+  },
+  {
+    "id": 55,
+    "name": "Deja Vu - Player Tracking",
+    "version": "1.0.18",
+    "description": "\"Have I ever played against them before?\" DejaVu keeps track of the players you've played against so that you can answer that question with certainty!",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_3f299e08ca53ff4daf2b0b2d3bcb10f19d7273bebf48a7149cf69e5432318253.zip",
+    "hash": "sha256-P6U0zoWLusMOCjWdGC3Ofh8VQqZVyDTclPC98F3nwJA="
+  },
+  {
+    "id": 56,
+    "name": "Rocket Recorder",
+    "version": "1.0.10",
+    "description": "This plugin allows recording your game at 120hz for use in machine learning applications.",
+    "url": "https://cdn.bakkesplugins.com/uploads/120_1b6de164e24cfa26d11ea03b2d3a84bd9bd703fa419397a834ab902b43dea2d9.zip",
+    "hash": "sha256-KILwPQ+zLFSukJLOzEVDs7GsdshqFe5us5EbEdoZgJ8="
+  },
+  {
+    "id": 57,
+    "name": "Ball Speed",
+    "version": "1.0.4",
+    "description": "Show the speed of the ball",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_6a227ed98b2aff9713a61dfb566c1240d6a54d1c1697a6d92a3a048babaeafb2.zip",
+    "hash": "sha256-YmjwI7PwKWZXWc68XEpQCeIIS25ximq3mEBdaGu4dQY="
+  },
+  {
+    "id": 58,
+    "name": "Statistically Speaking",
+    "version": "1.0.4",
+    "description": "Log statistics to a .csv file at the end of each match.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_6d14954f6a71d083ace9cc8d598acb3bfdf93730aae2480a060516d512406205.zip",
+    "hash": "sha256-mgwoHBjm11T/GJmNgAtWO3OP1y8iyxaS1Ei7dGG1cvM="
+  },
+  {
+    "id": 59,
+    "name": "Controller Overlay",
+    "version": "1.0.7",
+    "description": "Render a controller overlay during gameplay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_8e07391c4470cb1d28b67cc46c5f8c5e809c6bedd1e212617495db2b3c80fc40.zip",
+    "hash": "sha256-2bZmxYPqp43X5JMuV+hN9q0p7jqyVaQ1Ka2TzoGhmJ4="
+  },
+  {
+    "id": 60,
+    "name": "Birds Eye",
+    "version": "1.0.2",
+    "description": "Render a birds eye view during local gameplay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_e133a4328b69902aa4910f3c8a8788911d3556fe0803cd72a3c7613d5cac878d.zip",
+    "hash": "sha256-m8NEVtIWEa/n3zEZR6SXTujgbuDy3fI9OiEMqw8iZGk="
+  },
+  {
+    "id": 62,
+    "name": "Turning Plugin",
+    "version": "1.0.2",
+    "description": "Helps with practicing (precise) turning on the ground.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_8f3451832ba0d871f889ac865e4b77b23d562308829be1a7382bdfc14023d644.zip",
+    "hash": "sha256-xoFMACdkGVnm6Ydtm/c0RCHHuBvgVKgiPMnFh8fgmt0="
+  },
+  {
+    "id": 65,
+    "name": "Multi Bot",
+    "version": "1.0.4",
+    "description": "Play games with loads of bots",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_e01a6857bad85a6e430795f0c7ef030590f06895800b1149c19181abd57d31f3.zip",
+    "hash": "sha256-WJjIyHsQ5F3LumhsmZwNYiu/EcpktLAAyuoABhLoBLU="
+  },
+  {
+    "id": 71,
+    "name": "Camera Control",
+    "version": "1.0.2",
+    "description": "Create your own camera modification plugin",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_3be104200f712357f755158d60ac064caf68c91018d69fdb67ecd116b87de6c8.zip",
+    "hash": "sha256-Rpvcb0n5W8S+VFdc/OVLi5wgP4kuh5eH3XJlxwyCbAI="
+  },
+  {
+    "id": 73,
+    "name": "Speedometer",
+    "version": "1.0.5",
+    "description": "Show speed and throttle in freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_bd6fecfa9110fd0875858740f8f4d5082c763095860e5e297bc958e497db6911.zip",
+    "hash": "sha256-7UiRgdyyx6rvXp5pOBwWf3BnKY26o8EdPdvp10icGkE="
+  },
+  {
+    "id": 78,
+    "name": "Boostpad disable",
+    "version": "1.0.2",
+    "description": "Disable picking up boost pads in freeplay and custom training",
+    "url": "https://cdn.bakkesplugins.com/uploads/3_a4539ac44d6aeedf93f736eb137b6bd36a98e793626a4d9013d87b7b0698ace0.zip",
+    "hash": "sha256-nBKJtUIufp3zxrfe2R5Ym+bAfiEF71x6aaHl19xv1JU="
+  },
+  {
+    "id": 82,
+    "name": "RLLobby",
+    "version": "1.0.5",
+    "description": "Public lobby system for custom games. (+Automatic port forward on upnp supported devices)",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_a2c84a8ee00ef7c528f6a4df0aa725da25bc177a1f2935a51be7c60b479cdea3.zip",
+    "hash": "sha256-eIj5Vu3XkOBzDZT8uR/D4drZ6I8hEKMWRE004xSYO5Q="
+  },
+  {
+    "id": 90,
+    "name": "Stealth Plugin",
+    "version": "1.0.4",
+    "description": "New game mode for local lobbies",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_29b8f7aa46b43510a1907915615be98470e4408507aa6916d29a853c78ae21c1.zip",
+    "hash": "sha256-9xtMZ5ELBkpazotsBrmVGYliWib0wdS1IC2c9z4zjFA="
+  },
+  {
+    "id": 91,
+    "name": "RankViewer",
+    "version": "1.0.6",
+    "description": "Shows the MMR needed for the division above and below your rank!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_667743573823c31fd611dff5f0303361be197d07634ca17f43e39c0ea560a3c5.zip",
+    "hash": "sha256-OrKSpIdjR+lhjPJ2cTQjJdrcYQoRq0QKkIb9hTOXUnM="
+  },
+  {
+    "id": 92,
+    "name": "Party Time",
+    "version": "1.0.3",
+    "description": "Rainbow field colors",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_eba3ae5600b512bcd9326c8916ef397dae9f3fb109ea7e3cbbfbb0a84b42d7cf.zip",
+    "hash": "sha256-caHPb8j+gd7ciUZ0BxSE9H+g/uWKcKS99opRKniWseg="
+  },
+  {
+    "id": 94,
+    "name": "RLCSV Plugin",
+    "version": "1.0.2",
+    "description": "RLCSV saves scoreboard stats into a CSV file at the end of a match",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_6844068a79ff4db7197a552e6369d992ef5ce9bc8e8f69bd42a011d500c2eeea.zip",
+    "hash": "sha256-2+OCikApTEnypZAo/sRMwxA50ZU6G7x2mbG2m6Wz4B0="
+  },
+  {
+    "id": 95,
+    "name": "Cinematics Buddy",
+    "version": "1.0.5",
+    "description": "Export game animation to create cinematics",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_10a13d35623ed770580204557b64dc4a1e34a2566be52dd01c5725e64d5fa3d7.zip",
+    "hash": "sha256-cCjL7YRWsp102t6E/UPrhLwafm3esmT4OkKzDjb/6WA="
+  },
+  {
+    "id": 97,
+    "name": "Camera Lock",
+    "version": "1.0.3",
+    "description": "Block inputs to the camera (useful while changing BM slider values)",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_c00e123e8147bc2e3dc5bfe2406e127d4c0d4ac50fef8ba89c5167ed1a7d61b7.zip",
+    "hash": "sha256-Oca8CcAcmb4ydTRQtuD8xSv4bqT1meNIyt1iZ1+71yE="
+  },
+  {
+    "id": 98,
+    "name": "On Target",
+    "version": "1.0.0",
+    "description": "Render a shot chart during custom training.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_f0a3aa6ce846b3363d86746809d95cb2ec4bf4b528d89542125ea1f463656e95.zip",
+    "hash": "sha256-oa/9K7KAyRVpMyTkHLnBJ1J+oVf6HocMLaGWAl8q8Lg="
+  },
+  {
+    "id": 101,
+    "name": "Tether Ball",
+    "version": "1.0.3",
+    "description": "Support plugin for Lethamyr's TetherBall map",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_214958ccdc606a8ff180763e5535fc6637e22a57720f410092ce65422a0efb3e.zip",
+    "hash": "sha256-PIyQJMZOMdA+aOSgeVSm/Jyhmo+UmNEt8O8DsVICt+g="
+  },
+  {
+    "id": 102,
+    "name": "AddScore",
+    "version": "1.0.0",
+    "description": "Easily manage score in custom games",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_97e5594779dbf5a79161f00946488ace7900c736a11bd3b8eccddbc9daca2e8e.zip",
+    "hash": "sha256-6h7VC+4ihhiE9IPN7QDjRpfeCEOERRGI+JbLRYi2+ss="
+  },
+  {
+    "id": 103,
+    "name": "Rainbow Car",
+    "version": "1.0.7",
+    "description": "Cycle primary and secondary car colors through the rainbow",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_1a900205e7755324c725356bf5f4650970c3beddae9788eb392a03cdb0d03ab2.zip",
+    "hash": "sha256-Guzi2H0JpdpOY4LPIiO1DeT6RppNm0Z2g1nZQ0UP4Zs="
+  },
+  {
+    "id": 104,
+    "name": "Ballchasing - Log",
+    "version": "1.0.2",
+    "description": "Let's you view and browse the stats of your most recent uploaded replays and groups",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_9c552a2e3e00d10a4f84c90eacd845b720033421a8d2a93fd4c55bf98fe50463.zip",
+    "hash": "sha256-x7593+0LZktMFqJA3IcWWsuNQxDTJ0HYCFy+0XiJV8s="
+  },
+  {
+    "id": 105,
+    "name": "Replay itemmod (Open source)",
+    "version": "1.0.20",
+    "description": "Change the loadout and visibility of any player in a replay",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_13679cd56034f6ae8487e7b448fe4a39cec19e1bcbc409db4d3ae898e98b91b6.zip",
+    "hash": "sha256-xVhDQZHMA4d2jcSPZg9ppNKUn0DShUaeWksPVdWxsXQ="
+  },
+  {
+    "id": 106,
+    "name": "Juggler Plugin",
+    "version": "1.0.4",
+    "description": "This plugin tracks the amount of times you hit the ball before it touched the ground, and how long it was in the air for",
+    "url": "https://cdn.bakkesplugins.com/uploads/936_01146cbd49fd6c16ce3c658c5aaf39ebcc1296abe3a9810d97ac86e77692d5bc.zip",
+    "hash": "sha256-40dPLk2j+lQ1M3rjEfBl7ymg93+0TwILk2WyrNkarIw="
+  },
+  {
+    "id": 107,
+    "name": "Spectator Controls",
+    "version": "1.0.7",
+    "description": "Additional camera controls for spectators",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_8cbe9bb05778498a634d9fcdd28e27cc4bc53fda291e6b9a2f11c27eed60ea54.zip",
+    "hash": "sha256-1mxhhz/d4cDHZSU2WRaRCt8i1z/a8twhpeQM/5iSq7w="
+  },
+  {
+    "id": 108,
+    "name": "AlphaConsole for BakkesMod",
+    "version": "2.0.11",
+    "description": "A selection of features ported from AlphaConsole into BakkesMod",
+    "url": "https://cdn.bakkesplugins.com/uploads/1e89851e285a43a8ad82995769114a92-acplugin.zip",
+    "hash": "sha256-0057FGo88B1SMfM4gGUBAZmWMjcyYPilbEohxtpqpIE="
+  },
+  {
+    "id": 109,
+    "name": "Boost Whiff Training",
+    "version": "1.0.0",
+    "description": "Show boost hitboxes in freeplay and replays",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_30ba4e8396c962af046ef3d4119a707d8ba22b3dde511307a0f74d6b59cbecdc.zip",
+    "hash": "sha256-OgwEIaWNDrscGeGClyPhI816QmNqUY81whbxpSQ1sR0="
+  },
+  {
+    "id": 110,
+    "name": "Fix Replay Wheel Stuck",
+    "version": "1.0.3",
+    "description": "Adds a command to refresh the UI when the selection wheels in replays get stuck",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_b444239f3ed989747fba4226eba5cabc6b667ca0b87799a951177988da1e5e5f.zip",
+    "hash": "sha256-j0noi5Z/NCK+Pd1HrFOmgM/pnZMb3j9sLaHLZHQWUBk="
+  },
+  {
+    "id": 112,
+    "name": "RSC Auto Screenshot",
+    "version": "1.0.5",
+    "description": "Automatically takes a screenshot of the stats at the end of a match for use with submitting screenshots to the league.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_25be93a94316ee5c4b99828f3bb6609e884e9ce681d440c0745f7673113e950e.zip",
+    "hash": "sha256-51/2ndbvwQgx1GVxJ0i4PgVy9ywj60Tz3+JfaQKI1KQ="
+  },
+  {
+    "id": 115,
+    "name": "Performance Log",
+    "version": "1.0.1",
+    "description": "Outputs a CSV file with data on how well your game ran (FPS, ping, packet loss, etc.)",
+    "url": "https://cdn.bakkesplugins.com/uploads/1205_b7544c1cfe80eb679af475cf281500f7a4a06460e4e62c7070f214b29d31fac0.zip",
+    "hash": "sha256-ZEZ/xY+tJWYUkE5mG9gCHWLM5Phd+6e4rslg0PV3UfE="
+  },
+  {
+    "id": 117,
+    "name": "Predictdator (ball prediction)",
+    "version": "1.0.5",
+    "description": "Get the ball path predicted in training. BallPredictionPluginV2",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_e587720e079f6969d934b59bbb93835ed42fdd589ab33331c39e5127e30903c4.zip",
+    "hash": "sha256-EJtzwMZMRBYhsgvl2VPT3unx8H2NGAyNL3eIoX7zlkA="
+  },
+  {
+    "id": 118,
+    "name": "Rotation Trainer",
+    "version": "1.0.5",
+    "description": "Build a series of checkpoints to train rotations",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_6cdfc27941dfb188e80c013ca11156d0b09038f929860811414aa6b0327e4237.zip",
+    "hash": "sha256-cfkrIzYazWH5CPbzhhy+XMtegc1Lya31VlWYeKjzARA="
+  },
+  {
+    "id": 119,
+    "name": "Fast Aerial Timer",
+    "version": "1.0.5",
+    "description": "Shows the time taken from jumping to hitting the ceiling",
+    "url": "https://cdn.bakkesplugins.com/uploads/1322_766e430df6accfe9cbcdd92fc2c9a49768e29689304fbe46f412a536b7baccc8.zip",
+    "hash": "sha256-QmpfKy6PqTR3J6+RuFv1vA08+X+y55OzsK0I5U65EoU="
+  },
+  {
+    "id": 120,
+    "name": "MVPRPlugin",
+    "version": "1.0.2",
+    "description": "This plugin shows the MVPR (MVP Rating) of everyone in the lobby when you look at the scoreboard, during or after the match.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_74564b1566141e7cb82fb6e2280030620900dc8c77e2eb4d0b8c26758ac1a331.zip",
+    "hash": "sha256-or0r2zxhKRJ3NKBDpg4yjd7h9VByojEGD8pglbG/Myk="
+  },
+  {
+    "id": 121,
+    "name": "Aimbot",
+    "version": "1.0.4",
+    "description": "pwn your enemies with 1337 hax",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_502360a95c9eece8ada79ff4fd72064928b10f7eb143129face11499d862974d.zip",
+    "hash": "sha256-kVEf77H10v9OXhSj/AO28xZtKx0vOdFU3Gz+s3inX+M="
+  },
+  {
+    "id": 125,
+    "name": "Playlist Rank Viewer",
+    "version": "1.0.4",
+    "description": "View ranks in all playlists for players in a server",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_b4618cee2944c79687961237530fe40ab58af972dffddea4a6ce3f46fefad5e8.zip",
+    "hash": "sha256-NBk1HLMLsT81JorL8350ToK5tTFqgvyUDFOv0EJAajM="
+  },
+  {
+    "id": 126,
+    "name": "Stat Counter",
+    "version": "1.0.10",
+    "description": "Counts stats for an in-game overlay or OBS",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_6ee162e1589978118f5efc4e5a64f95804b04640400c9ea593304cff84ac0cbb.zip",
+    "hash": "sha256-1FXfSSU+JHboJZVMVhoe2c+Pt8CqHDxUtmX01pYM12M="
+  },
+  {
+    "id": 127,
+    "name": "Rocket League Minefield",
+    "version": "1.0.1",
+    "description": "Turn boostpads into deadly landmines!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1453_9543640bb9aa7cca1336078b357594725da6c429816c24be0003d2dfb55432dd.zip",
+    "hash": "sha256-UMLwPPw//uqDeeqSdTS6NRz7P+k5I8BMtd+nwf+LRfw="
+  },
+  {
+    "id": 128,
+    "name": "Speed Boost",
+    "version": "1.0.2",
+    "description": "Modded gamemode where boost pads are speed boosts",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_a3daab74f8c7e9402b9a9cb120a20af2c81cb9c575a5d7878dc744a9a96adac4.zip",
+    "hash": "sha256-wehUhSgWeE0dR87d8n6JhoyYFl9mhg7oeWjDxsA3TiE="
+  },
+  {
+    "id": 133,
+    "name": "Playlist Replay Autosave",
+    "version": "1.0.5",
+    "description": "Automatically saves replays from selected playlists",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_eb0a31ecd28d40c67089b4172e657c158f20de48e89dde3e509385986ce4ac63.zip",
+    "hash": "sha256-LN8DLj9sVddRIcAtxlMhzsUte0inhWCgzGFixr4UZzs="
+  },
+  {
+    "id": 139,
+    "name": "Online Status Changer",
+    "version": "1.0.2",
+    "description": "Discontinued",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_7a2011ed021943140361ca77add17ed890f610e1d3852d1113cd49474c4902a1.zip",
+    "hash": "sha256-uw5W5YbIQR2NpfzujwSywzRTpiksp5lvPVNSRtwaO6c="
+  },
+  {
+    "id": 145,
+    "name": "Watermark Plugin",
+    "version": "1.0.2",
+    "description": "Add a custom watermark to Rocket League",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_29f5dbdce723fc84279f25f01d482b0054302d4a0c4319b0dc851984cac8758b.zip",
+    "hash": "sha256-Elr3TlZ60fPfaHDJso40PjK8yH2j+tmRKAQvy80XXtc="
+  },
+  {
+    "id": 146,
+    "name": "Dribble Trainer",
+    "version": "1.0.0",
+    "description": "Train all aspects of dribbling in freeplay. Helpful for all skill levels.",
+    "url": "https://cdn.bakkesplugins.com/uploads/3_0ecc202e04e91babdd2fcc8948cea64bfc6a4a0e5f0ec3cf7db4bf8355539e18.zip",
+    "hash": "sha256-yZbZrRzKU1Ey7SOV+48ppe01P+s13kooVlfnRzqc0VE="
+  },
+  {
+    "id": 149,
+    "name": "Ground Game Trainer",
+    "version": "1.0.0",
+    "description": "Force yourself to practice your ground game in freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/3_76394d6dd1e30691ddddbc81b20c13df4831b8edd8a047f96644096ef72bcbe0.zip",
+    "hash": "sha256-n3Ae8VWSpNRjwjB+u7RFhCMY7S7larQnZnJiNP6anOU="
+  },
+  {
+    "id": 151,
+    "name": "Session MMR and streak tracker",
+    "version": "1.0.8",
+    "description": "View your current session stats (MMR/wins/losses/streak) in each playlist",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_4db2bce3e287b23519e7c4320a883c01beafe7d573d9fd15a8bfe4c0c04d4099.zip",
+    "hash": "sha256-XCTNylqXpvuhMysfox9cbRY0bWNKdWXnKjxQb3X/Zrc="
+  },
+  {
+    "id": 152,
+    "name": "Custom Overlay 2.0",
+    "version": "1.0.3",
+    "description": "A BakkesMod plugin which uses a custom overlay in-game to improve FPS.",
+    "url": "https://cdn.bakkesplugins.com/uploads/3294_bf8682e8ecd080133883943985948ab7b867995fa00a96782457d8f70708624c.zip",
+    "hash": "sha256-7Qq3EpdV1e7ZKkpE1McDAtjjQrETkC1jr8JqwW1vi2Y="
+  },
+  {
+    "id": 153,
+    "name": "Obstacle plugin",
+    "version": "1.0.2",
+    "description": "Spawns a resizable, movable obstacle in free play which blocks the ball and bounces it back.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_152992946241ca1d0daa9f0c7f5d859eb7ae33bc15e8ed56a9fa305c04792754.zip",
+    "hash": "sha256-tEkurTT+ZfJgVzgk+x430a7JADRHMI+AAU1X/t6FO64="
+  },
+  {
+    "id": 154,
+    "name": "Speed Drill Plugin",
+    "version": "1.0.10",
+    "description": "A plugin to track time between ball hits, to make running speed drills in freeplay easier.",
+    "url": "https://cdn.bakkesplugins.com/uploads/3493_bc8107d3fb7b7f42a3a0bbcb65c6c401c9010725d69aafb54015beb01812e4b8.zip",
+    "hash": "sha256-W9KKjBXo1WQufFEPkgti4PKq04NJURZajxevHi4U3lc="
+  },
+  {
+    "id": 155,
+    "name": "Better Inventory Export",
+    "version": "1.0.4",
+    "description": "Dump inventory to CSV/JSON",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_c15feb25f538b3b3fead715cad2e3aa79cca50e16b683255fcebc16f8b0be9d1.zip",
+    "hash": "sha256-sVcRpgOMVeOEZ3z46ZpmruTcNQOPX514hqwU9OkbW+s="
+  },
+  {
+    "id": 156,
+    "name": "FPS Cap",
+    "version": "1.0.0",
+    "description": "Automatically limit FPS in main menu",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_98d71d707c97d156da485a1cc5f166f85ac3ec4e878e798c4d9856563ab73568.zip",
+    "hash": "sha256-TCSHpLzznEIPodozx/MCdG+iZr+AvQv9pE66KnR0c60="
+  },
+  {
+    "id": 158,
+    "name": "MatchHistory",
+    "version": "1.0.2",
+    "description": "See important stats of your last 10 matches played, as well as your win/loss record of the current session.",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_82fca753c9960ef529b5d69a3914c0e608a840efc09cd62b558b87afad546559.zip",
+    "hash": "sha256-SJggn9pYLyCqhaENWW5Ks7mThwk7B0TYhce/gKPFW+s="
+  },
+  {
+    "id": 162,
+    "name": "Air Race Training Plugin",
+    "version": "1.0.2",
+    "description": "A plugin that allows the player to teleport to each of the check points in Panics Air Race map.",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_fc10cb7b290c4cca9e995f8aca0169eb398f85c853077cd80bbbc6d0d4a07bc1.zip",
+    "hash": "sha256-J/j5Y3QDCjql5Qi9/936vX8mwXBQsCb0CPfZlwhbVm0="
+  },
+  {
+    "id": 163,
+    "name": "BetterStats",
+    "version": "1.0.2",
+    "description": "Shows you more and detailed statistics when you look at the scoreboard!",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_5d51205ff4b0367678cba16f30e336b81f9b36516f2d0d13ff1a60c3a82ff3bf.zip",
+    "hash": "sha256-huCBRv2AWrQubbU7MKmFkTavotpUHngHoyYGhsG9VTY="
+  },
+  {
+    "id": 165,
+    "name": "Speedrun Tools",
+    "version": "1.0.4",
+    "description": "A plugin aimed at making speedrunning easier and more efficient.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_cc8a1556d60f794ed0340511a2f9fc8c52920e0515e3ebe9f4e694f06d334c7f.zip",
+    "hash": "sha256-MiQi9wT6mLKjwhrfXVGiVs6v6uuYQTwJCEaV1tTQMhc="
+  },
+  {
+    "id": 166,
+    "name": "Netcode Plugin",
+    "version": "1.0.5",
+    "description": "Support plugin for multiplayer workshop maps and plugins",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_90bdc18a0199d17890399c48cea9ea1b5906b708a8ccd7d55d08525b2a731334.zip",
+    "hash": "sha256-BWuE/A6lH6OY9w/NiqGD/pwPAbp/pXWSWCe3Z7s+GtI="
+  },
+  {
+    "id": 168,
+    "name": "Goal Speed Anywhere",
+    "version": "1.0.4",
+    "description": "Shows the goal speed in any game mode the moment the ball explodes",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_8eb2b5bacae7966f93eeaa645a4a0c7a61ede500cf1d6a6904ee550aebce1885.zip",
+    "hash": "sha256-hVlqlmQM0leHU8hL47EekkJ4TmIj1KUCh3u9I6m9tKo="
+  },
+  {
+    "id": 169,
+    "name": "True Ball Height Indicator",
+    "version": "1.0.0",
+    "description": "Fixes the ball height indicator in workshop maps",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_38576f6cb86207837c36828b56035b6da7de38d6c157c05822577bcc4ee66634.zip",
+    "hash": "sha256-H7+Uwn7Nj7jOHTxvN1G4gC0+TesEL5bQ6+mUymcLzn4="
+  },
+  {
+    "id": 172,
+    "name": "Aerial Trainer",
+    "version": "1.0.0",
+    "description": "This plugin helps you to improve your aerials",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_167ba4fe84f582aea32e47e7a3eaf2c67cd0450ed3f67a279c82bba90ecdbbd1.zip",
+    "hash": "sha256-WJWXZ8gUCOui/9SgTFZGJwuOvvi4+Jw1cyFSM/4SIjQ="
+  },
+  {
+    "id": 173,
+    "name": "Replay Review Plugin",
+    "version": "1.0.2",
+    "description": "Review RL Gameplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/8955_6fccc23f5ee0625895a8f87fd7b0a86fcddf5b02b97e3da4e2775a9c006eebac.zip",
+    "hash": "sha256-KzXJw1orycKDDZJe2XxumVbp4JJFlSenkwJJBNmd/uw="
+  },
+  {
+    "id": 174,
+    "name": "Ghost Plugin",
+    "version": "1.0.2",
+    "description": "A plugin to record and challenge Ghosts on racing workshop maps",
+    "url": "https://cdn.bakkesplugins.com/uploads/20_73e23577106fbe66137a3fc5ea38c478cb9b37c45d7bc1130e5882a6bf8d47aa.zip",
+    "hash": "sha256-Xks4Ei2kwLqLZnXOLxH9JJ2wpuWXeVR8o+Knbte5JjU="
+  },
+  {
+    "id": 175,
+    "name": "Volleyball Plugin",
+    "version": "1.0.7",
+    "description": "A plugin made specifically for the volleyball maps",
+    "url": "https://cdn.bakkesplugins.com/uploads/8337_eac92e6bcde408c8437073e1c17010f2956c5ac893a31657fdb488ef045b0c90.zip",
+    "hash": "sha256-EQCUUY6RCYYxCFlC9y9MJ9Usyo/oQ7CV965fxu0+z0Q="
+  },
+  {
+    "id": 176,
+    "name": "MatchOdds",
+    "version": "1.0.6",
+    "description": "Predicts the match favorite + ongoing chance of winning",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_541d492db14562d078512c2d1ec74b3d2c63739261d833ef82e0c1113b85caaa.zip",
+    "hash": "sha256-AzmxyNNq2s8YvWFbMH4hGnDkR2WfvuAcTxhljLCZ6Qc="
+  },
+  {
+    "id": 178,
+    "name": "Reset Counter Plugin",
+    "version": "1.0.2",
+    "description": "A plugin that counts the number of resets you got before you or the ball hits the ground",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_84b9496f4b6b654a54ccb53eaf9f8f043bd7feea9bb95da5c96ea05700ddf114.zip",
+    "hash": "sha256-NM4HEjU1yAuWQWNqDkozgjWTpzeQjFU3WWMgL+SjLao="
+  },
+  {
+    "id": 179,
+    "name": "Freeplay Checkpoint",
+    "version": "1.0.9",
+    "description": "Rewind, Save, and Restore Checkpoints in Freeplay (and Replays and Custom Training)!",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_b5588c53a74ab724baf6a7e32d4dc5e162c4befc5147ecf9be567c543d1e10d5.zip",
+    "hash": "sha256-bY8N7CA3EHUngofOPVB1AsAbXxV/pPBHIf2MUHFb9u0="
+  },
+  {
+    "id": 186,
+    "name": "QueueTracker",
+    "version": "1.0.2",
+    "description": "A plugin that shows the time spent in queue until joining a match",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_0fb73b061164c6682e664edba96948f85b8604ea80e7b6816e74337b37723ed2.zip",
+    "hash": "sha256-XvN4lZbFdfujAjponsjG35hPGkUZsyWpthvP0cOqr9U="
+  },
+  {
+    "id": 187,
+    "name": "Map Loader",
+    "version": "1.0.1",
+    "description": "A plugin for mapmakers to reload custom maps automatically",
+    "url": "https://cdn.bakkesplugins.com/uploads/4154_bff2d7e0ca6100149887e25f6989783edc097b906a8510f5f48419b41316e471.zip",
+    "hash": "sha256-JaE+Pvri4Yeb+QCIzz8af+eKzYq0+piw7YveCzQ5cT4="
+  },
+  {
+    "id": 188,
+    "name": "Double Trouble",
+    "version": "1.0.2",
+    "description": "Duplicates the ball when a car touches it. Score the original ball to win!",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_2375ae5ac16771bb8419bdc6c91ba4d97a859c9b2b152e0b016db01cbab6bbd1.zip",
+    "hash": "sha256-E3zkBHF5r5yP3NH9rkBj/Js+cToY54VJ93FV7EvaMzg="
+  },
+  {
+    "id": 190,
+    "name": "Bye Bye Ball",
+    "version": "1.0.0",
+    "description": "Rocket League but with no ball. Drive into the opponent's net to score!",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_34b11e1d9bdef1be43f0dbfd28a5428a41c058591b6090e032d5b055cc2ffdf7.zip",
+    "hash": "sha256-69taD+KjSjpp6twEs/+vmSU8msB21FPBSFbmcAhlYnA="
+  },
+  {
+    "id": 195,
+    "name": "Give Me Goals",
+    "version": "1.0.2",
+    "description": "Give yourself a goal with the press of a button!",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_58ba641b0d9800add6d2aa0d7e310dfc700ad2c90f50a5bd3a65c66f89eb92ec.zip",
+    "hash": "sha256-92xh3Qv52MqrvMvjV6EUpo9RnLm0/nbgGTIoSoe4PzM="
+  },
+  {
+    "id": 196,
+    "name": "Custom Map Loader",
+    "version": "1.0.3",
+    "description": "Load custom maps from a local folder",
+    "url": "https://cdn.bakkesplugins.com/uploads/13326_0182a55344c312622753c32da813cbd70803cb51684d764a45c9be6f8ce6f2e8.zip",
+    "hash": "sha256-rVZkvl5e3/GNVXIARTCasv2L4cyX469C/tRi99NXXXc="
+  },
+  {
+    "id": 198,
+    "name": "Wrong Net Plugin",
+    "version": "1.0.1",
+    "description": "Make the ball go in the wrong direction",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_41209165dc1419e04313bfbf3b152affc76dc83e56ce812abb339557694622bd.zip",
+    "hash": "sha256-BmiWIPJoDIKWozvnZsk+lSgaYE+avFoJuBQIEpK2ZcA="
+  },
+  {
+    "id": 201,
+    "name": "Rage Quit (Alt F4 Enabled)",
+    "version": "1.0.3",
+    "description": "Brings back the ability to Alt F4",
+    "url": "https://cdn.bakkesplugins.com/uploads/14777_1d76a40b6592c0dae59226789f2db1fbddee1f0deac5474ce5da35a9aebdab35.zip",
+    "hash": "sha256-YY8vo2Sxt8HpVuXngq1MrX7Oh8F/BXegBl9rWWXOaBo="
+  },
+  {
+    "id": 203,
+    "name": "Air boost limiter",
+    "version": "1.0.0",
+    "description": "Limits boost when going for aerials",
+    "url": "https://cdn.bakkesplugins.com/uploads/2415_b65a49febfb300521e2e24323bc21138d7619a3daab7dde4156bf243de1003f4.zip",
+    "hash": "sha256-j216Zs4S56WjssiKwXA0CEusyL/NGXooK14UlFi/IeY="
+  },
+  {
+    "id": 204,
+    "name": "RocketLink Plugin",
+    "version": "1.0.0",
+    "description": "BakkesMod Plugin providing relative position data about other players in a RocketLeague game for the RocketLink Client.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_815c8655aef1f1a4158d22610e507d20dfa906e862bc24948d45c1d5b279c547.zip",
+    "hash": "sha256-NKtkFaY2F3wW5zv4Q67AAXIkwOwBkmnATgCaRBkNEQY="
+  },
+  {
+    "id": 209,
+    "name": "Xbox Controller Battery Status Plugin",
+    "version": "1.0.3",
+    "description": "Display battery status of your wireless Xbox controllers",
+    "url": "https://cdn.bakkesplugins.com/uploads/16595_89085337f0741abdb2f3ff8151ff4d165361f281c128d1cbba1ad73a145e34b9.zip",
+    "hash": "sha256-xHuy0DumjSzHqnpnCagvrtW68CSMgeHpX1RWVsU2Wh0="
+  },
+  {
+    "id": 211,
+    "name": "Reminder Plugin",
+    "version": "1.0.0",
+    "description": "Makes a reminder after each game",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_3f273ef6910ad91c12ed7c85200700eeff131479e99000c1d76139fa6ec717d6.zip",
+    "hash": "sha256-+FXrWpWHle2nAlGfQpIez6FwrZyBKoQ5Txz1SEEO6lk="
+  },
+  {
+    "id": 212,
+    "name": "Friendly Reminders",
+    "version": "1.0.7",
+    "description": "Keep yourself reminded of anything when goals are scored or your games are over!",
+    "url": "https://cdn.bakkesplugins.com/uploads/16543_d66c01f002547fc63e3c2f2a2de820d3cd5567ff285dbf3488985778ad49fb4b.zip",
+    "hash": "sha256-t1/jCO1LZ9rSGaKnZKS2E50z0+hpapIuqAyUOMJrNe8="
+  },
+  {
+    "id": 214,
+    "name": "Ballchasing Replay Player",
+    "version": "1.0.4",
+    "description": "View any replay in game from the Ballchasing website",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_ba3188558e4a0a090afd9d813c07155a5b3f6e5e7aa51c6fa2a9c3ef5bbf2a1d.zip",
+    "hash": "sha256-zZtRG1uRUSYPKNV02MTy+Eq9WVfmpp68aldh7oGkiQw="
+  },
+  {
+    "id": 216,
+    "name": "Rocket Host",
+    "version": "1.2.2",
+    "description": "Starts an external RL server for you + friends",
+    "url": "https://cdn.bakkesplugins.com/uploads/50bc06596fdd4f0ca92d06162624ad81-data.zip",
+    "hash": "sha256-QIgsjYkIVm9QpzVODnuuhhMPoJsY8kZYKJ4jtQ/rzoA="
+  },
+  {
+    "id": 222,
+    "name": "SkipReplay",
+    "version": "1.0.7",
+    "description": "Automatically Skip Replays.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_a8953788b2246814c63efec3971f4080161c20e88a8b39e696a3e4a8532f59f8.zip",
+    "hash": "sha256-BYPgBUcgCKfZxAZJlQnYfOT+PwDoHIRbhmXMqULRftU="
+  },
+  {
+    "id": 223,
+    "name": "Workshop Map Loader & Downloader",
+    "version": "1.0.19",
+    "description": "A plugin to load & download Workshop Maps For Epic Games",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_e351754760f447dded992d9a01385915fe9b78a1fb0e974e6d364a2ad93f5648.zip",
+    "hash": "sha256-2ijZZFCcwgRFsVXdeaNMpT1nY2dBoyUqpWRYG/jl+wM="
+  },
+  {
+    "id": 225,
+    "name": "PriceCheck",
+    "version": "1.0.2",
+    "description": "Adds the ability to see item prices in-game.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_981dd139870ded27c9db2753f2ba920698e5509e8f3e4d641e7f635b71841815.zip",
+    "hash": "sha256-LMnJw3mrDe8ksxd5yoaHEcM4YaSZsP8rvH3ggyNhbow="
+  },
+  {
+    "id": 226,
+    "name": "Hell In A Cell Scoreboard",
+    "version": "1.0.0",
+    "description": "Tracks your score for the Hell In A Cell Gamemode",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_ee636aee635b7092d8ff595fe413c7b65ba581e345fedd71e0271026d6af1eb2.zip",
+    "hash": "sha256-pcd2Mr7g0cxtes6IebKzrtSgV+mm6sGBMJ+ciADE2rI="
+  },
+  {
+    "id": 228,
+    "name": "Custom Bindings Plugin",
+    "version": "1.0.5",
+    "description": "A plugin made for setting multi-key keybinds in bakkesmod",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_09508e0216c9b6337905f5f9478acabd754d73b83eff8ea3c080faa566fb7f6c.zip",
+    "hash": "sha256-zE0IzCzvI95UNHUjAcmT2wvDz1tdZGI0f1iO3t5dQwU="
+  },
+  {
+    "id": 230,
+    "name": "Artemis GSI",
+    "version": "1.0.0",
+    "description": "Interactive effects on your RGB devices!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_ff3d0c8f86d82ef8efdacafc0594edadf3c2c9af12e42961d50b8d1318d4f98e.zip",
+    "hash": "sha256-vXcs/pR/r5cFQpnDL+1dovgpvy1l+LhwUuFalkdtELg="
+  },
+  {
+    "id": 247,
+    "name": "MMR Tracker",
+    "version": "1.4.0",
+    "description": "Yet another mmr tracker. Shows wins, losses, streaks, and mmr variation.",
+    "url": "https://cdn.bakkesplugins.com/uploads/c43becc8bab84d01988076b40a403185-Bakkesplugin_247_20251111.2(1).zip",
+    "hash": "sha256-WzXdR8kEknXIpplrmxCuYGlihBfdtJYqWNvO5N9XZP0="
+  },
+  {
+    "id": 248,
+    "name": "Free Flight",
+    "version": "1.0.0",
+    "description": "Fly Anywhere",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_a43032d8e63303e42a15330421ff6050c5c5233b24b763b287d3c3d6017ea96f.zip",
+    "hash": "sha256-xhn6a3fWSl25fbAtvjn15VS9h5AHCgYt69hZIA1NjpM="
+  },
+  {
+    "id": 249,
+    "name": "Too Fast",
+    "version": "1.0.0",
+    "description": "Go absurdly fast",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_f6f5ed681a8f79abfb7d77a62477064834ade0dc45ccf9584412f91ee86b5547.zip",
+    "hash": "sha256-oiDFGzHWKxJI+GZbi3d9zCwrHuGdZ4A5cxZw3IZgUeU="
+  },
+  {
+    "id": 251,
+    "name": "Snyper",
+    "version": "1.0.3",
+    "description": "Boost your stream engagement with in-game challenges.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_7e416b0d7fa97c2b270f61c6fcca94cd408cfa30e3ff7f774db0800207d41963.zip",
+    "hash": "sha256-5RvX856Nt+ABQ0HpaGtiv9mrmI4RqPFIreATE0yKZjc="
+  },
+  {
+    "id": 253,
+    "name": "Rage Quit (Alt F4 Enabled)",
+    "version": "1.0.0",
+    "description": "Brings back the ability to Alt F4",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_25238177de027b6d028fdbc8e364eff3b9e90c0bb80a6d1e3df88d174de8de97.zip",
+    "hash": "sha256-R6nxc70/Ww/aPKuZdfZsvidZJGV2HpWFlXKl1NkZx4E="
+  },
+  {
+    "id": 255,
+    "name": "Boost Roulette",
+    "version": "1.0.0",
+    "description": "Russian roulette, but with boost.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_a587465cb54ae505cf5d079545a2439546541e1c967532d32f25c65d20e9778a.zip",
+    "hash": "sha256-EtNBK9L2SW+VipL50+fxHPDKATNKYUbKLmU+T16hIcI="
+  },
+  {
+    "id": 256,
+    "name": "Bakelite",
+    "version": "1.0.0",
+    "description": "Nvidia Highlights support for Rocket League",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_4a80295778246bd086c5a1d1faee83018ccb2b73ecb7c51194aedee11e97f339.zip",
+    "hash": "sha256-R6385TONJMFQFHnTVy55LjbFLtV/qzUqB2Mvja4Y8eg="
+  },
+  {
+    "id": 260,
+    "name": "Rumble Tweaks",
+    "version": "1.0.0",
+    "description": "A few tweaks to balance Rumble and reduce powerup cycling",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_bb63f89aa44132bb3bf3e88e363e63b8f8d8839fd903dfd6d3045a55fefcca93.zip",
+    "hash": "sha256-RxU4qYNdwQuu9GoqjvBxgdCECgtjy0m4WKZSKJXShpc="
+  },
+  {
+    "id": 261,
+    "name": "Fast Or Slow Goal Filter",
+    "version": "1.0.0",
+    "description": "Force players to take faster or slower shots",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_a3cde8bd79cdb65d81c4317d353d8e67f4e5e9d47b34e3f3d4be0f9112bd29af.zip",
+    "hash": "sha256-2sNuDbbZmLUVHpTbzcPtJlbIVeuR3vF0lc+87ZCpQok="
+  },
+  {
+    "id": 262,
+    "name": "Velocity Vector Plugin",
+    "version": "1.0.3",
+    "description": "Renders velocity vectors for the car and ball in Freeplay and custom training",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_37a15e432815242a850578fbd8055ac3c4fca7559657ab9862bd8f8633116515.zip",
+    "hash": "sha256-neX+V7zSDZHAkjQayRNXHEg3gli1OZDIcMjAvJer+mw="
+  },
+  {
+    "id": 263,
+    "name": "Demo Counter",
+    "version": "1.0.3",
+    "description": "plugin to keep track of demos",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_40022a28099fe41192e00ccd6843b37a6d760308faf20040e653ca7be2b283df.zip",
+    "hash": "sha256-VwPzDvAlPpwKVuTOBAZV7Jb7Mkm9KxDp0M7pSdyT2VU="
+  },
+  {
+    "id": 265,
+    "name": "Too Fast Teams",
+    "version": "1.0.0",
+    "description": "Make a whole team go absurdly fast",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_a6d2c56d26e482dc1b9a3b1f874a55634d7ea1361d4f514832c40db135a70cb3.zip",
+    "hash": "sha256-FS6QxWWNM1AcfzDeDT3OVikL+x96FmMbUfGHu7jICKM="
+  },
+  {
+    "id": 266,
+    "name": "Invisible Opponents",
+    "version": "1.0.0",
+    "description": "Your opponents are invisible. Name says it all",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_0af156b004b94b6f4404d13e84e97869038687afff3be38eaf2eee47b5e15f66.zip",
+    "hash": "sha256-iHbtLZpozmOlnEDRR4ileEbHVz45AYif5bwZOVMRvSA="
+  },
+  {
+    "id": 267,
+    "name": "Hot Potato",
+    "version": "1.0.0",
+    "description": "aims to help you practice bounce dribbling",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_8004044b05afb1768162488e170caf8e872460e7253171b0662b0eda61c8a47a.zip",
+    "hash": "sha256-hi/Mm4a65G8ZnPswjP+d5TyzXP1QiEbWOO6AZQjq2YQ="
+  },
+  {
+    "id": 269,
+    "name": "Custom Rumble",
+    "version": "1.0.6",
+    "description": "Choose what items each team can get",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_e69690e1ab958ff9287301c62b90d54266824e69304e84837ff0e5a63bbc81e9.zip",
+    "hash": "sha256-VymmNP7c/ZbKPyX73OUd1GeC+GGXP3vE+mtsTdqwUPo="
+  },
+  {
+    "id": 270,
+    "name": "RL Garage Inventory Sync, Ranks Refresher & Scam Checker",
+    "version": "1.0.9",
+    "description": "Sync your Rocket League Inventory with RL Garage, update your Stats & Ranks on RL Garage after every match, check if a trader is a potential scammer before trading and sync your ingame trades with RL Garage to automatically provide proof after getting scammed",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_4cb42fb26fb5923987301e7c320c12a9c427aeb8885e8b08124bebe0c00cb9b7.zip",
+    "hash": "sha256-syzeQCxWPtTszroGDokEWvBGLGvM4C8ferzv6PcoBlk="
+  },
+  {
+    "id": 271,
+    "name": "CarSize",
+    "version": "1.0.2",
+    "description": "CarSize allows you to scale your car in custom games.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_9a59237a1a2e5bf7263de433e2c0ec9534e0b4f3fb265d49e9b1e3e393c24c3d.zip",
+    "hash": "sha256-ubL7ZY333Cybo7RKwrlxu7P/qDuKyMjJHBIKg2DwWw0="
+  },
+  {
+    "id": 272,
+    "name": "CanvasTool",
+    "version": "1.0.3",
+    "description": "A tool for plugin developers to draw and visualize canvas on screen",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_460bf9ab83634e544d098ceb4a28a4ccdbf54f1d31b11becda2883f5f38d744f.zip",
+    "hash": "sha256-g1RrukNAeWm0p7myWiOYnEb3CoUr0zGIBuMjaAiC1Mo="
+  },
+  {
+    "id": 273,
+    "name": "Flying Balance Plugin",
+    "version": "1.0.0",
+    "description": "Teleport your car in the air with a random rotation to train your air ability",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_f2c865a54945362d5c76d0059345c3f54395772a06c2f5999d5edd755014ebb2.zip",
+    "hash": "sha256-qys4+mSdR5fvjOVI6a0C7PiUz+rDImyHVElIZVJCZHE="
+  },
+  {
+    "id": 274,
+    "name": "PeakTracker",
+    "version": "1.0.0",
+    "description": "Keep track of your peak MMR across all ranked game-modes!",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_f129e39c1ccd06654d8ff88353c1085f2d9797359183f612634eeb4301a77123.zip",
+    "hash": "sha256-8drBufT4UsmYs8sxoJoqlKSYjrg+//24YSJ/XtGiLus="
+  },
+  {
+    "id": 276,
+    "name": "Rumble Gun-Game",
+    "version": "1.0.0",
+    "description": "Randomized rumble items that will only progress as you score.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_81f45e14a29ee3f3d9a694fffa8b1dd92779a01e62260aff71cb3cdfdfb16dcc.zip",
+    "hash": "sha256-2dusHda9HnpExz+v+BtTi5mvtt19A8bWHTrwMhX9hWI="
+  },
+  {
+    "id": 277,
+    "name": "Ghosts in the Machine",
+    "version": "1.0.0",
+    "description": "Makes whatever players the host wants invisible.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_c2aa9f6b2eba1ad89cbcf9d6e16b0f201bee92bb06090c4046f6ad27a3e7a6c4.zip",
+    "hash": "sha256-zPOWb8iooWu2nchbDELU1FciUaubs27kIJ1KRj2gBCQ="
+  },
+  {
+    "id": 278,
+    "name": "ReplayCamera",
+    "version": "1.0.2",
+    "description": "Modify the camera settings of players in a replay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_ae70113c1dae4684d820c6acbf9bba413325cfcacaebcc844c504e90458823da.zip",
+    "hash": "sha256-yi9QvOiOEO1Fwsi3aHV5co+ah1H9A4LMu7I0uD1h3No="
+  },
+  {
+    "id": 282,
+    "name": "IngameRank",
+    "version": "1.0.8",
+    "description": "View player ranks in-game next to the scoreboard.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_5adae4d0c3321fa4a91f51cac4b0428e48ae2ba1c88bd56302e5dc0a8286a175.zip",
+    "hash": "sha256-EMrrnSWR6qc9FrzgeLxCqs3hEtBDMW6yRA/mB9hb8AA="
+  },
+  {
+    "id": 284,
+    "name": "Boost Pathfinder",
+    "version": "1.0.2",
+    "description": "Shows you the quickest path to the ball using only boost pads.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_490a958fa376c4db76b7bf694707a7d75e0f292eab5bdb15821edeb77a61496c.zip",
+    "hash": "sha256-42zyKFJL4CA07IiFrpDg6M8LEKlhcIBnbRuMNkRXmXk="
+  },
+  {
+    "id": 285,
+    "name": "Flip Indicator",
+    "version": "1.0.0",
+    "description": "See if you have a flip or not!",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_ab7c94f6312c118c5fb430b7a2954d3138db2d254ee28505a4c0f527fa2f668a.zip",
+    "hash": "sha256-WMj2okIdXOy11rKKx/deKVY80CdbPNSCXfq8pMEtPAo="
+  },
+  {
+    "id": 286,
+    "name": "Speedflip Trainer",
+    "version": "1.0.3",
+    "description": "Helps while using Musty - Speedflip Kickoff test to train speedflip",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_3af4e39dddc7eb76e136f32052d7b3dfdaf152719074cef7cd01347c6a08a478.zip",
+    "hash": "sha256-t1/yiobk1UsAg7TqCQaKk7QJvBh0axULcAMMqx1PeV0="
+  },
+  {
+    "id": 287,
+    "name": "Player Switch",
+    "version": "1.0.0",
+    "description": "PlayerSwitch is a Rocket League Plugin which switches the location of 2 players after x seconds.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_a4316ea9c791c06e7ae00cccf0894c9d3b0a4c3a9bdc84a15f9a69cc25e961ab.zip",
+    "hash": "sha256-2TmOZQXsl7BTRyp6IAG7f2TAibOz0UbOMWocEe0lEco="
+  },
+  {
+    "id": 289,
+    "name": "Heatseeker Custom Training",
+    "version": "1.0.4",
+    "description": "A plugin that allows you to do custom training in the gamemode Heatseeker.",
+    "url": "https://cdn.bakkesplugins.com/uploads/26842_54f1df8fbb4b94749ed02d8215705180f10cd04a5e45f3f7ae1a2995d298121a.zip",
+    "hash": "sha256-GIbgoeBFZ2iZ9mjqYM6+5lXrv4EpJS6LpxO6GkiFTf0="
+  },
+  {
+    "id": 290,
+    "name": "Disable substepping",
+    "version": "1.0.0",
+    "description": "Disables physics tick substepping in rocket league. Prevents RLBot from dropping ticks.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_9097d312395bb004919a4c6998d0a758e87a50bbb61b91e313a6123a4ff4c4d6.zip",
+    "hash": "sha256-6DHM9lNhKCZw77Eh3G4vQvhzRt+sSo3v2bJbi5V45pM="
+  },
+  {
+    "id": 291,
+    "name": "Replay Ball Cam Indicator",
+    "version": "1.0.2",
+    "description": "Shows ball cam indicator on replays.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_ed929c65d15e461a09de0ea5b361cb814899bd77652d0783129b00b30a49c013.zip",
+    "hash": "sha256-ZpFn63bey6A1/MuzLDEccANMrT4e9Dz5ANMwombSLEk="
+  },
+  {
+    "id": 292,
+    "name": "Better Steam Workshop Loader",
+    "version": "1.0.3",
+    "description": "A more efficient way to load Steam workshop maps.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_d048a481f31044e4869a4c28b2701188b200c8faf0c0d81c461a5ea886795a79.zip",
+    "hash": "sha256-wOsGPC/0OUnNFYTSvILFlbJxwG/G07QmR/Kt+dyGTH8="
+  },
+  {
+    "id": 293,
+    "name": "Boost Recharge",
+    "version": "1.0.0",
+    "description": "Set different boost recharge delays and rates per team",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_31e7ad10ad675cb113e7f53e71b4afb0525c9f2ca3b6e4f45c4d60b0e538d822.zip",
+    "hash": "sha256-K0bSrjnvwOVJdkRzi0UiJCvwdsY0NW3hsy5Sviq5VfU="
+  },
+  {
+    "id": 294,
+    "name": "Map Expansion Plugin",
+    "version": "1.0.8",
+    "description": "This plugin is aimed at adding features for map makers by utilizing the power of bakkes mod via Kismet",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_40e1d6dd98fe3edaa40aac577834d327c62bb99111dc77fd004a930f6e92a39f.zip",
+    "hash": "sha256-xUn041M8evC5KAdOKR/Jik9mk1MNSVyiMulGJW6NUdM="
+  },
+  {
+    "id": 297,
+    "name": "ReplayPlus",
+    "version": "1.0.3",
+    "description": "Improvement of your replay experience",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_13a0067d0b09da6616784e04d69e82837c2c35b129a8c6e9cbc4c239526193b8.zip",
+    "hash": "sha256-JEUQZ0AOy51lQpwuz8lHzp4cgrbOoaxRk2Ao9fMUtOc="
+  },
+  {
+    "id": 300,
+    "name": "Bothersome Ball",
+    "version": "1.0.0",
+    "description": "Makes your hits on the ball just a *little* bit off",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_f8ffaa14980d2f959d01f80b8382acca89682237f8564b5628048587b7d79823.zip",
+    "hash": "sha256-mLHaMI9aIudyM6Tskq3k3MqANpHC3SQsTAZ26k7z3P4="
+  },
+  {
+    "id": 302,
+    "name": "Custom Training Statistics (prev. Goal Percentage Counter)",
+    "version": "1.0.4",
+    "description": "Gathers and displays statistics about your custom training sessions",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_66dc27bfa9cd6b28b2277ca22ae163b8b624c9be3627d53a232ac8acad4aac53.zip",
+    "hash": "sha256-bEoQkN5DkztBi/0pLT40LvuZn3RqW6XFFuNTZYgv+VY="
+  },
+  {
+    "id": 303,
+    "name": "QuickVoice",
+    "version": "1.0.0",
+    "description": "QuickVoice allows QuickChats to be played in your ears straight from the chat!",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_13b8cf23b2205277e41589eb72b4cb7224fb7198b4618308d364256683c125ef.zip",
+    "hash": "sha256-BdfNrZ92NXKQ6NzWFhapixkvnnomaFEEnuqzbF1Ap5A="
+  },
+  {
+    "id": 304,
+    "name": "Attitude Indicator for Aerial Training",
+    "version": "1.0.3",
+    "description": "Adds an indicator to help players learn advanced aerial mechanics (with air roll) faster. Whichever direction the joystick is pointed is the direction the attitude indicator will travel, making it easier for a new player to practice air roll aerials.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_b13e34af4824add128d1f6ef3b63b5968a2751a39b75dc801d53b94f7797ab6c.zip",
+    "hash": "sha256-Hx5JMsc6SDfE7eRUwiyFJOd2GdJeTjdM0m1SjA+jNdA="
+  },
+  {
+    "id": 305,
+    "name": "Disadvantages",
+    "version": "1.0.3",
+    "description": "A plugin to give a team a disadvantage.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_afc49df42667c6745c599958af28ade90a73ec9578310efa3d10206158ea6a4a.zip",
+    "hash": "sha256-Qcl5Y1FD5y0PQgtmBriIVxSOccDzK/LyI6AaNRr2yY0="
+  },
+  {
+    "id": 306,
+    "name": "Dropshot Calculated Shot",
+    "version": "1.0.3",
+    "description": "Calculates the best tile to shoot at in dropshot depending on the balls charge state.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_720758d3c5923d52431032fcba174b0660ae6b8132b14a8f096330dd8ac7f5c5.zip",
+    "hash": "sha256-YLmy7bhy76xwjWWhuX+4713PdPdb/sWLV4Mr/dQWP0M="
+  },
+  {
+    "id": 308,
+    "name": "Rumble Recharge",
+    "version": "1.0.2",
+    "description": "If you don't have a power-up you can't move.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_9920fc02ba88f4361587550bdb01d3fd9972b62055b2a55b163a2fb524e84c6c.zip",
+    "hash": "sha256-NNKBbpqrmz5RgsCjkNdaoE04MgC74vVtSYRfNJPmdYE="
+  },
+  {
+    "id": 309,
+    "name": "Prejump - Training Plugin",
+    "version": "1.0.8",
+    "description": "Load training packs directly from prejump.com",
+    "url": "https://cdn.bakkesplugins.com/uploads/30511_45efea821d031625ca5b46eca85e5ac0546260ea2575e088b2096cc1b1102a03.zip",
+    "hash": "sha256-68uX/MyjQhXOybdb/tazPZIQO1hnRXRbkCWPIR+mCTc="
+  },
+  {
+    "id": 311,
+    "name": "Fix Custom Training Start",
+    "version": "1.0.0",
+    "description": "Stops custom training shots from beginning on steer.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_07c94da29e1ff16a8ff1bd8509b0f6481bb10d61d01d762b3f78fdd8a826ecb5.zip",
+    "hash": "sha256-Y5PzsA+0Mg+KhCXhBdwNjg4hdf/fxtMQhHRisFeSZpg="
+  },
+  {
+    "id": 312,
+    "name": "Smash!",
+    "version": "1.0.0",
+    "description": "Cars fly farther and farther the more they're hit",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_794c9a684ad0e13cae302bda27c6caf73f4a525e7c24ca3a50ddec9ddf70485c.zip",
+    "hash": "sha256-BrQUWYh0jxwpYZMNCovL0pfT56gfjnTg5NqAQwsfxC4="
+  },
+  {
+    "id": 313,
+    "name": "Infiniball",
+    "version": "1.0.0",
+    "description": "The ball gets faster the more it's hit!",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_18ee59bd127a982668f6ea5a822fe5344cd8d88a573a88926760e6489cb4b864.zip",
+    "hash": "sha256-luLVi+CtmYX33j847uRTkHmR0fymXoqkJwtop7HF03o="
+  },
+  {
+    "id": 315,
+    "name": "Time Tracker Plugin",
+    "version": "1.0.2",
+    "description": "A plugin that tracks how much time you've spent in each map",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_8762e4905d54b841f88905c01a43e3d9643eff6776f1722ad14e82ee22dacda5.zip",
+    "hash": "sha256-VT2Z2niRt77e0AuGyFWC8+2M6ocDraurZ+Ue637b8JI="
+  },
+  {
+    "id": 316,
+    "name": "NextGame",
+    "version": "1.4.3",
+    "description": "Antisnipe for streamers",
+    "url": "https://cdn.bakkesplugins.com/uploads/4205c184de5e4e82b776e952cf06fe8d-Bakkesplugin_316_20251111.2.zip",
+    "hash": "sha256-oME8yjiAtSII667Dhtir7/i1D7sOwCayNDqOHxXxmbo="
+  },
+  {
+    "id": 317,
+    "name": "RL Infinity",
+    "version": "1.0.0",
+    "description": "Allows for infinite player lan servers.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_ca768284d8cab5272039bfc35c7876628ea2d43d8e582393db9d4c0f2e0cdc4d.zip",
+    "hash": "sha256-1sH1lVkWEJRPfEy4X+R2IPEAa4qlwU2zSAlMyD1jAq8="
+  },
+  {
+    "id": 318,
+    "name": "BoostyBoy",
+    "version": "1.0.0",
+    "description": "Tracks and averages boost usage in online games. Includes averages from wins vs losses as well as an in game overlay for real-time stat tracking (If enabled)",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_121c263348a790f35b3447085a4a9958a7fbfa43f0378df1ba2239705f5f0f86.zip",
+    "hash": "sha256-YiUV0INz1w5XW0COMdbKkQKPovL8k2bMlT1SgSlFYuI="
+  },
+  {
+    "id": 319,
+    "name": "Mojilla",
+    "version": "1.0.0",
+    "description": "Mojibake fix Plugin",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_c8cd3529cd2cf95c02a00871d607c175f42c09c7f3229d9254e2472dedd992ef.zip",
+    "hash": "sha256-2+LIeuSuZsqrHK69u0dj6Pg2yCdwU7p6l2QQyW7Dbjw="
+  },
+  {
+    "id": 320,
+    "name": "Teleport Stuff",
+    "version": "1.0.2",
+    "description": "A plugin that makes modifying positions easier",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_385a12748cc7aefbf0be32b181dbcf72d137cf70e54ce81a3209dc88a6b5f18e.zip",
+    "hash": "sha256-psqDoacqMUikmmbnrZO7nDskrGjCQmEspB+Y+25gnUo="
+  },
+  {
+    "id": 322,
+    "name": "JumpInReplay",
+    "version": "1.0.5",
+    "description": "JumpInReplay is a bakkesmod Plugin which allows you to open replays in a private match and take control of any car in any situation",
+    "url": "https://cdn.bakkesplugins.com/uploads/34614_2e6f2b38ac8c48291c2ed720e4425f48b620da34a6ee353be9e65c1d19657067.zip",
+    "hash": "sha256-iYo3H5uCsMEF/oVCms5oIyPqwJ0YB0yeMZR6DFm9VSA="
+  },
+  {
+    "id": 324,
+    "name": "CalmQuit",
+    "version": "1.0.3",
+    "description": "Auto exit Rocket League after set amount of games/time",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_f823e4f100893a7d021aa387bad02878d4669f946635222fd10b88954cc30a76.zip",
+    "hash": "sha256-5fhojYxLq3FXsu09qAHp/0mJzAlqroEz+okRzy4sfWs="
+  },
+  {
+    "id": 325,
+    "name": "RL Training Timer",
+    "version": "1.0.4",
+    "description": "Display your training schedule ingame while in free play, custom training or wherever",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_7f503c2f3c12a6f168888b832e63b6eca0bf334d53c8b14ec20049269c1f873d.zip",
+    "hash": "sha256-pDVrjAfX65KExwOK3gCAXi+hoCzlIvyWkd1/++YSNT0="
+  },
+  {
+    "id": 326,
+    "name": "Window Focus",
+    "version": "1.0.0",
+    "description": "Never be AFK at kickoffs again!",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_5c4fe09530f6b8426fb7e0bf8d9b9f9ed5135d0e2a4b5688b396a3778117c5fc.zip",
+    "hash": "sha256-uoPRbvDWK8qoNuResGcFkLsYzqA/LSDaEO6MoiWRc6U="
+  },
+  {
+    "id": 327,
+    "name": "Notes",
+    "version": "1.0.0",
+    "description": "Have multiple sentences on screen to help you focus on what you need to improve",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_7a528847b16b069d2d2a58b5c5683f0cce6a308abd31937deda0d04bd386e8fe.zip",
+    "hash": "sha256-YpjRA9Rp38/rPnZM7866DTjHwCiiCcYOgIL2aXY5MMI="
+  },
+  {
+    "id": 328,
+    "name": "Kickoff Practice",
+    "version": "1.0.2",
+    "description": "Kickoff Practice is a plugin that helps you train your kickoffs by spawning a bot in freeplay to face you on kickoffs.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_c975aec273911daa663d29bed63791921e3ddfdb5d9841e2a46bae1dd5650ec4.zip",
+    "hash": "sha256-vCRtM188EJFlA+1Cq7lwMXLrqiwYqUM1aHTNNDm2B5c="
+  },
+  {
+    "id": 329,
+    "name": "RocketTimer",
+    "version": "1.0.0",
+    "description": "Display a timer or stopwatch on the screen",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_a51c2804eaea10c16251d1afeaf1d28de49906ff13d669b84ce06e59fe59fead.zip",
+    "hash": "sha256-rhKqm2xNyYWQ5s7SPSGxZ2kCj+wTYtq7v2uFZpAXNRM="
+  },
+  {
+    "id": 331,
+    "name": "Demo Demon",
+    "version": "1.0.2",
+    "description": "A customizable in-game overlay for tracking demos and KD.  Featuring configurable settings, adjustable position and colored KD indicators, Demo Demon provides a slick interface to track your demo stats.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_b49b8cd56272c6e47b434674b92661c47630204240f2035f99c95f384ba72bd3.zip",
+    "hash": "sha256-mebwiNE1GpMNc92Na240WmIt799O60Xhu1HuvUAaqXo="
+  },
+  {
+    "id": 332,
+    "name": "Team Multiball",
+    "version": "1.0.0",
+    "description": "Adds a second ball to your matches, but each ball can only be scored by one team!",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_ec756b6662b2091b0d9f33317dbda30dd3c60ea3ca1b760f51e27b674306b46b.zip",
+    "hash": "sha256-otW1fSMOKu7i7cnHxZW7e9L/WLldq6Zfup2b3aeQDv4="
+  },
+  {
+    "id": 334,
+    "name": "Rocket League Assistant",
+    "version": "1.0.8",
+    "description": "BakkesMod Plugin to integrate Rocket League events to Home Assistant or any smarthome/server than can receive and parse JSON data. The data can be used to change your game room's lights colors, or used for anything you can think of!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_f4285ca9578e0bcd37d0d27ff5f0bf59d1bf4e0567f9bdbf5be4104cfaaeb372.zip",
+    "hash": "sha256-pd419D0+b09aFE6vWaFssu+S78seMxNbfZ3vzjykcVQ="
+  },
+  {
+    "id": 336,
+    "name": "Moved Goals",
+    "version": "1.0.0",
+    "description": "Move the goals in a LAN match",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_58c36901162f86dafb5ba6bf9d10a929a26f8033d13dcacaf9a36d6185247178.zip",
+    "hash": "sha256-RbDDkjDP85dn2VhT1b0h0mnrzSKkPYbboljoiWxKXJU="
+  },
+  {
+    "id": 337,
+    "name": "Dodge deadzone overlay",
+    "version": "1.0.3",
+    "description": "Draw stick location and dodge deadzone",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_e4bbc74c0813a83b1ca112af89c3aa9745f0b86b0896a346025ce0108843c31c.zip",
+    "hash": "sha256-G5GKq0/wXhw4bSllkUFJieoAOOi7wF5LaV15QN1cAac="
+  },
+  {
+    "id": 338,
+    "name": "Replay Map Changer",
+    "version": "1.0.2",
+    "description": "Allows to change current map while in a replay",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_bc8f94da341b1ae4dc1d6ac206375fc35ee345418f4233646f7b68b9b52d6d2d.zip",
+    "hash": "sha256-gCPSvas1VIySiTL+njRS3sn2/ov1wEgjUc3UQs1M/pw="
+  },
+  {
+    "id": 339,
+    "name": "Freeplay Targets",
+    "version": "1.0.0",
+    "description": "Set places to aim for in freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_1fcd9efa4e950f1002994624f9f4aff94baa92307395d779fb3e814fc3568df6.zip",
+    "hash": "sha256-Qk/JUzrXP+8LywFvU/RYz4meC4POihN0XS8LX8VOPhI="
+  },
+  {
+    "id": 340,
+    "name": "Show Settings In Replay",
+    "version": "1.0.0",
+    "description": "Show Settings in Replay",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_fe0b80030c86a0b703437a4bf37a824b696e856b12e2053c732060d28c4b6291.zip",
+    "hash": "sha256-J+P/SQCunBkzTATjZrKZrsJqQTdO5ooptsvrTxSwjgg="
+  },
+  {
+    "id": 341,
+    "name": "Boost Strength Changer",
+    "version": "1.0.0",
+    "description": "Change the strength of the boost in a LAN match",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_a159a5212500fea198368af62f755ff7f4ea9e704538792eedfa9f18623f1a11.zip",
+    "hash": "sha256-ntnQTDa9BqrWXqv0xiGofmCrUiyftaq5+hWQzDzNTKU="
+  },
+  {
+    "id": 342,
+    "name": "Keep Off the Grass",
+    "version": "1.0.0",
+    "description": "You must stay on the paths on Utopia Coliseum",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_911d2964412b970e55b37b0245842b178563cbaff999578b9213a41f4d0f3662.zip",
+    "hash": "sha256-ajQSHUDfWcrcZcVX2y67bbISLzbrt6zGPiA1gNB8NI4="
+  },
+  {
+    "id": 343,
+    "name": "PurpleShot",
+    "version": "1.0.0",
+    "description": "Shot with your belly",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_a27557eb15b4e9b76e3d694787af7576adc836f65b70cbe476c803fa3313652f.zip",
+    "hash": "sha256-qoakHHMvZa7AjIjJgRvTyWCcUyHC8pHl8oIynUmoX6k="
+  },
+  {
+    "id": 344,
+    "name": "RLLab Replay Player",
+    "version": "1.0.5",
+    "description": "Helps you analyse RLCS pro players by auto-playing specific scenes (ex. Musty flick) directly from rllab.app, the web application for Rocket League data analysis.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_153053beed83d5438b4673c7b70a1e595060ae3cc3e730df7cee8e4de1681352.zip",
+    "hash": "sha256-5TTb4b70gqBB16XaGxh/aNS40aM8QAAs8VnTeKIiCtQ="
+  },
+  {
+    "id": 345,
+    "name": "ReplayGoalExplosionFixup",
+    "version": "1.0.0",
+    "description": "Fixes missing goal explosions in replays",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_23dfa8c4e64504616e00d1e45236d81efdd3f66bbde260e928b4c6b046721f3b.zip",
+    "hash": "sha256-jdIsnbUMkWmA+zd0xqfHhi6SecphJv+CYTR+1xw+LrE="
+  },
+  {
+    "id": 346,
+    "name": "BoostStats",
+    "version": "1.0.0",
+    "description": "Boost stats",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_3868e659792d67c28b99212fc15df4ac86b9b51dd9e8bb48572f92940e0f42f2.zip",
+    "hash": "sha256-/fd27Apb+Way7DmNbbNhEv2jlevYvJ6N1EE6n7aVNTE="
+  },
+  {
+    "id": 347,
+    "name": "Force Training",
+    "version": "1.0.0",
+    "description": "Forces Striker/Goalie Mode For Custom Training Packs",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_b6e37c00bfd1e848706ea69cb6583682d4989315adb2c7a599756e226d5ed859.zip",
+    "hash": "sha256-tpnIdiooOnWHLeXtEcWF4JLJijoevOUd/B2BIUgDyx4="
+  },
+  {
+    "id": 348,
+    "name": "Lobby Ranks",
+    "version": "1.2.4-1",
+    "description": "View the rank of players in your current lobby across multiple playlists!",
+    "url": "https://cdn.bakkesplugins.com/uploads/a5169528542d4ac58dac897c7ebd5c87-Bakkesplugin_348-public-20251217-232620.zip",
+    "hash": "sha256-Y5Oz6oPS238BLneHE4sPx/LWiGL0vknZ3bI8vCmMAvo="
+  },
+  {
+    "id": 349,
+    "name": "Sprocket Rating",
+    "version": "1.0.0",
+    "description": "This plugin shows the Sprocket Rating of everyone in the lobby when you look at the scoreboard, during or after the match.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_4fc80d3f3e1fd3f318edb18cbb9b055e9deadfeb3e4c6bf541ea94e54de26a89.zip",
+    "hash": "sha256-vXth+KcaPqdU6pU4cdQaNqnhrSeR6NInib4QN03SDLc="
+  },
+  {
+    "id": 350,
+    "name": "VoiceChatIndicator",
+    "version": "1.2.2",
+    "description": "Displays mute and/or unmute indicator.",
+    "url": "https://cdn.bakkesplugins.com/uploads/fa7dabdc304e45c7bacc924f2929bba8-Bakkesplugin_350_20251111.4.zip",
+    "hash": "sha256-HUXwT8LDKzfobwzwIa9FfAytfw0vUxKQGwaDkQgOvrk="
+  },
+  {
+    "id": 351,
+    "name": "TAS Plugin",
+    "version": "1.0.0",
+    "description": "Create custom shots/speedruns inside rocket league",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_a6890de7c6fedf66eb3fa62f92891e9cdf3b7eba7f0a0df7aba13888c2720069.zip",
+    "hash": "sha256-3fnXCJAgWW5IMKr66AbXnXJSCV0bobvyyu8lwI0L5FQ="
+  },
+  {
+    "id": 352,
+    "name": "Rank Grapher",
+    "version": "1.0.3",
+    "description": "Displays a graph of rank progression. Can display all games or session games. Displays under scoreboard and/or after game.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_4863522227abd28cc813b67048df323a0ac93ced61ae4895ca9170974260f01c.zip",
+    "hash": "sha256-DwGzytdOrCzeeTKogfPjbyYprrvpZRARYJ/kAD5VhVQ="
+  },
+  {
+    "id": 353,
+    "name": "Screenshot Chat",
+    "version": "1.0.0",
+    "description": "Screenshot the chat area",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_19e1a2032793639b976e3aad78902bb4b150f298d71a969730a4713485730b97.zip",
+    "hash": "sha256-FAxLVmPxBWcdDpY8TXv95TmUFyceyk58/Pfn7rsVP3U="
+  },
+  {
+    "id": 354,
+    "name": "Instant Goal Plugin",
+    "version": "1.0.2",
+    "description": "Score the ball in freeplay by pressing one button.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_1d124816b984c055ccf0f6ebc7c9d687b0599eefcd72080ced6e6f36e5667a7d.zip",
+    "hash": "sha256-DpmydmVFpib2R0oNo+z+alW7UbyR2z/1zANtDms8ZwE="
+  },
+  {
+    "id": 355,
+    "name": "ForfeitNotifier",
+    "version": "1.0.0",
+    "description": "Notifies you if the game is forfeited",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_8d799dff974c1380d2d830064efe0fb66ae6e9ca4e18f396ca690a1e4973e2b6.zip",
+    "hash": "sha256-Uvs/Cl4DM2rXPWQyNI1kqBmQ5299GyJOhEk/+llJz8c="
+  },
+  {
+    "id": 356,
+    "name": "Goal Heatmap",
+    "version": "1.0.0",
+    "description": "Render a Heatmap of all ball positions seconds before a goal has been scored (in your favor or not).",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_dfc3b52a63cac44c326c552a8de6592e16cc2991e6f79360e991d9d3d449d7fe.zip",
+    "hash": "sha256-zC62B9nyhQF3EeCFiSwoz34b67E74T9HtFO3vc45SBc="
+  },
+  {
+    "id": 360,
+    "name": "BoostPlugin",
+    "version": "1.0.0",
+    "description": "Shows you your boost",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_2f081d7da06586a7cb0a7fe95af4eea1c8243e95c17a13ffe37d1cd7c529d44d.zip",
+    "hash": "sha256-k8mMDe8jOw+RoFKtOC0ejDNaDbbpYwzKPxyfOyHxasA="
+  },
+  {
+    "id": 361,
+    "name": "Quickchat Detoxify",
+    "version": "1.0.0",
+    "description": "A Rocket League plugin that was made to block certain messages or quickchats to avoid people from tilting you and ruining your performance.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_bff0faf5813ad90cfa82aba7b28d3ba6928f7b37cf8b1ddbe26ad9ce0a83f8e4.zip",
+    "hash": "sha256-lMtBJN5HZgD7MPV11DTw9koLpz9zEqZflVU4w8k24Rw="
+  },
+  {
+    "id": 365,
+    "name": "BoomTouch",
+    "version": "1.0.3",
+    "description": "you go boom when ball",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_e914251b5fa52e5daee2c4b1046982cce12491e896e47196047481d6bbcb38a7.zip",
+    "hash": "sha256-LKFrjw7keGsXhApu/y14n38wLTQsoX5TrpS+PvrPYX8="
+  },
+  {
+    "id": 366,
+    "name": "PremierSuite",
+    "version": "1.0.2",
+    "description": "Auto queue, freeplay, menu, custom-training, with keybinds and an integrated GUI so you never leave a game you don't want to!",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_57a931a301d734766635e558fafb1e8c80021c49cf15b95cede7916d5e0e87cd.zip",
+    "hash": "sha256-jrEDyPNlsgpzzEld2NxKVcT6IPMY6rUerowtiF7sQvw="
+  },
+  {
+    "id": 370,
+    "name": "Simple stats tracker",
+    "version": "1.0.5",
+    "description": "Simple display for in-game stats tracking.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_731dd2b768f477428826c5f62ea87048f7b722a93fefaded2dcd83326b21168f.zip",
+    "hash": "sha256-zl4r4h2kiYc+Cm4+EtLDnEA3XG0rABZJbtxDoLkTJb0="
+  },
+  {
+    "id": 374,
+    "name": "Analog Directional Air Roll Visualizer",
+    "version": "1.0.0",
+    "description": "This plugin can display the value of analog air roll and highlights in colors, whether directional or default airroll was used. Only works offline.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_df323101d77b6da81e6ce0c75e13d9a7563b106e776fadc6c0adc5f37a49f1a1.zip",
+    "hash": "sha256-TVjWIH9vJAjSerxy4OJfPR1RolVYtQM2inmeabG82cw="
+  },
+  {
+    "id": 375,
+    "name": "The Ultimate Saves Drill",
+    "version": "1.0.3",
+    "description": "A rapid-fire drill to work on quickly reacting to unpredictable shots on goal",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_28a21e382b3a88fcacd9cebbd49353401ea76be7276e0ebc9a3e7957954965fa.zip",
+    "hash": "sha256-e4EaSAv8QZhwA8R/lneEnT2JXT08nC5x34URUeFkoqE="
+  },
+  {
+    "id": 376,
+    "name": "PlatformDisplay",
+    "version": "1.0.11",
+    "description": "Displays the platform of every player in a game",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_181c30b1fda24a9045ef565f0e24641313879bb7e27ee8d7b6d9a4a21594fc37.zip",
+    "hash": "sha256-3QN1Zeu4WjwdknKKFdtwF7iiLnwUaZBpPe1Z0S6xrvI="
+  },
+  {
+    "id": 378,
+    "name": "Spectator Replay Skip",
+    "version": "1.0.0",
+    "description": "Skip replays only when spectating a match",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_bfd078d11bb5eb0f617f3baba3ecea41d595b805e474327e9017b93659c9d816.zip",
+    "hash": "sha256-mhg2zzE8rYj8fuQ4Itve33fdznKoDw6rfoKCR1/VJaI="
+  },
+  {
+    "id": 380,
+    "name": "Preset Shuffle",
+    "version": "1.0.4",
+    "description": "A plugin that shuffles between selected presets in your garage after a set amount of games.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_5054a56a2bbf11e411bf0a594a2b4b49c42af5bc45f61313b7e2635ee827b930.zip",
+    "hash": "sha256-dG6gS+T8L9W8hGhqZWuAUt1Zey95WEpGp65tXc0RdMY="
+  },
+  {
+    "id": 383,
+    "name": "DataCoach Replay Uploader & Coaching Overlay",
+    "version": "1.0.2",
+    "description": "Automatically Upload Replays to RLDataCoach's Site for Replay Review & NEW In Game Coaching Overlay",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_b94a879db9114d9411df5bdc2104cf5b6a5ece959d381d9c5c4abc60c387261a.zip",
+    "hash": "sha256-Gsw50eDIFi3KLfTDu+1Q7QOgMAnnvPoiqyH4/kBKKes="
+  },
+  {
+    "id": 384,
+    "name": "OrganizeMyGarageOS",
+    "version": "1.0.0",
+    "description": "Manage all your car presets",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_0bf44e42c03cb5caec29bbd8df651bd33030f4a4ec5e2d5ec72566761b4faf7e.zip",
+    "hash": "sha256-bmxq/veC9+T1Jl4qAB3ZHfMPASZOCG1FONZXO1E2Wko="
+  },
+  {
+    "id": 385,
+    "name": "Horse Dash Counter",
+    "version": "1.0.2",
+    "description": "Counts Horse dashes, yeehaw",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_c5f60043e6398910231715fb6fc8d02364e2f4107a74dec2bd37d5ae4f20f2dc.zip",
+    "hash": "sha256-DgQ50neGYLQGhEh+1eAmvBKxMt2ELPMJMiDX2QktPkk="
+  },
+  {
+    "id": 386,
+    "name": "AutoLeave",
+    "version": "1.0.2",
+    "description": "AutoLeave allows you to instantly leave matches and automatically queue",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_fc80b4ac803e3190b579b8b4304c4b9a1c0206b5a8e1c487e1b55ef6cd7c9dd0.zip",
+    "hash": "sha256-siKRujq5pZ1DVElpRZWt95LfeKwfnEbjg8fhM4r+Bsg="
+  },
+  {
+    "id": 388,
+    "name": "KBM Overlay",
+    "version": "1.0.0",
+    "description": "A keyboard and mouse overlay",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_a98e17adfd5d68f688fe42b2c2b0e6cbd33070ffc332ed25263c3ddc36b73a68.zip",
+    "hash": "sha256-CEtEo4yDw8rrON4cojjXoOI8e27R+pwZj0IMCFcOfEI="
+  },
+  {
+    "id": 390,
+    "name": "RLStatSaver",
+    "version": "1.0.0",
+    "description": "RLStatSaver is a Rocket League plugin that tracks and saves match stats locally.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_3b3e60606ee4123223f163efcbbb54ae612852ab3cb3d019f0b7f50b4454e455.zip",
+    "hash": "sha256-HvVobGgOt2TqmXEIZ/29jRWsrZ1vPgEGov0vIbDIhGY="
+  },
+  {
+    "id": 392,
+    "name": "Training Pack Variance Manager",
+    "version": "1.0.2",
+    "description": "The Custom Training Pack Variance mode provides a convenient way to quickly change the variance for each training pack in Rocket League",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_9dab58518192e9008be5ffea2e528cf47390e74c2bc2174350c5efb7eb6cafc0.zip",
+    "hash": "sha256-lOoO9JrhdTUZR9Mca00Ie0ZGHbhckW72gP0304UzP0k="
+  },
+  {
+    "id": 396,
+    "name": "Ball Possession",
+    "version": "1.0.0",
+    "description": "Show your team's Ball Possession during a match.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_17efd60212cee4cb67fb1b69f34c9ed5a60159b2da4a642c991626822f95f1fe.zip",
+    "hash": "sha256-t6b09ZOm3ctL60V7+o/U/8I54z2QaIkzO+Yq/bF9a7I="
+  },
+  {
+    "id": 397,
+    "name": "Looking For Mates (LFM)",
+    "version": "1.0.0",
+    "description": "A plugin to find people to play with easily and quickly",
+    "url": "https://cdn.bakkesplugins.com/uploads/4_16f58ac6f7d30242cc55a49d936af96da73c19ddad276bd4141d9c58c1fc4924.zip",
+    "hash": "sha256-sBqrE8iuLpr7a9HMZb305YXqMEp3K+gVXejjKb0s7jA="
+  },
+  {
+    "id": 398,
+    "name": "Joystick View",
+    "version": "1.0.2",
+    "description": "A plugin to show the direction of the joystick",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_88b7bca303541f58971c6f440a0a67f0244f355d617ecf1e1e6bf6afb00e2373.zip",
+    "hash": "sha256-610JgsBUvyuUikkEDcMGWPFiRPPilEIpcs+vz5+m29M="
+  },
+  {
+    "id": 400,
+    "name": "Speed Control",
+    "version": "1.0.3",
+    "description": "Modify many variables of the car to get the best racing experience. Want more speed? More boost acceleration? Do you want to stop flying away at high speeds on slopes? Did you ever fly backwards? This plugin has much more to offer, give it a try if you are ready for high speeds.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_4b11ad74c7ee48256c73dc2e0d4dfd479a9b1c02c13f8d025fdfdf4119db68ee.zip",
+    "hash": "sha256-wcK2dRHFPNzHNt46JckIOoiEq6aiqUpRXEKPgTBgl+Q="
+  },
+  {
+    "id": 401,
+    "name": "FlipReady",
+    "version": "1.0.2",
+    "description": "Highly Customizable Flip Indicator",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_c31450adbf5bc03022e618041be6a0e3407d5980c3eaedac87c3a74afc87746e.zip",
+    "hash": "sha256-jRBwyorWZUkiUkfCj3flez+d/8sQFvynqfrSkQkNLG0="
+  },
+  {
+    "id": 402,
+    "name": "Goal Timeline",
+    "version": "1.0.0",
+    "description": "Displays a timeline of goals scored above the scoreboard.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_cb20a92f76ef0ff184ce9e72d6d7f44567372eb5239e73027dc952fe0e736471.zip",
+    "hash": "sha256-sS5UzYIPF3NNCNAokA7zJgnvJmfbBijPrEZj4ABHLLI="
+  },
+  {
+    "id": 403,
+    "name": "Air Roll Timer",
+    "version": "1.0.2",
+    "description": "Aerial movement training plugin that displays a random aerial movement command to follow every random seconds.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_f062b07384b7a21675270adf32c5f6081caecb60a55e220420021f97f556064c.zip",
+    "hash": "sha256-nGUlsacyCksfuQljzpRO5YWsTTtumkDaNKl5ao3XbbQ="
+  },
+  {
+    "id": 404,
+    "name": "None Item Popup Fix",
+    "version": "1.0.0",
+    "description": "A fix for the None-Item Popup",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_00aec8c1001ec4fa582be28f4ea83ae5be05c419eef6a3b20fb98cc4d021d527.zip",
+    "hash": "sha256-QHnRM9BuNSkuGo9T4KigDLdQ3oWLQhcvLuexrfBt65U="
+  },
+  {
+    "id": 405,
+    "name": "Invisible Ball",
+    "version": "1.0.0",
+    "description": "Try to reach an the invisible ball.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_2fc82a84cf3632d70be892cfd512a03e5434905f34f516ff675aa467c0d9a3ab.zip",
+    "hash": "sha256-VB7bESBel6Snek0EJSKnEc+aukO10aZvctsR97eFzis="
+  },
+  {
+    "id": 406,
+    "name": "Fast Aerial Trainer",
+    "version": "1.0.0",
+    "description": "A plugin to train your fast aerial",
+    "url": "https://cdn.bakkesplugins.com/uploads/18600_642895dd81a27507ef77e6deb07cdb69e1ca02faaeb98348529dcaa03637ccdf.zip",
+    "hash": "sha256-KkG6AcPzkXGDn0ZIzrXlR59l6u9Ng85uDUWpl7KHLjc="
+  },
+  {
+    "id": 407,
+    "name": "Input Logger",
+    "version": "1.0.0",
+    "description": "A plugin for Rocket League to log raw inputs (jump, boost, etc) from the current player",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_5977f40647d85651e30707964c35f30d298cbc4a33bdda88fb7207ecc006a320.zip",
+    "hash": "sha256-weAsuhuy0DaklsTZb5sUzIHAXxdOozQ27Kn9lmDK/T0="
+  },
+  {
+    "id": 410,
+    "name": "Goal Explosion Scale",
+    "version": "1.0.0",
+    "description": "Make the goal explosions bigger or smaller (Works Online)",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_7d7c2bc2bfbb62c023a228101162c8085fd9467bdbb319100a7ec3ce50b9d193.zip",
+    "hash": "sha256-/Sffd7FNugMEhXp0R8fJuVCXzXirKlZGFG3DcsJe9jw="
+  },
+  {
+    "id": 413,
+    "name": "Translate",
+    "version": "1.0.4",
+    "description": "Translate chat messages from other players",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_25f0abb90ecbdee67a8ca26264159edada869380b0eda9b56bc0e77ef5a764df.zip",
+    "hash": "sha256-rEpmk2ZzZPyWY3lTfvWc9+sP/N7JhPw2lDcIUC5o+Mg="
+  },
+  {
+    "id": 415,
+    "name": "Air Orientation Trainer",
+    "version": "1.0.0",
+    "description": "Controlling rocket cars in 3D is hard. Use this to train your aerial rotation muscle memory.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_3ad994a297b71d4dd0782e442bac210332a9676070b8aeded21209438a79d5df.zip",
+    "hash": "sha256-5KbNuXE2LGUI4qIBvzz5MwlUXgszyeE9QDbIcV/H3lE="
+  },
+  {
+    "id": 416,
+    "name": "BetterChat",
+    "version": "1.0.8",
+    "description": "Prevent toxic messages and make Rocket League chat cleaner with an anti-spam and message filter!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_d5f7dd97e642a51ce4047626db51896db2fb1a337dc45f9703018ed42fdbcc43.zip",
+    "hash": "sha256-PO+Y3ey49P+LhvYouv04BIZCE6iysChP+dhwWguqZVM="
+  },
+  {
+    "id": 420,
+    "name": "TrainingSlowMo",
+    "version": "1.0.0",
+    "description": "Calibrate game speed during practice to reach flow state",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_5b04cf4a223f53e957c82916cd16d19f168b91eb726a041c2d55a29f2b3dc3f9.zip",
+    "hash": "sha256-bwaRVubOaZTkA6Qw1LQAyYaK+dpW6EWJIW1y1BwFaU8="
+  },
+  {
+    "id": 421,
+    "name": "Replay POV Switcheroo",
+    "version": "1.0.0",
+    "description": "Plugin for changing the goal replay POV based on who scored.",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_8f0ea1ba0d50c4bd5c8bbe65a11029ec0b5b36fd990fe4504ffdf9276bac4ced.zip",
+    "hash": "sha256-LNcVEx/hCs4pfP20Tre8gPd/9QfunH0VpDWesvfOgTo="
+  },
+  {
+    "id": 422,
+    "name": "Rocket League BotChat",
+    "version": "1.0.0",
+    "description": "Rocket League BotChat is a BakkesMod plugin for Rocket League that allows bots to send chat messages based on in-game events in offline matches.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_4b879d7a93679596be9aa96b12a6a43a229e5be18493cd30580138257297fc55.zip",
+    "hash": "sha256-7KK/KSqP3dSXZrmfJZaPTsTBN7jMBrz+oYOss0SfvYY="
+  },
+  {
+    "id": 423,
+    "name": "RL Win Ratio Tracker",
+    "version": "1.0.3",
+    "description": "This plugin tracks a user's win percentage based on certain match statistics.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_8cd5e5f1779a0d38c1eaa174670c01ab9b206dc03d3b3f6f61ff295bc7fe861e.zip",
+    "hash": "sha256-jc04d7f4OoIVO/5Ry3WSVhr1d6detWmWbyiSkX2lGJM="
+  },
+  {
+    "id": 424,
+    "name": "Hide_Score",
+    "version": "1.0.0",
+    "description": "Covers the score/goal counter for each team",
+    "url": "https://cdn.bakkesplugins.com/uploads/7_98dd54cbac5907ef632b3eaf5e5ee064c8b745902551e1f611bf77ac56cb6607.zip",
+    "hash": "sha256-yJYaxfpOosgErfs12CMOdWkZbY4xyWD6WQqUu/fdw9Q="
+  },
+  {
+    "id": 425,
+    "name": "CinematicCam",
+    "version": "1.0.0",
+    "description": "Camera with different modes that can be used for cinematics",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_d5f8d1d21828f3b3c2d3b4fdea7e196b075b6b667fe13de86a0756e7a205a2a4.zip",
+    "hash": "sha256-7dWLpIWuUEaGlxeT9g2I6iVdnecEfMm0y1ehzeVPNeo="
+  },
+  {
+    "id": 426,
+    "name": "Slightly Better Clock",
+    "version": "1.0.0",
+    "description": "Customisable system time display",
+    "url": "https://cdn.bakkesplugins.com/uploads/1352_dcc8682048da82ed1bd091873609a8d815992841fe3e647bf8c5b2d78600aacd.zip",
+    "hash": "sha256-+13o5Ao3mpmRkOYnEDFS95s4fducciN0fjKQoKOoNQ4="
+  },
+  {
+    "id": 427,
+    "name": "DARMetronome",
+    "version": "1.0.0",
+    "description": "A plugin that starts a metronome when using Directional Air-Roll, to help training with the Losfeld Method of Directional Air-Roll in freeplay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_80b8acd4ac7712b4d9f0ded4ee12e7a10d3a69058bb5cbd338c56b6858de73df.zip",
+    "hash": "sha256-X/0pvn7/MmQBpGa//90PtxiYckh8CdfFoZGlza36kWI="
+  },
+  {
+    "id": 434,
+    "name": "Corridor Highlighter",
+    "version": "1.0.0",
+    "description": "Highlights the defensive corridor behind the ball",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_1b9395143082252db5f0661b33596c15aab101a84a851bc6ecd75e913ea896e9.zip",
+    "hash": "sha256-kuVEO8q51bkWgHQqO780iHmAECyvJJGk5Ni9BSV4NtA="
+  },
+  {
+    "id": 435,
+    "name": "Hour Farmer",
+    "version": "1.0.2",
+    "description": "Add a points system to help you grind and improve! As seen on CBell's channel.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_949c1689604eabe93ec2444ce293f202875a6c1bb157721f7a8ece0add650551.zip",
+    "hash": "sha256-jU8SDkncErLd0SOBp77gZswMUqLCRG09bxQpS9Q/dCU="
+  },
+  {
+    "id": 442,
+    "name": "CameraPresets",
+    "version": "1.0.0",
+    "description": "CameraPresets is a Bakkesmod Plugin that adds customizable and user friendly interactions to the built in Bakkesmod Presets",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_2f89a4f8f21b6f7e16a164cccb33110a6a2f3a73e8ae9ea8dd7fa91b567c7253.zip",
+    "hash": "sha256-21h1ucSRZ2NUBcv6f3GvO//mrD83ZKa1MLyaw05gukI="
+  },
+  {
+    "id": 448,
+    "name": "Skipify",
+    "version": "1.0.0",
+    "description": "Skip plugins with ease",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_b263bc599d0f88e6deabdbb0dfd65b08eb9f8a52f37abdfc57e7003f48f4aca1.zip",
+    "hash": "sha256-NfRfc1eGVgcmtzBVK/LVoVuACg9Rs42QKJ1jH343gZg="
+  },
+  {
+    "id": 454,
+    "name": "RocketLeagueRivals",
+    "version": "1.0.2",
+    "description": "Track stats against players you've played before.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_9aea5855eef25a2c875fc2a02a7b4e83e471c34133efbcfa6d0d2154dda1af79.zip",
+    "hash": "sha256-gPnUP+65GC/yl5Ed36EI4jy9Pcxk/SwDIsoJexE0wbc="
+  },
+  {
+    "id": 455,
+    "name": "Shooting By Wolf",
+    "version": "1.0.2",
+    "description": "This is a shooting game designed for a training pack or freeplay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_9f4250469a1c687489a62f4ca2a5549b8dcf7e5dae26c79e4788082ec520c537.zip",
+    "hash": "sha256-vuCzP89gthgTaMkaH4cimrnhVi38sfUrpmmzhhe5ctU="
+  },
+  {
+    "id": 457,
+    "name": "All In One",
+    "version": "1.0.5",
+    "description": "AIO is a plugin where you can add multiple plugins into one, just put up a issue on github and it will be resolved",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_78e5b6697af1daa9253eb36d2d46072b8d96581604ffd01b38e25b3deeb4d146.zip",
+    "hash": "sha256-RUGztNQm65cQl1VzH186QJVh9BjyTVaXXAqMo7McZrA="
+  },
+  {
+    "id": 461,
+    "name": "Wait Command",
+    "version": "1.0.0",
+    "description": "Execute a command after some in-game time. It's like `sleep` but works for different game speeds!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_96ec1b86b6f49c98d8b3a61da0d632a185cd5a2c66ff7736617311103cb2fa01.zip",
+    "hash": "sha256-V1bco5H9BeKLaT/NxtFWuewUzVJG5y74V8mrei7b0Wg="
+  },
+  {
+    "id": 468,
+    "name": "Airroll Axis Visualizer",
+    "version": "1.0.2",
+    "description": "Airroll Helper for learning and visualization.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_80d5b4f98f528d0325835896cbc3794cc22d236966927c6560d9bc1a23dac1b2.zip",
+    "hash": "sha256-QFJs5vuwlw90yidO6y4GGbf7o3NaFd6F2ykZLTLkI/I="
+  },
+  {
+    "id": 470,
+    "name": "NanoLeaf for Rocket League",
+    "version": "1.0.3",
+    "description": "BakkesMod Plugin to integrate Rocket League events with NanoLeafs",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_b945f5485ac46e5764c756dccaf7653ff85a47ce82c8d4a2baa97906b941a12d.zip",
+    "hash": "sha256-ztPID5aCRNi4sYtdPJGoWo/8nilaITVkGAM9kwgAzF8="
+  },
+  {
+    "id": 472,
+    "name": "Ball Cam Toggle",
+    "version": "1.0.0",
+    "description": "Simple Plugin to automatically toggle ball cam to the next ball in custom training.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_022b79260596fccdf98f1b8195adb115908c2f775bc10c0fdc130db9c950d54f.zip",
+    "hash": "sha256-qkYSUOyB9LvnHjB2O3b4RYy2mf45TWLQxuiC15C134k="
+  },
+  {
+    "id": 475,
+    "name": "RLProfilePictures",
+    "version": "1.0.3",
+    "description": "This plugin adds profile picture support for Epic Games users and enhances profile picture support for Steam users.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_c6d5754f4ac3878c541c198562101874cd585f39f92dda26dc1695ccc9ff47d0.zip",
+    "hash": "sha256-hWy1Dpsf7pNgso/ZE29i7TQj3ie6d4obo3BvoQUaqqM="
+  },
+  {
+    "id": 476,
+    "name": "First Touch Trainer",
+    "version": "1.0.5",
+    "description": "A simple plugin to help learn first touches",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_c5e14021e3b710686d6b6a1726243d53ee5f66acc7fa07cf891a51137c155431.zip",
+    "hash": "sha256-saITdurBz56mBgV1riKBqjEBzHRYX6Sc26FPHQsvVYo="
+  },
+  {
+    "id": 481,
+    "name": "Chronology",
+    "version": "1.0.0",
+    "description": "Display the timeline of the game (when scoreboard is displayed)",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_aee7505176f616ae562bc6cc93fab94ab65b8cf272b47ef1a412e4701885717d.zip",
+    "hash": "sha256-z/H23858naAnAGZTckl2hJEEh7GzonI9OZixvFbIOns="
+  },
+  {
+    "id": 483,
+    "name": "Post Percentage",
+    "version": "1.0.0",
+    "description": "See just how bad at shooting you are",
+    "url": "https://cdn.bakkesplugins.com/uploads/90015_daafbce36245af329458f00b767e94c8a51590c8780b4cbfdecf032ae566ad6a.zip",
+    "hash": "sha256-dMts0ejRPo95WEqJGqCSwptH4cg5EtF1MIzMvWkk7Lg="
+  },
+  {
+    "id": 490,
+    "name": "SoundBoardPlugin",
+    "version": "1.0.0",
+    "description": "RocketLeague_SoundBoard_BakkesModPlugin is a soundboard plugin that plays custom sounds during game events in Rocket League.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_3f5c268879b9bb2192f5b837aea2b9afe7285c2b659a0ce89cb3615e42fb4085.zip",
+    "hash": "sha256-dGAhEBC1GClnV5EbOwyqL1RXAHWDWB80yC5SI+TO82I="
+  },
+  {
+    "id": 494,
+    "name": "Heatseeker Goal Blocker (Freeplay)",
+    "version": "1.0.3",
+    "description": "A BakkesMod plugin that allows you to practice Heatseeker mode with blocked goals. Perfect for improving your Heatseeker skills in a free play environment.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_b98b42113e5300d7179e44a0736bc0648758394a0c2d44965eec074a1beaa054.zip",
+    "hash": "sha256-nALepaFQ8lbugbo0+5RuPoRyWUOUyRgxmJx1+wjddX8="
+  },
+  {
+    "id": 503,
+    "name": "CustomUI",
+    "version": "1.0.3",
+    "description": "A fully customizable UI integrated inside Rocket League",
+    "url": "https://cdn.bakkesplugins.com/uploads/e92ec9ce22c94ff8ae2d0657bba54ded-Bakkesplugin_503_20251005.2.zip",
+    "hash": "sha256-/QyXhmovBNcHSRONj542BXyyOmKG3ejJ7PYLeRA3EVg="
+  },
+  {
+    "id": 505,
+    "name": "TrainingPerformanceGraphs",
+    "version": "1.0.2",
+    "description": "Automatically track your custom training data, visualize your improvements!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_48115f3dc513144caee9eddbed6162b67912df4607c8b5cf00ba00a88181063d.zip",
+    "hash": "sha256-YPAt05bTtpjWyw3gUXg/RC7C1XNHu2RIjMOYpp/xewk="
+  },
+  {
+    "id": 506,
+    "name": "Rocky",
+    "version": "1.0.7",
+    "description": "Replay uploader to Rocky Website",
+    "url": "https://cdn.bakkesplugins.com/uploads/c5257ab182cc4fb6a03b486aafb65800-Bakkesplugin_506_20251005.2.zip",
+    "hash": "sha256-fpn9EFFXxL1m5xjRj5W54Uwgg6F4Yi2eIoFrTAKJmWU="
+  },
+  {
+    "id": 509,
+    "name": "KBM Overlay",
+    "version": "1.0.2",
+    "description": "A new and improved KBM Overlay for Rocket League!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_9e36c1d4f6fd6fcf4fb09406ce89927f0b03594bae4dcd6bc6f1d10bd615108b.zip",
+    "hash": "sha256-ztH/HCyqHZ4iFQD//BandlKTpjgOQEI+fP8KZW0aaeE="
+  },
+  {
+    "id": 510,
+    "name": "Jake's Flip Directional Indicator",
+    "version": "1.0.3",
+    "description": "Simple plugin for feedback on flip direction",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_d92cec3a16062092e2b491d2ebf1fa32522a212230c9c278c808dabc2cbca67d.zip",
+    "hash": "sha256-sc3knBO/3iXO8zGzjhTGKX4GbsiuGoTR3I6xCU0f9p8="
+  },
+  {
+    "id": 511,
+    "name": "TrackerCheck",
+    "version": "1.0.4",
+    "description": "Check the tracker of any player in your games in 2 clicks.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_b412ba72daba0d9b1f3e524e4148de2dbf4697c05f584e39a5062a3e90d17235.zip",
+    "hash": "sha256-UG4LfqEV3ubQ3qFTMNsUAQL6lGTHbXejVMB/Ux24UUM="
+  },
+  {
+    "id": 514,
+    "name": "Fast Aerial Trainer / Jump Timing Trainer",
+    "version": "1.0.5",
+    "description": "Measure jump inputs for training fast aerials, speed-flips and wall-dashes.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_0ad2740c4d88f534c8a818129f7240d26359c82b2d952145d63656418bc8d508.zip",
+    "hash": "sha256-6YHVrAylkiMG9rpWrdbv+jDuuyzpNU3VUwUmwXK6AMU="
+  },
+  {
+    "id": 515,
+    "name": "Kickoff Boost Manager",
+    "version": "1.0.2",
+    "description": "Automatically adjusts players' boost levels during kickoffs for a fair and customizable experience.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_a19166c043a73c6e54d4bf8d3a8c581875cfd3620e8327adbab2529d6cd9d03c.zip",
+    "hash": "sha256-usfkG8Y3VkAEGs+HzUtuSk+4AIPxg4HTJijoqGa39Vw="
+  },
+  {
+    "id": 516,
+    "name": "Joystick Visualization",
+    "version": "1.0.2",
+    "description": "Visualize how the game interprets your joystick inputs in real-time",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_f56f3f86cae8c822368cc933c7f624ae77b5178d0e4b8b41a2670422ed516ac6.zip",
+    "hash": "sha256-yO48PeGjgBHYnOMHnbd9IMPtQ9fRtgWVZ/NKVG1+abw="
+  },
+  {
+    "id": 521,
+    "name": "KPH Challenge",
+    "version": "1.0.0",
+    "description": "Visually track and challenge your Rocket League goal speeds in freeplay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_f8980afd103ceec53c8b9f4da1bb7cc0b5fa0f0a45ff4e7e053829e6d49e1aae.zip",
+    "hash": "sha256-+tOGeRTy/gq/xQR3cFhNAiogRFC4YsILDcN4kDY100E="
+  },
+  {
+    "id": 522,
+    "name": "Joystick Viewer",
+    "version": "1.0.0",
+    "description": "Customizable joystick input viewer for verifying joystick quality and seeing the joystick position history immediately surrounding a jump input.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_2148b955caba7858ebc3fb238512cf55095b79947c73c13246ea3bc499e2969f.zip",
+    "hash": "sha256-6BcHlyKTF5cfLSSt9Irvp+6dGS8o509OY5CA1IWjKm0="
+  },
+  {
+    "id": 523,
+    "name": "Alternative Crossbar Sounds",
+    "version": "1.0.4",
+    "description": "Replaces the crossbar ping with a different sound",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_65435e3c6c0ffbcaee256df71ee1ef634429611ccb090c5f9c0c3913216f763c.zip",
+    "hash": "sha256-X6B+w+VY05fzBVVI+8u/XRGyx30Y7vAng+lSKlHsqcw="
+  },
+  {
+    "id": 527,
+    "name": "AnonymousPfps",
+    "version": "1.0.0",
+    "description": "Removes ingame pfps (Steam Only)",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_877f275641fe8edae4dc09b8e72be9cdd2db2299764be53b5e1a8033fddebce4.zip",
+    "hash": "sha256-rkBdnyXMcqlecTZmr/khm1Bxi+c/arMqi0O8gcr5etE="
+  },
+  {
+    "id": 529,
+    "name": "DINGDONG Deactivate/Change Crossbar Sound",
+    "version": "1.0.2",
+    "description": "Crossbar sound Changer/Deactivate",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_fe0dc73c91c6567b299ca559be0f39d4511d1f3632a5934bf88abfe7a5542ae6.zip",
+    "hash": "sha256-SSrB68WGOSKwZjnIH6ubT6R93oTaSPU0sNMd0Zn5oGw="
+  },
+  {
+    "id": 532,
+    "name": "GameStats",
+    "version": "1.0.2",
+    "description": "The Match Statistics Exporter plugin for Rocket League automatically records and exports basic player statistics from matches to CSV files. It captures essential data including goals, assists, saves, shots, and demos, boosts/pads picked up, boost usage and possession time for all players in the match. Ideal for tournament organizers and league administrators who need simple player performance tracking for their events.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_84d16f16cd88301e3cb61e80f1bca668ae6d8102b17035c85ce624f25a987232.zip",
+    "hash": "sha256-0rTr5kMs0ucDqxgUTQXk2vWQ+sCUEaLutPfpahCxcLg="
+  },
+  {
+    "id": 534,
+    "name": "Organize My BakkesMod Garage",
+    "version": "1.0.5",
+    "description": "Small plugin to organize presets into groups, and search through presets",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_256173141aaa44dd88755b8ebbe72f84bae707751cc8c1f1b27281fa6169afde.zip",
+    "hash": "sha256-avgHVK4bD+fpqjQE1dTqz6KWkk63jj3ftM4ilDtzzIU="
+  },
+  {
+    "id": 535,
+    "name": "Best Game Mode Splitted MMR!",
+    "version": "1.0.0",
+    "description": "MMR Tracker for 1vs1 2vs2 and 3vs3 individually. It also tells you Actual Rank per game mode and MMR To promotion.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_d9d3abe6d88d2608ea9ddb08d035be69c5fb21da9c8a5447c29b6641e2fa0c85.zip",
+    "hash": "sha256-pp4YdghrnfkDAGuFFBSzFh8paG/O0IBiLoRkj0aTMFA="
+  },
+  {
+    "id": 540,
+    "name": "EventSFX",
+    "version": "1.0.2",
+    "description": "Play custom sound effects on events and key presses",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_3500e4bd78f245dad7c0eba671b79d548595b792fe30f7c51fa6b0239e41a8f3.zip",
+    "hash": "sha256-ASsvzYd8yOQ6ppymGZ/dlcKYVEuyPQbgbn5rQAbCFwQ="
+  },
+  {
+    "id": 541,
+    "name": "Altitude Meter",
+    "version": "1.0.0",
+    "description": "Elevate your Rocket League aerial game with Altitude Meter - the customizable real-time overlay that tracks car and ball height so you can soar with precision!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_4691d66913a8686460915afc199162c842a996a911ad7fe9a3ad6ec45c4f23ee.zip",
+    "hash": "sha256-jsnEYd10E2WB0Kjb54pPvSMjl4IdXEYZF+Tf3b56ZK4="
+  },
+  {
+    "id": 542,
+    "name": "KeepTraining",
+    "version": "1.0.0",
+    "description": "Never waste time between matches again! This BakkesMod plugin automatically launches Freeplay, Custom Training or Workshop maps sessions at the end of Rocket League matches, helping you maintain practice momentum and improve more efficiently.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_bcb9ef81a4edd18dd0e673428df852f438f34af664251548d953d282b96b4c27.zip",
+    "hash": "sha256-7JOxjqyGbnXwBWG1Br9vS/S1aB8ySPCS+/ve6TS0VTU="
+  },
+  {
+    "id": 543,
+    "name": "FreeplayBallLoader",
+    "version": "1.0.0",
+    "description": "Loads any non-mutator ball into freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_03b8aadab6cc3417dc76a6ddf467ac04cc5a64e0069356701215c2004309aaae.zip",
+    "hash": "sha256-1S8FEdeMekFHBT+2gqiujtuE1K06xu4/zkXT/rnKJvc="
+  },
+  {
+    "id": 544,
+    "name": "Tachometer Display",
+    "version": "1.0.0",
+    "description": "Displays car speed in KM/H in a clean tachometer style HUD",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_8bf14d340acb936e98799308f1052fb2f8010e3da87d664d8be7f5910a91176f.zip",
+    "hash": "sha256-8Ajzz9srNzdSmxMImUDK+C4TBY+O+bXPgB93nvcwUbU="
+  },
+  {
+    "id": 545,
+    "name": "Air Dribble Trainer",
+    "version": "1.0.0",
+    "description": "A plugin to help you practice controlling the ball in the air.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_6ec053d0f2623960f3db2c8e62062f80eb2c52df67a1b240e0e009155a09f104.zip",
+    "hash": "sha256-J2kgFJF0IqgSF0xBWXOvJ9HRhQvbGW61+1jNweYmwVk="
+  },
+  {
+    "id": 546,
+    "name": "Dribble Trainer",
+    "version": "1.0.0",
+    "description": "A plugin to help you practice controlling the ball on the ground",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_310a4c0304c8aaef30c1f8ed19ae4c4adda87973dcac7a6d71ad1961d10064f0.zip",
+    "hash": "sha256-7qmw+bMam7f3cbiT/CZFdWwzqs0i5Md/YGcE4zQhSEY="
+  },
+  {
+    "id": 547,
+    "name": "ServerNameHider",
+    "version": "1.0.0",
+    "description": "Hides the \"Server: ....\" top left when you open the scoreboard...anywhere.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_0d8b55992615ce20d760ff48493dae48415c3d7e78fc6b9d96ddccc8c454fdc5.zip",
+    "hash": "sha256-50bwctEz5W/q4y6VdRkzMNGPf8yZt0Y07G6E08YZWrA="
+  },
+  {
+    "id": 548,
+    "name": "Azerty KBM Overlay",
+    "version": "1.0.0",
+    "description": "Azerty KBM Overlay is a BakkesMod plugin that displays real-time keyboard (AZERTY) and mouse inputs, perfect for content creators or players who want to visualize their inputs. Stylish, smooth, and designed for AZERTY!",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_2d5c5a94ecdd4fbd1d605463390476c34ad34c3187a1958e57300e23af9e5dd1.zip",
+    "hash": "sha256-6COnqm8eUtgkAirAoVqjsWdiAe1aJNSulceUFRrVQVU="
+  },
+  {
+    "id": 553,
+    "name": "ReplayFix",
+    "version": "1.0.0",
+    "description": "Fixes replays",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_0e56b2c4916ec5607a6841b9ae7ed6f18abe6d30849bd8a38f76d8efee5760af.zip",
+    "hash": "sha256-mqNY4E8Y/mm/e8Cf87mReHE/ZWQJB1F+xyFmXv6/doY="
+  },
+  {
+    "id": 555,
+    "name": "Ballspeed",
+    "version": "1.0.0",
+    "description": "Displays the speed of the ball!",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_c5664cdcdaf657fdb1a5f61b476bf968198152fd740d0d51ac9b8ad78acae0a9.zip",
+    "hash": "sha256-gmirxe5+xzII2kOOyFkKqNkLLukHcGb12MPmh9/V3fM="
+  },
+  {
+    "id": 556,
+    "name": "Wall Dash Trainer",
+    "version": "1.0.0",
+    "description": "Wall dashes require very fast double jumps. This plugin tells you how fast you are clicking the jump button.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_bc65be12f89335de2f55863aca957f26012250ede2a45d1aefbc3a1927ec14f6.zip",
+    "hash": "sha256-fVUWvVxEHEN7yHMdB1fTW6ROMW0fxWcVwEPt+Ra1PiI="
+  },
+  {
+    "id": 559,
+    "name": "Versatile Training",
+    "version": "1.0.4",
+    "description": "Unlock Custom training options to enhance your training",
+    "url": "https://cdn.bakkesplugins.com/uploads/8485cac13ae4407f80d8de799249aef6-Bakkesplugin_559-public-20251212-041410.zip",
+    "hash": "sha256-fkU+ImdIgAGuP2Obsg84Xkg1F+QrE5wjmXQwlOWftxs="
+  },
+  {
+    "id": 562,
+    "name": "FFTwoStick",
+    "version": "1.0.0",
+    "description": "FF immediately by clicking L3 + R3",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_0dd323175a57a0f42bef91f7a8a05ae321a7643ba6877e8bda6a6eeb1a9dfaa6.zip",
+    "hash": "sha256-YAQ63asi5gB5q+yTQ1nXj6wLYiveEhYlkT7M4g/6CgI="
+  },
+  {
+    "id": 563,
+    "name": "AppearOffline",
+    "version": "1.0.0",
+    "description": "Appear offline so no one can invite you",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_814c53bf72c95cff05a1be00eaf9df3d46e7d489bb5912d7d87c76ae93493d67.zip",
+    "hash": "sha256-VwlrrAR7CCRcXnb74ClvJgSQ5o4PWppKoSXuxfHw9yQ="
+  },
+  {
+    "id": 571,
+    "name": "Instant Ready-Up",
+    "version": "1.0.0",
+    "description": "Auto ready up in casual and private matches",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_0e42603b971d3c268fb5bc17af6905bc95b47618457e2a65a9a70e129aca54f3.zip",
+    "hash": "sha256-svyESE72c8FmG98CnejCNK6MyoD2J6D4kVc44c2Pffo="
+  },
+  {
+    "id": 575,
+    "name": "Syncify",
+    "version": "1.0.3",
+    "description": "Displays the current song you are listening to on Spotify",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_c6a3763de904f300732503d746d5caf9c526bb6337bcc50ef9ce3e39be3e71f5.zip",
+    "hash": "sha256-KxbkZDS+v30jlCcIcXRbowWqD6ohF9Zzo9vav3JaGqg="
+  },
+  {
+    "id": 577,
+    "name": "FreeCamMenu",
+    "version": "1.0.2",
+    "description": "Screenshot took with this plugin! | Free camera in main menu",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_6e7d54f675b241878443ed0969d424b51eb256098087054743f0489783700a13.zip",
+    "hash": "sha256-lyH0MXhCskX0SQ44RiX0QHDLc/eWqpWT5w9sVPl2LuI="
+  },
+  {
+    "id": 578,
+    "name": "Fix Training Start",
+    "version": "1.0.0",
+    "description": "small plugin to make it such that you start on the ground in training packs",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_143baef1731af5776bc2f0e881e347fe26ba36829dbce0c44b0f723292d9c1fc.zip",
+    "hash": "sha256-BAeZU9oeD+sUxERYgaJDaAAzIXshJhYa6fR79U5VlYk="
+  },
+  {
+    "id": 579,
+    "name": "Boost Countdown Timer",
+    "version": "1.0.0",
+    "description": "Shows when boost will spawn next",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_865517ff157a3e4a8f0a2d67dfcc794eb410b2d2145f4d739c77de8b13e3d4e0.zip",
+    "hash": "sha256-MSfuLBFztt8GLugw+wr8nIsUAtlrBdcwHI7Vv3WkiaU="
+  },
+  {
+    "id": 583,
+    "name": "Better POV Bindings",
+    "version": "1.0.0",
+    "description": "This plugin ensures consistent spectator POV bindings across games",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_6a658fb8f15bbad33c23f75c0e28c27b125bd3e6f798e12a359d4e0c5934bcc1.zip",
+    "hash": "sha256-UEQ4PU/1pPKV49m5uG7ySifjKzOq7XEbjwFZvuSR/ig="
+  },
+  {
+    "id": 584,
+    "name": "Better Kickoff Training",
+    "version": "1.0.0",
+    "description": "Train Kickoffs Against Yourself in Freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_e0b3b325acba42a3e9b15b6810af8c97c523e22acc6ff17d75d280d417f25a03.zip",
+    "hash": "sha256-R9vWzDNVo8fR7qLZKQRldvBaFFeE6L8wT5FKZ3BGOdI="
+  },
+  {
+    "id": 586,
+    "name": "DisableCrateAnim",
+    "version": "1.0.0",
+    "description": "Disables the crate opening animation",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_28dbe18cb4858a406c82be1f3c65f72e4c7c0bd387e2a2cbec86fc0c2c663995.zip",
+    "hash": "sha256-czD/6UyLUuNEzWtbALArCsgCaziGpfh3+E5mt6SQLYg="
+  },
+  {
+    "id": 590,
+    "name": "Crossbar Counter",
+    "version": "1.0.0",
+    "description": "Tracks crossbar and post hits during matches or training. Simple, visual, and customizable.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_c73d46475253244997fe6820b526bcffbeccd7a1b59e20fac802eb504e64b57c.zip",
+    "hash": "sha256-cGR3VVr1v7oF1RFInov/3E/4iFhrEj+Ao8nS46tgoAI="
+  },
+  {
+    "id": 597,
+    "name": "MMR / Stat Display",
+    "version": "1.0.0",
+    "description": "Clean MMR / Current Session Stat Display, much like the one Kaydop uses.",
+    "url": "https://cdn.bakkesplugins.com/uploads/28_49f4be7f87866577280efb358cca8f34d80257749253d99f0f34764456e096d2.zip",
+    "hash": "sha256-MfFz3NmdFhPNeOxmvMmnf2r/RvjgkT1iVeNBuh3OGTc="
+  },
+  {
+    "id": 598,
+    "name": "MusicSync",
+    "version": "1.0.0",
+    "description": "An in-game overlay for currently playing media",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_2e8b7cbd33295a576af78531bbe7f30f3407b894d1e9e93593e6ed03cbcbac4c.zip",
+    "hash": "sha256-Ek0zmhOcmV2AQReXCHhw14nVQ00dUC2gCcACJsZPJqs="
+  },
+  {
+    "id": 599,
+    "name": "Color Changer Re-Mastered",
+    "version": "1.0.2",
+    "description": "Old Color Changer plugin brought back to life",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_115390fb01a6e21a1dd393cc0c884d08065392b81c9dba0e40e6cf1d3fbcd478.zip",
+    "hash": "sha256-wYTisWyyJMYIcRQZgCSWN8kKCBPSEMGLrXeX/otR62E="
+  },
+  {
+    "id": 603,
+    "name": "Disruptor Training",
+    "version": "1.0.0",
+    "description": "Enables a constant disruptor on your car",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_084768e3f6acc4aa920885017ea595a7d5b108b8254f47e3cc7c2f9dc0463b04.zip",
+    "hash": "sha256-15c5LUcGBMby3yRfpaerxvvJFlo+IFWmehFx+UUEsXo="
+  },
+  {
+    "id": 604,
+    "name": "RL2MQTT",
+    "version": "1.0.213",
+    "description": "Publish match events to MQTT",
+    "url": "https://cdn.bakkesplugins.com/uploads/2ea827ad9e624a9cab759953688f3103-Bakkesplugin_604_20251105.2.zip",
+    "hash": "sha256-edGXZUoXmZ/Ow7CL/p/+QUmNfdNukldf8oixhjFobic="
+  },
+  {
+    "id": 608,
+    "name": "SSA Plugin",
+    "version": "1.0.0",
+    "description": "Automatic Scrim Training",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_989b4f01a817c7bd65c2537c8e0de8e88b9fcadebcec54f675b0a2e52f36f026.zip",
+    "hash": "sha256-xB74ycEC35VezmKaHOTVfFoeUKivk9HTjI1Gs4jf2jQ="
+  },
+  {
+    "id": 611,
+    "name": "Pogo Trainer",
+    "version": "1.0.0",
+    "description": "Plugin for practicing Pogo Shots, and Pogo Recoveries.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_89a238194858fedf2326fb482663ed6e0cdf05cf9b5f9806b98a2577501f27d6.zip",
+    "hash": "sha256-LvbAERNcknF7cBIFg8BmEBV/6H6mwte9biQYYGWFyiw="
+  },
+  {
+    "id": 613,
+    "name": "RPG Mod",
+    "version": "1.0.0",
+    "description": "Your car body choice decides which class of attributes you have.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_0b3dd569600847f8a73909beb21038af6af1c1b61ab493481d188b88c7de751e.zip",
+    "hash": "sha256-mj6C66LQMSATFeQ8m6Cl7IpsfuXA/Z+HYlncpaK95tQ="
+  },
+  {
+    "id": 616,
+    "name": "GPSpeeder",
+    "version": "1.0.0",
+    "description": "changes speed & lift of ground pinches",
+    "url": "https://cdn.bakkesplugins.com/uploads/1_29c80aa5a3d5be3f8c0b300c6cceb757ba3883fbb728149ac5d1de737d776ed6.zip",
+    "hash": "sha256-5zfNFdzemUx4RhdROaqFx1DZsqy2BOIP/qEDL6AG7nI="
+  },
+  {
+    "id": 620,
+    "name": "QuickSuite",
+    "version": "1.2.2",
+    "description": "Instantly join freeplay, training or workshop maps after a match!",
+    "url": "https://cdn.bakkesplugins.com/uploads/2162d49cb05e4ca6af275e04ca0cecb2-Bakkesplugin_620-public-20251217-230652.zip",
+    "hash": "sha256-CmDewQE6ow7F1vJP5Op5ZkFAsS67Saf/er5qfs0EQnI="
+  },
+  {
+    "id": 622,
+    "name": "AccessEnabled",
+    "version": "1.0.1",
+    "description": "Enables access to menus previously inaccessible.",
+    "url": "https://cdn.bakkesplugins.com/uploads/241182e2c8b240e68dfeadec1376de87-Bakkesplugin_622_20251030.2.zip",
+    "hash": "sha256-guPIiFVOXjEzDVOIn2vEBAr3waBl3yikghjj0JI8dyA="
+  },
+  {
+    "id": 623,
+    "name": "Color Blind Color Changer",
+    "version": "1.0.2",
+    "description": "Customize colors of certain elements in Rocket League when using Color Blind Mode",
+    "url": "https://cdn.bakkesplugins.com/uploads/36f7a0606da9413499f961aa286af0a0-Bakkesplugin_623-public-20251211-152653.zip",
+    "hash": "sha256-ylyN5V38FJ5YAVhimFjCjXquENtGdQWXLRaqYk7/npo="
+  },
+  {
+    "id": 624,
+    "name": "ConsistencyTrainer",
+    "version": "1.0.0",
+    "description": "A pretty simple consistency training tracker, tracks consistency of shots in a shot pack",
+    "url": "https://cdn.bakkesplugins.com/uploads/afb38d61247d4838b7ed2fbe92f00e7c-Bakkesplugin_624_20251021.2.zip",
+    "hash": "sha256-riTH9Q/4boL9s/U7Wmoq+D0gfL4pyURTmslNHun0hFs="
+  },
+  {
+    "id": 648,
+    "name": "Custom freeplay shots",
+    "version": "0.6.7",
+    "description": "Add and use custom shots in training like training packs but in freeplay type shi",
+    "url": "https://cdn.bakkesplugins.com/uploads/36cf7f43546f49c682155cdd25a71ab3-Bakkesplugin_648_20251029.1.zip",
+    "hash": "sha256-RsWWkCSVBhgNL4WFzsw6/W0c0Y5SyzDtPu1WtrdLqBs="
+  },
+  {
+    "id": 650,
+    "name": "What if...?",
+    "version": "1.0.1",
+    "description": "A bakkesmod plugin that asks \"what if we were able to do certain things in Rocket League?\"",
+    "url": "https://cdn.bakkesplugins.com/uploads/06256072437c49f6a5c8594702ceec78-Bakkesplugin_650-public-20251217-160039.zip",
+    "hash": "sha256-naHCtbz5jFUV19vyUgEtoHAbYUDLka8dLIubmVKMpvs="
+  },
+  {
+    "id": 662,
+    "name": "Match Admin Hotkeys",
+    "version": "1.0.0",
+    "description": "Use your keyboard to control match admin commands.",
+    "url": "https://cdn.bakkesplugins.com/uploads/93e897869b744b1fbbfb0e02a68ab081-Bakkesplugin_662_20251115.1.zip",
+    "hash": "sha256-tvq0ycQSlJKKfNW5PvFbkaJ1CJkwJ8jFLv4jLjuV+UI="
+  },
+  {
+    "id": 665,
+    "name": "ReplayViewer",
+    "version": "1.0.0",
+    "description": "This plugin lets you jump into replays from almost anywhere in the game.",
+    "url": "https://cdn.bakkesplugins.com/uploads/9bd5d0e6462a4e1c8f1c080d15f0e66b-Bakkesplugin_665_20251116.1.zip",
+    "hash": "sha256-3ZO8Thg1IlCjbDaEUCJjgJ2QORo0CXQSo5hvR/3US+w="
+  },
+  {
+    "id": 667,
+    "name": "Forfeit Command",
+    "version": "1.0.0",
+    "description": "Vote to forfeit with the press of a button",
+    "url": "https://cdn.bakkesplugins.com/uploads/18f9ffce1d024c39a335a89f53283d32-Bakkesplugin_667-public-20251118-022057.zip",
+    "hash": "sha256-AxBK8/z9ltvLHmGnHNhKCkVp80Kp8xo+4NHo5px4iYU="
+  },
+  {
+    "id": 668,
+    "name": "AirDribble Indicator Ring",
+    "version": "1.0.0",
+    "description": "Visual ring and hit markers to help practice air dribbles and flip resets.",
+    "url": "https://cdn.bakkesplugins.com/uploads/752ed729578a4827944a34b6f7849a4c-Bakkesplugin_668-public-20251122-001850.zip",
+    "hash": "sha256-AgGq981LaRyQ1A49JDiLQhiltYEEZni0Dh7LsZII2a8="
+  },
+  {
+    "id": 669,
+    "name": "Creative Mode Plugin",
+    "version": "1.0.0",
+    "description": "A plugin to be used in conjunction with the Creative Mode map for saving and loading creations",
+    "url": "https://cdn.bakkesplugins.com/uploads/ade28377149a4d748850cb84352a8c14-Bakkesplugin_669-public-20251130-165059.zip",
+    "hash": "sha256-I3S89N2u1buSe8PU3hbWkuQdDW5x/0lXplQc3yXwLI4="
+  },
+  {
+    "id": 678,
+    "name": "AutoForfeit",
+    "version": "1.0.0",
+    "description": "Automatically forfeit during a match given set conditions.",
+    "url": "https://cdn.bakkesplugins.com/uploads/ab2a3a4e00b74b92a09b183348acdfc7-Bakkesplugin_678-public-20251217-155505.zip",
+    "hash": "sha256-VvXxKqMKgf0W91ip9aCB5h0SQotJqtglhdBjIYMjing="
+  },
+  {
+    "id": 679,
+    "name": "Multi-bind",
+    "version": "1.0.0",
+    "description": "Be able to bind the same action to multiple keys.",
+    "url": "https://cdn.bakkesplugins.com/uploads/24eeb28fc97548aca8092811f97b66f1-Bakkesplugin_679-public-20251217-154557.zip",
+    "hash": "sha256-uq8p1ASh+2QNjdHu6/YUvWI1TiowR1LVIb9E38qSAJM="
+  },
+  {
+    "id": 680,
+    "name": "FixTrainingGameSpeed",
+    "version": "1.0.0",
+    "description": "Fixes the issue where bakkesmod ignores the game speed set in game in training modes.",
+    "url": "https://cdn.bakkesplugins.com/uploads/4415ba2860354c1497dc922b21a18557-Bakkesplugin_680-public-20251215-000147.zip",
+    "hash": "sha256-Uyz8GS4nHgkd6DkLOIOKK4v1MV8IUXSJoeQ1KcsAKYw="
+  },
+  {
+    "id": 684,
+    "name": "Invisible Mod",
+    "version": "1.0.0",
+    "description": "Turns all cars on the field invisible",
+    "url": "https://cdn.bakkesplugins.com/uploads/17861af128034a0b9b5dc594078f778a-Bakkesplugin_684-public-20251220-042732.zip",
+    "hash": "sha256-fSLRrIrEudOXMcH2cJY6bOQuC5cNm9ojcYsvO9Thm8Y="
+  }
+]
