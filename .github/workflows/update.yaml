@@ -1,10 +1,10 @@
 name: Update Plugins
 
 on:
-  schedule:
-    # Run daily at 6 AM UTC
-    - cron: "0 6 * * *"
-  workflow_dispatch: # Allow manual trigger
+  # Disabled: bakkesplugins.com blocks GitHub Actions IPs
+  # schedule:
+  #   - cron: "0 6 * * *"
+  workflow_dispatch: # Manual trigger only
 
 jobs:
   update:
