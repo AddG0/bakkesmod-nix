@@ -9,6 +9,7 @@
   lib,
   cfg,
   configLib,
+  normalizedPlugins,
   ...
 }:
 with lib; let
@@ -18,14 +19,14 @@ with lib; let
     optionalString (p.extraConfig != "") ''
       // Plugin: ${p.plugin.pname or "unknown"}
       ${p.extraConfig}''
-  ) cfg._normalizedPlugins;
+  ) normalizedPlugins;
 
   # Sanitize plugin names for safe shell usage
   validatePluginName = name:
     if builtins.match "^[a-zA-Z0-9_-]+$" name != null
     then name
     else builtins.replaceStrings [" " "'" "\"" "&" "|" ";" "$" "`" "(" ")" "[" "]" "{" "}" "<" ">" "\\"] ["_" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""] name;
-in {
+in rec {
   bakkes-config-sync = pkgs.writeShellScriptBin "bakkes-config-sync" ''
     set -euo pipefail
 
@@ -108,7 +109,7 @@ EOF
             WANTED_PLUGINS+=("${safeName}")
         fi
       '')
-      cfg._normalizedPlugins}
+      normalizedPlugins}
 
     is_plugin_wanted() {
         local check_name="$1"
@@ -129,7 +130,7 @@ EOF
 
         if ! is_plugin_wanted "$PLUGIN_NAME"; then
             log "Removing plugin: $PLUGIN_NAME"
-            
+
             while IFS= read -r file || [[ -n "$file" ]]; do
                 [[ -z "$file" ]] && continue
 
@@ -186,12 +187,10 @@ EOF
 
             # Find DLL name for plugins.cfg entry
             DLL_NAME=""
-            if [ -d "${p.plugin}/share/bakkesmod/plugins" ]; then
-                DLL_FILE=$(find "${p.plugin}/share/bakkesmod/plugins" -maxdepth 1 -name "*.dll" -printf "%f\n" 2>/dev/null | head -1)
-                if [ -n "$DLL_FILE" ]; then
-                    DLL_NAME="''${DLL_FILE%.dll}"
-                    DLL_NAME=$(echo "$DLL_NAME" | tr '[:upper:]' '[:lower:]')
-                fi
+            DLL_FILE=$(find "${p.plugin}/share/bakkesmod" -name "*.dll" -printf "%f\n" 2>/dev/null | head -1)
+            if [ -n "$DLL_FILE" ]; then
+                DLL_NAME="''${DLL_FILE%.dll}"
+                DLL_NAME=$(echo "$DLL_NAME" | tr '[:upper:]' '[:lower:]')
             fi
 
             # Copy plugin files, preserving directory structure
@@ -231,14 +230,16 @@ EOF
                 touch "$BAKKES_DATA/cfg/plugins.cfg"
 
                 if ! ${pkgs.gnugrep}/bin/grep -qF "plugin load $DLL_NAME" "$BAKKES_DATA/cfg/plugins.cfg" 2>/dev/null; then
+                    # Ensure file ends with newline before appending
+                    [ -s "$BAKKES_DATA/cfg/plugins.cfg" ] && [ -n "$(tail -c1 "$BAKKES_DATA/cfg/plugins.cfg")" ] && echo >> "$BAKKES_DATA/cfg/plugins.cfg"
                     echo "plugin load $DLL_NAME" >> "$BAKKES_DATA/cfg/plugins.cfg"
                     log "Enabled $DLL_NAME in plugins.cfg"
                 fi
             fi
         fi
       '')
-      cfg._normalizedPlugins}
-
+      normalizedPlugins}
+    
     log "Plugin sync complete"
   '';
 
@@ -318,7 +319,7 @@ EOF
         while ! game_running; do
             ${pkgs.coreutils}/bin/sleep 0.5
             WAIT_COUNT=$((WAIT_COUNT + 1))
-            if [ $WAIT_COUNT -gt 600 ]; then
+            if [ "$WAIT_COUNT" -gt 600 ]; then
                 log "ERROR: Timeout waiting for game"
                 exit 1
             fi
@@ -328,16 +329,17 @@ EOF
         log "Game detected (PID: $GAME_PID), initializing..."
         BAKKES_DATA="$RL_PREFIX/pfx/drive_c/users/steamuser/AppData/Roaming/bakkesmod/bakkesmod"
 
-        # Sync config/plugins before launching BakkesMod (if data dir exists from previous run)
-        if [ -d "$BAKKES_DATA" ]; then
-            log "Syncing config and plugins..."
-            ${cfg._scripts.bakkes-config-sync}/bin/bakkes-config-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Config sync failed"
-            ${cfg._scripts.bakkes-plugin-sync}/bin/bakkes-plugin-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Plugin sync failed"
+        FIRST_RUN=false
+        if [ ! -d "$BAKKES_DATA" ]; then
+            FIRST_RUN=true
+            log "First run - plugins will load on next launch"
         else
-            log "First run - will sync after BakkesMod creates data directory"
+            log "Syncing config and plugins..."
+            ${bakkes-config-sync}/bin/bakkes-config-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Config sync failed"
+            ${bakkes-plugin-sync}/bin/bakkes-plugin-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Plugin sync failed"
         fi
 
-        if ! kill -0 $GAME_PID 2>/dev/null; then
+        if ! kill -0 "$GAME_PID" 2>/dev/null; then
             log "ERROR: Game exited during init"
             exit 1
         fi
@@ -351,33 +353,34 @@ EOF
         ${pkgs.coreutils}/bin/sleep 2
         ${pkgs.wmctrl}/bin/wmctrl -a "Rocket League" 2>/dev/null || log "Could not refocus game window"
 
-        # On first run, wait for data dir and sync
-        if [ ! -d "$BAKKES_DATA" ]; then
+        # On first run: wait for BakkesMod to create defaults, then sync for next launch
+        if [ "$FIRST_RUN" = true ]; then
+            log "Waiting for BakkesMod to initialize..."
             WAIT_COUNT=0
-            while [ ! -d "$BAKKES_DATA" ] && [ $WAIT_COUNT -lt 60 ]; do
-                kill -0 $BAKKES_PID 2>/dev/null || { log "ERROR: BakkesMod died"; exit 1; }
+            while [ ! -d "$BAKKES_DATA/cfg" ] && [ "$WAIT_COUNT" -lt 60 ]; do
+                kill -0 "$BAKKES_PID" 2>/dev/null || { log "ERROR: BakkesMod died"; exit 1; }
                 ${pkgs.coreutils}/bin/sleep 1
                 WAIT_COUNT=$((WAIT_COUNT + 1))
             done
 
-            [ ! -d "$BAKKES_DATA" ] && { log "ERROR: Timeout waiting for data dir"; exit 1; }
-
-            log "Syncing config and plugins..."
-            ${cfg._scripts.bakkes-config-sync}/bin/bakkes-config-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Config sync failed"
-            ${cfg._scripts.bakkes-plugin-sync}/bin/bakkes-plugin-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Plugin sync failed"
+            if [ -d "$BAKKES_DATA/cfg" ]; then
+                log "Syncing config and plugins for next launch..."
+                ${bakkes-config-sync}/bin/bakkes-config-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Config sync failed"
+                ${bakkes-plugin-sync}/bin/bakkes-plugin-sync "$BAKKES_DATA" >> "$BAKKES_LOG" 2>/dev/null || log "ERROR: Plugin sync failed"
+            fi
         fi
 
         log "Ready! Waiting for game to exit..."
 
         # Wait for game to exit using kill -0 (lightweight PID check)
-        while kill -0 $GAME_PID 2>/dev/null; do
+        while kill -0 "$GAME_PID" 2>/dev/null; do
             ${pkgs.coreutils}/bin/sleep 0.5
         done
 
         log "Game exited, stopping BakkesMod..."
-        kill $BAKKES_PID 2>/dev/null || true
+        kill "$BAKKES_PID" 2>/dev/null || true
         ${pkgs.coreutils}/bin/sleep 0.5
-        kill -9 $BAKKES_PID 2>/dev/null || true
+        kill -9 "$BAKKES_PID" 2>/dev/null || true
         log "Session ended"
     ) &
 

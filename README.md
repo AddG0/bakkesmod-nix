@@ -147,6 +147,9 @@ The launcher automatically:
 > [!NOTE]
 > Your manual BakkesMod settings and plugins are preserved. Nix only manages what you declare.
 
+> [!IMPORTANT]
+> On first install, plugins will auto-enable on the **second launch** of Rocket League. This is because BakkesMod needs to create its data directory before plugins can be registered. After the initial setup, this is no longer an issue.
+
 ## Explore
 
 ### List available plugins

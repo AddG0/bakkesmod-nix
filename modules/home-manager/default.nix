@@ -69,12 +69,6 @@ in {
       '';
     };
 
-    _normalizedPlugins = mkOption {
-      type = types.listOf pluginModule;
-      internal = true;
-      default = normalizedPlugins;
-    };
-
     config = {
       gui = import ./options/gui.nix {inherit lib;};
       console = import ./options/console.nix {inherit lib;};
@@ -110,17 +104,11 @@ in {
       };
     };
 
-    _scripts = mkOption {
-      type = types.attrs;
-      internal = true;
-      default = {};
-    };
   };
 
   config = mkIf cfg.enable (let
-    scripts = import ./scripts {inherit pkgs lib cfg configLib;};
+    scripts = import ./scripts {inherit pkgs lib cfg configLib normalizedPlugins;};
   in {
-    programs.bakkesmod._scripts = scripts;
     home.packages = [scripts.bakkes-launcher];
   });
 }
