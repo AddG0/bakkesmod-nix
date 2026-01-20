@@ -426,10 +426,10 @@
   {
     "id": 108,
     "name": "AlphaConsole for BakkesMod",
-    "version": "2.0.11",
+    "version": "2.0.13",
     "description": "A selection of features ported from AlphaConsole into BakkesMod",
-    "url": "https://cdn.bakkesplugins.com/uploads/1e89851e285a43a8ad82995769114a92-acplugin.zip",
-    "hash": "sha256-0057FGo88B1SMfM4gGUBAZmWMjcyYPilbEohxtpqpIE="
+    "url": "https://cdn.bakkesplugins.com/uploads/53dae1baba324ca68199648285960ffd-acplugin.zip",
+    "hash": "sha256-q16ULK9usj3DEhe6T/6PwjSCtQ8g7uT9rVGkhLUWqWw="
   },
   {
     "id": 109,
@@ -1090,10 +1090,10 @@
   {
     "id": 282,
     "name": "IngameRank",
-    "version": "1.0.8",
+    "version": "1.2.9",
     "description": "View player ranks in-game next to the scoreboard.",
-    "url": "https://cdn.bakkesplugins.com/uploads/1_5adae4d0c3321fa4a91f51cac4b0428e48ae2ba1c88bd56302e5dc0a8286a175.zip",
-    "hash": "sha256-EMrrnSWR6qc9FrzgeLxCqs3hEtBDMW6yRA/mB9hb8AA="
+    "url": "https://cdn.bakkesplugins.com/uploads/aa63788935604339bf39628a1ea5cbdd-Bakkesplugin_282-public-20260115-200025.zip",
+    "hash": "sha256-zoDeNqF3KNSyvHQnUOuVoq8NylG7eJdZfrdDMWUGUMk="
   },
   {
     "id": 284,
@@ -1282,10 +1282,10 @@
   {
     "id": 316,
     "name": "NextGame",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "description": "Antisnipe for streamers",
-    "url": "https://cdn.bakkesplugins.com/uploads/4205c184de5e4e82b776e952cf06fe8d-Bakkesplugin_316_20251111.2.zip",
-    "hash": "sha256-oME8yjiAtSII667Dhtir7/i1D7sOwCayNDqOHxXxmbo="
+    "url": "https://cdn.bakkesplugins.com/uploads/e3c165d8176d41aab130c42d0cac9c16-Bakkesplugin_316-public-20260113-115328.zip",
+    "hash": "sha256-xc6DuF66+z8qkGDyKJ+7SaRQdgNERpPftM8nD1fXVjo="
   },
   {
     "id": 317,
@@ -2066,10 +2066,10 @@
   {
     "id": 511,
     "name": "TrackerCheck",
-    "version": "1.0.4",
+    "version": "1.3.4",
     "description": "Check the tracker of any player in your games in 2 clicks.",
-    "url": "https://cdn.bakkesplugins.com/uploads/28_b412ba72daba0d9b1f3e524e4148de2dbf4697c05f584e39a5062a3e90d17235.zip",
-    "hash": "sha256-UG4LfqEV3ubQ3qFTMNsUAQL6lGTHbXejVMB/Ux24UUM="
+    "url": "https://cdn.bakkesplugins.com/uploads/f0a6e2e83fb7405bb5c8ff36ccb56de1-Bakkesplugin_511-public-20260111-232143.zip",
+    "hash": "sha256-slZz9TW6qPFQTIUPZT8jme3Mif6V0jT/cZj4/j7bQrU="
   },
   {
     "id": 514,
@@ -2186,10 +2186,10 @@
   {
     "id": 543,
     "name": "FreeplayBallLoader",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Loads any non-mutator ball into freeplay",
-    "url": "https://cdn.bakkesplugins.com/uploads/28_03b8aadab6cc3417dc76a6ddf467ac04cc5a64e0069356701215c2004309aaae.zip",
-    "hash": "sha256-1S8FEdeMekFHBT+2gqiujtuE1K06xu4/zkXT/rnKJvc="
+    "url": "https://cdn.bakkesplugins.com/uploads/85b9574dcbf54d238c44fe3f68ba2126-Bakkesplugin_543-public-20260114-154732.zip",
+    "hash": "sha256-LPZpkv9h4tYY2xGNX+JR0VqMhSVG+SMCB+01sW8sTTk="
   },
   {
     "id": 544,
@@ -2542,5 +2542,13 @@
     "description": "Turns all cars on the field invisible",
     "url": "https://cdn.bakkesplugins.com/uploads/17861af128034a0b9b5dc594078f778a-Bakkesplugin_684-public-20251220-042732.zip",
     "hash": "sha256-fSLRrIrEudOXMcH2cJY6bOQuC5cNm9ojcYsvO9Thm8Y="
+  },
+  {
+    "id": 686,
+    "name": "Spawn Boost Manager",
+    "version": "1.1.0",
+    "description": "Spawn Boost Manager is an upgraded version of Kickoff Boost Manager that sets player boost to a customizable percentage whenever a car spawns (kickoff or after getting demoed).",
+    "url": "https://cdn.bakkesplugins.com/uploads/df77a34d6e7045a7a445622ec890fe4f-Bakkesplugin_686-public-20260108-171123.zip",
+    "hash": "sha256-UFrf80i3/2XMnEr1E2U/wtg7Ft4jToN1+RkKc9g6ZI8="
   }
 ]
