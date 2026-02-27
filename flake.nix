@@ -20,6 +20,7 @@
           allPlugins = import ./pkgs/plugins {inherit (final) lib callPackage;};
         in {
           bakkesmod = final.callPackage ./pkgs/bakkesmod.nix {};
+          bakkes-sync = final.callPackage ./pkgs/bakkes-sync/package.nix {};
           bakkesmod-plugins = final.lib.filterAttrs (n: _: n != "metadata") allPlugins;
         };
       };
@@ -33,15 +34,21 @@
           runtimeInputs = with pkgs; [python3 nix];
           text = ''exec python3 ${./scripts/update-plugins.py} "$@"'';
         };
+        bakkesmod = pkgs.callPackage ./pkgs/bakkesmod.nix {};
+        bakkes-sync = pkgs.callPackage ./pkgs/bakkes-sync/package.nix {};
       in {
         packages = {
-          default = pkgs.callPackage ./pkgs/bakkesmod.nix {};
-          bakkesmod = pkgs.callPackage ./pkgs/bakkesmod.nix {};
+          default = bakkesmod;
+          inherit bakkesmod bakkes-sync;
         } // pluginPackages;
 
         checks = {
-          bakkesmod = pkgs.callPackage ./pkgs/bakkesmod.nix {};
+          inherit bakkesmod bakkes-sync;
         } // pluginPackages;
+
+        devShells.default = pkgs.mkShell {
+          inputsFrom = [bakkes-sync];
+        };
 
         apps.update = {
           type = "app";

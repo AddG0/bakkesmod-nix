@@ -13,6 +13,11 @@ update:
     nix run .#update
 
 [group('testing')]
+[doc('Show BakkesMod launcher logs')]
+logs:
+    @cat "${XDG_STATE_HOME:-$HOME/.local/state}/bakkesmod/launcher.log"
+
+[group('testing')]
 [doc('Remove BakkesMod entirely for fresh install testing')]
 clean-bakkes:
     @echo "Removing BakkesMod data directory..."

@@ -2,6 +2,9 @@
 result
 result-*
 
+# Rust
+target/
+
 # direnv
 .direnv/
 

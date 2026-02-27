@@ -107,7 +107,8 @@ in {
   };
 
   config = mkIf cfg.enable (let
-    scripts = import ./scripts {inherit pkgs lib cfg configLib normalizedPlugins;};
+    bakkes-sync = pkgs.callPackage ../../pkgs/bakkes-sync/package.nix {};
+    scripts = import ./scripts {inherit pkgs lib cfg configLib normalizedPlugins bakkes-sync;};
   in {
     home.packages = [scripts.bakkes-launcher];
   });
