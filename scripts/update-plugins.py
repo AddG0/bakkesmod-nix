@@ -31,7 +31,8 @@ def get_data_file() -> Path:
 
 def fetch_json(url: str) -> dict:
     """Fetch JSON from URL."""
-    with urllib.request.urlopen(url, timeout=30) as response:
+    req = urllib.request.Request(url, headers={"User-Agent": "bakkesmod-nix-updater/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as response:
         return json.loads(response.read().decode())
 
 
