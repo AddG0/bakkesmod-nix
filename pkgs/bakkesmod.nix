@@ -8,10 +8,10 @@
 }:
 stdenv.mkDerivation {
   pname = "bakkesmod";
-  version = "2.0.60";
+  version = "2.0.66";
 
   src = fetchzip {
-    url = "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/download/2.0.60/BakkesModSetup.zip";
+    url = "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/download/2.0.64/BakkesModSetup.zip";
     sha256 = "sha256-Kx9Phyq45T1shuRebthIJdaAPGmkzZ2Huvhgg4xNnKU=";
     stripRoot = false;
   };
