@@ -63,6 +63,17 @@ in {
     log "=== BakkesMod Launcher Started ==="
     log "Args: $*"
 
+    # BakkesMod cannot inject into Steam's EAC executable; the "Anti-Cheat
+    # Disabled" launch option runs RocketLeague.exe instead.
+    case "$*" in
+      *RocketLeague_EAC.exe*)
+        log "EAC build detected - BakkesMod cannot inject"
+        log "Steam > Rocket League > Properties > Select Launch Option >"
+        log "  'Rocket League with Anti-Cheat Disabled (Mods and Limited Online Play)'"
+        exec "$@"
+        ;;
+    esac
+
     RL_PREFIX="$HOME/.steam/steam/steamapps/compatdata/252950"
 
     if [ ! -d "$RL_PREFIX" ]; then
@@ -87,7 +98,7 @@ in {
 
         proton_path=$(dirname "$proton_path" 2>/dev/null) || return 1
 
-        if [ -d "$proton_path" ] && [ -x "$proton_path/bin/wine64" ]; then
+        if [ -d "$proton_path" ] && { [ -x "$proton_path/bin/wine64" ] || [ -x "$proton_path/bin/wine" ]; }; then
             echo "$proton_path"
             return 0
         fi
@@ -100,15 +111,19 @@ in {
         exec "$@"
     fi
 
-    log "Using Proton at $PROTON"
+    # Wine 10 folded wine64 into a single WoW64 `wine`; Proton 11 ships only that.
+    WINE="$PROTON/bin/wine64"
+    [ -x "$WINE" ] || WINE="$PROTON/bin/wine"
+
+    log "Using Proton at $PROTON (wine: $WINE)"
 
     # BakkesMod requires Windows 10
     if [ -d "$RL_PREFIX/pfx" ]; then
-        WIN_VER=$(WINEPREFIX="$RL_PREFIX/pfx" "$PROTON/bin/wine64" reg query 'HKLM\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentVersion 2>/dev/null | ${pkgs.gnugrep}/bin/grep "10.0" || echo "")
+        WIN_VER=$(WINEPREFIX="$RL_PREFIX/pfx" "$WINE" reg query 'HKLM\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentVersion 2>/dev/null | ${pkgs.gnugrep}/bin/grep "10.0" || echo "")
         if [ -z "$WIN_VER" ]; then
             log "Setting Windows version to 10..."
-            WINEPREFIX="$RL_PREFIX/pfx" "$PROTON/bin/wine64" reg add 'HKLM\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentVersion /t REG_SZ /d "10.0" /f >/dev/null 2>&1 || true
-            WINEPREFIX="$RL_PREFIX/pfx" "$PROTON/bin/wine64" reg add 'HKLM\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d "19045" /f >/dev/null 2>&1 || true
+            WINEPREFIX="$RL_PREFIX/pfx" "$WINE" reg add 'HKLM\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentVersion /t REG_SZ /d "10.0" /f >/dev/null 2>&1 || true
+            WINEPREFIX="$RL_PREFIX/pfx" "$WINE" reg add 'HKLM\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d "19045" /f >/dev/null 2>&1 || true
         fi
     fi
 
@@ -121,9 +136,10 @@ in {
 
         log "Waiting for Rocket League..."
 
-        # Detect actual game process (Wine Z:\ path), not wrappers
+        # Drive letter is the Steam library's, not always Z:. The backslash is
+        # what excludes wine's steam.exe, whose cmdline also ends in the exe name.
         game_running() {
-            ${pkgs.procps}/bin/pgrep -f "Z:.*RocketLeague\\.exe" >/dev/null 2>&1
+            ${pkgs.procps}/bin/pgrep -f '[A-Za-z]:.*\\RocketLeague\.exe' >/dev/null 2>&1
         }
 
         WAIT_COUNT=0
@@ -136,7 +152,7 @@ in {
             fi
         done
 
-        GAME_PID=$(${pkgs.procps}/bin/pgrep -f "Z:.*RocketLeague\\.exe")
+        GAME_PID=$(${pkgs.procps}/bin/pgrep -f '[A-Za-z]:.*\\RocketLeague\.exe')
         log "Game detected (PID: $GAME_PID), initializing..."
         BAKKES_DATA="$RL_PREFIX/pfx/drive_c/users/steamuser/AppData/Roaming/bakkesmod/bakkesmod"
 
@@ -156,7 +172,7 @@ in {
         fi
 
         log "Launching BakkesMod..."
-        WINEDEBUG=-all WINEFSYNC=1 WINEPREFIX="$RL_PREFIX/pfx" "$PROTON/bin/wine64" ${cfg.package}/bin/BakkesMod.exe 2>/dev/null &
+        WINEDEBUG=-all WINEFSYNC=1 WINEPREFIX="$RL_PREFIX/pfx" "$WINE" ${cfg.package}/bin/BakkesMod.exe 2>/dev/null &
         BAKKES_PID=$!
         log "BakkesMod PID: $BAKKES_PID"
 

@@ -6,13 +6,13 @@
   fetchzip,
   innoextract,
 }:
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "bakkesmod";
-  version = "2.0.66";
+  version = "2.0.72";
 
   src = fetchzip {
-    url = "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/download/2.0.64/BakkesModSetup.zip";
-    sha256 = "sha256-Kx9Phyq45T1shuRebthIJdaAPGmkzZ2Huvhgg4xNnKU=";
+    url = "https://github.com/bakkesmodorg/BakkesModInjectorCpp/releases/download/${version}/BakkesModSetup.zip";
+    sha256 = "sha256-yHsrbKLZPauN49v8NHsN9MO+Htabc96M8G7zaS4Yjd8=";
     stripRoot = false;
   };
 

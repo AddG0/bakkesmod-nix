@@ -38,6 +38,9 @@ with lib; let
     else {plugin = p; extraConfig = "";};
 
   normalizedPlugins = map normalizePlugin cfg.plugins;
+
+  bakkes-sync = pkgs.callPackage ../../pkgs/bakkes-sync/package.nix {};
+  scripts = import ./scripts {inherit pkgs lib cfg configLib normalizedPlugins bakkes-sync;};
 in {
   options.programs.bakkesmod = {
     enable = mkEnableOption "BakkesMod for Rocket League";
@@ -46,6 +49,19 @@ in {
       type = types.package;
       default = pkgs.bakkesmod;
       description = "The BakkesMod package to use.";
+    };
+
+    launcherPackage = mkOption {
+      type = types.package;
+      default = scripts.bakkes-launcher;
+      defaultText = literalExpression "the generated bakkes-launcher";
+      readOnly = true;
+      description = ''
+        The generated Steam launch wrapper, for wiring into a declarative Steam
+        config (e.g. steam-config-nix's
+        `programs.steam.config.apps."252950".wrappers`) rather than typing
+        `bakkes-launcher %command%` into the launch options by hand.
+      '';
     };
 
     plugins = mkOption {
@@ -106,10 +122,7 @@ in {
 
   };
 
-  config = mkIf cfg.enable (let
-    bakkes-sync = pkgs.callPackage ../../pkgs/bakkes-sync/package.nix {};
-    scripts = import ./scripts {inherit pkgs lib cfg configLib normalizedPlugins bakkes-sync;};
-  in {
-    home.packages = [scripts.bakkes-launcher];
-  });
+  config = mkIf cfg.enable {
+    home.packages = [cfg.launcherPackage];
+  };
 }

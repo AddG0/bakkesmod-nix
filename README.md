@@ -49,7 +49,15 @@ Then set your Rocket League **Steam launch options** to:
 bakkes-launcher %command%
 ```
 
-That's it. The launcher handles Proton detection, plugin sync, and BakkesMod injection automatically.
+If something else manages that field — steam-config-nix, say — set it there instead; the next switch overwrites anything you type by hand:
+
+```nix
+programs.steam.config.apps."252950".wrappers = [config.programs.bakkesmod.launcherPackage];
+```
+
+Then under **Properties → General → Select Launch Option**, pick **Anti-Cheat Disabled**. BakkesMod injects only into that build, and the launcher steps aside on the EAC one. Mods run in freeplay, custom training, LAN, and replays.
+
+The launcher handles Proton detection, plugin sync, and injection.
 
 > **First install:** plugins activate on the **second** launch, since BakkesMod needs to create its data directory first.
 
