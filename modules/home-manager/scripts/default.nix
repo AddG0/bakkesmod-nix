@@ -33,7 +33,15 @@ with lib; let
     ${generatePluginConfigs}
   '';
 
-  pluginList = filter (p: builtins.pathExists "${p.plugin}/share/bakkesmod") normalizedPlugins;
+  # Probing "${p.plugin}/share/bakkesmod" here would realise every plugin during
+  # evaluation (IFD). Warn rather than drop - bakkes-sync rechecks at runtime,
+  # against a store path that exists.
+  pluginList =
+    map (p:
+      warnIf (!(p.plugin.isBakkesModPlugin or false))
+      "programs.bakkesmod.plugins: '${p.plugin.pname or p.plugin.name or "<unnamed>"}' lacks passthru.isBakkesModPlugin; it may not install into share/bakkesmod"
+      p)
+    normalizedPlugins;
 
   manifestData = builtins.toJSON {
     config_content = configContent;

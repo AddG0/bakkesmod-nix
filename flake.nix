@@ -25,7 +25,11 @@
         };
       };
 
-      perSystem = {pkgs, ...}: let
+      perSystem = {
+        pkgs,
+        system,
+        ...
+      }: let
         plugins = import ./pkgs/plugins {inherit (pkgs) lib callPackage;};
         pluginPackages = pkgs.lib.filterAttrs (n: _: n != "metadata") plugins;
 
@@ -36,6 +40,25 @@
         };
         bakkesmod = pkgs.callPackage ./pkgs/bakkesmod.nix {};
         bakkes-sync = pkgs.callPackage ./pkgs/bakkes-sync/package.nix {};
+
+        # Not a `checks` entry: disproving IFD needs a nested `nix eval` with
+        # the option off, which the build sandbox has no store access to run.
+        ifdCheck = pkgs.writeShellApplication {
+          name = "check-no-ifd";
+          runtimeInputs = [pkgs.nix];
+          text = ''
+            # --impure only to read the store paths below; they are pinned here.
+            nix eval --impure --raw --option allow-import-from-derivation false --expr \
+              'import ${inputs.self}/tests/no-ifd.nix {
+                 pkgs = import ${pkgs.path} {
+                   system = "${system}";
+                   config.allowUnfree = true;
+                 };
+                 src = ${inputs.self};
+               }' >/dev/null
+            echo "OK: Home Manager module evaluates without import-from-derivation"
+          '';
+        };
       in {
         packages = {
           default = bakkesmod;
@@ -50,9 +73,15 @@
           inputsFrom = [bakkes-sync];
         };
 
-        apps.update = {
-          type = "app";
-          program = "${updateScript}/bin/update-plugins";
+        apps = {
+          update = {
+            type = "app";
+            program = "${updateScript}/bin/update-plugins";
+          };
+          check-no-ifd = {
+            type = "app";
+            program = "${ifdCheck}/bin/check-no-ifd";
+          };
         };
       };
     };

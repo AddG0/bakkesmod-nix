@@ -87,6 +87,9 @@ in
       runHook postInstall
     '';
 
+    # Lets consumers detect a plugin without inspecting $out, which would be IFD.
+    passthru.isBakkesModPlugin = true;
+
     meta = with lib; {
       inherit description;
       homepage = "https://bakkesplugins.com/plugins/view/${pluginId}";
