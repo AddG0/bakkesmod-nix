@@ -1,18 +1,12 @@
 # BakkesMod for NixOS
 
-Declarative [BakkesMod](https://bakkesmod.com/) configuration and plugin management for NixOS via Home Manager. All **318** plugins from [bakkesplugins.com](https://bakkesplugins.com/) are available with pre-computed hashes.
+Declarative [BakkesMod](https://bakkesmod.com/) and plugin management via Home Manager. All **318** plugins from [bakkesplugins.com](https://bakkesplugins.com/) ship with pinned hashes.
 
-## Quick Start
+## Setup
 
-### Prerequisites
+Requires [Nix flakes](https://wiki.nixos.org/wiki/Flakes), `nixpkgs.config.allowUnfree = true`, and Rocket League installed through Steam and launched once under Proton.
 
-- [Nix flakes](https://wiki.nixos.org/wiki/Flakes) enabled
-- Unfree packages allowed (`nixpkgs.config.allowUnfree = true`)
-- Rocket League installed via Steam (launched at least once with Proton)
-
-### Setup
-
-Add the flake input and Home Manager module:
+Add the input and the module:
 
 ```nix
 {
@@ -31,6 +25,7 @@ Add the flake input and Home Manager module:
 
           programs.bakkesmod = {
             enable = true;
+            workshopTextures.enable = true;
             plugins = with bakkesmod-nix.packages.x86_64-linux; [
               rocketstats
               deja-vu-player-tracking
@@ -43,27 +38,27 @@ Add the flake input and Home Manager module:
 }
 ```
 
-Then set your Rocket League **Steam launch options** to:
+Point Rocket League's **Steam launch options** at the wrapper:
 
 ```
 bakkes-launcher %command%
 ```
 
-If something else manages that field — steam-config-nix, say — set it there instead; the next switch overwrites anything you type by hand:
+If steam-config-nix manages that field, set it there instead — the next switch overwrites anything typed by hand:
 
 ```nix
 programs.steam.config.apps."252950".wrappers = [config.programs.bakkesmod.launcherPackage];
 ```
 
-Then under **Properties → General → Select Launch Option**, pick **Anti-Cheat Disabled**. BakkesMod injects only into that build, and the launcher steps aside on the EAC one. Mods run in freeplay, custom training, LAN, and replays.
+Under **Properties → General → Select Launch Option**, pick **Anti-Cheat Disabled**. BakkesMod injects only into that build, and the launcher steps aside on the EAC one. Mods run in freeplay, custom training, LAN, and replays.
 
-The launcher handles Proton detection, plugin sync, and injection.
+The launcher detects Proton, syncs plugins, and injects.
 
-> **First install:** plugins activate on the **second** launch, since BakkesMod needs to create its data directory first.
+> **First install:** plugins activate on the **second** launch — BakkesMod creates its data directory on the first.
 
 ## Configuration
 
-### Plugins with settings
+Plugins take settings inline:
 
 ```nix
 programs.bakkesmod.plugins = with pkgs.bakkesmod-plugins; [
@@ -80,7 +75,7 @@ programs.bakkesmod.plugins = with pkgs.bakkesmod-plugins; [
 ];
 ```
 
-### BakkesMod settings
+BakkesMod's own settings are grouped by category:
 
 ```nix
 programs.bakkesmod.config = {
@@ -94,9 +89,7 @@ programs.bakkesmod.config = {
 };
 ```
 
-Settings you don't declare are left untouched — your manual BakkesMod configuration is preserved.
-
-### Available config categories
+Undeclared settings stay untouched, so your manual configuration survives.
 
 | Category | Examples |
 |----------|----------|
@@ -115,9 +108,17 @@ Settings you don't declare are left untouched — your manual BakkesMod configur
 | `misc` | FPS counter, system time |
 | `extraConfig` | Arbitrary cvars (escape hatch) |
 
-## Finding plugins
+## Workshop map textures
 
-Search by name:
+Custom maps reference UDK editor packages Rocket League omits, so their surfaces load untextured:
+
+```nix
+programs.bakkesmod.workshopTextures.enable = true;
+```
+
+The launcher links them into the game's `TAGame/CookedPCConsole`, in whichever Steam library it lives, and unlinks them when you turn the option off. Packages the game already ships stay untouched — two under one name causes the "ambiguous package name" crash.
+
+## Finding plugins
 
 ```console
 $ nix search .# rank
@@ -128,10 +129,10 @@ $ nix search .# rank
 
 ## Updating plugins
 
-The plugin database updates daily via GitHub Actions. To update manually:
+GitHub Actions refreshes the plugin database daily. To update by hand:
 
 ```console
-nix run .#update
+just update
 ```
 
 | Flag | Description |
@@ -139,6 +140,8 @@ nix run .#update
 | `--no-hash` | Fast metadata-only update |
 | `--plugin ID` | Update a single plugin |
 | `--parallel N` | Parallel downloads (default: 4) |
+
+Flags pass straight through, as in `just update --plugin 123`. The update rewrites `data/plugins.json`, which generates the plugin derivations.
 
 ## License
 

@@ -85,6 +85,22 @@ in {
       '';
     };
 
+    workshopTextures = {
+      enable = mkEnableOption ''
+        workshop map textures. Rocket League doesn't ship the UDK editor
+        packages custom maps are built against, so their surfaces load
+        untextured. The launcher links them into the game's
+        `TAGame/CookedPCConsole`, and unlinks them again when this is off
+      '';
+
+      package = mkOption {
+        type = types.package;
+        default = pkgs.rocketleague-workshop-textures;
+        defaultText = literalExpression "pkgs.rocketleague-workshop-textures";
+        description = "Flat directory of `.upk` texture packages to link in.";
+      };
+    };
+
     config = {
       gui = import ./options/gui.nix {inherit lib;};
       console = import ./options/console.nix {inherit lib;};

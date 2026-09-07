@@ -12,55 +12,42 @@ cd bakkesmod-nix
 
 ## Testing Changes
 
-### Validate the flake
-```bash
-nix flake check
-```
+`just --list` shows every recipe, grouped:
 
-### Build BakkesMod
-```bash
-nix build .#bakkesmod
-```
+| Recipe | Does |
+|--------|------|
+| `just test` | Run the behavior tests — Rust unit tests, cvar generation, texture linking, IFD |
+| `just check` | Build every package and run the flake checks |
+| `just check-ifd` | Check that the module evaluates without import-from-derivation |
+| `just build` | Build `bakkesmod`; `just build rocketstats` builds any other output |
+| `just fmt` | Format every Nix file with alejandra |
+| `just logs` | Print the launcher log — attach this to bug reports |
+| `just clean-bakkes` | Delete BakkesMod's data directory to retest a first install |
 
-### Build a specific plugin
-```bash
-nix build .#rocketstats
-```
+To try module changes against your own configuration, point the input at your
+checkout:
 
-### Test the Home Manager module
-Add the local flake to your Home Manager configuration:
 ```nix
-{
-  inputs.bakkesmod-nix.url = "path:/path/to/bakkesmod-nix";
-}
+inputs.bakkesmod-nix.url = "path:/path/to/bakkesmod-nix";
 ```
+
+`path:` inputs are pinned by hash, so run `nix flake update bakkesmod-nix` after
+each edit or your rebuild will silently use the previous copy.
 
 ## Adding a New Plugin
 
-Plugins are automatically fetched from bakkesplugins.com. To manually add or update plugins:
-
-```bash
-# Update all plugins
-nix run .#update
-
-# Update a specific plugin by ID
-nix run .#update -- --plugin 123
-
-# Fast metadata-only update (skip hash calculation)
-nix run .#update -- --no-hash
-```
-
-The update script modifies `data/plugins.json` which is used to generate plugin derivations.
+Plugins come from bakkesplugins.com automatically — see **Updating plugins** in
+the README for `just update` and its flags.
 
 ## Adding New Configuration Options
 
 1. Add the option definition in `modules/home-manager/options/`
 2. Add the config generation in `modules/home-manager/lib/config.nix`
-3. Test with `nix flake check`
+3. Confirm with `just check`
 
 ## Code Style
 
-- Run `nix fmt` before committing (uses alejandra for Nix files)
+- Run `just fmt` before committing (alejandra)
 - Keep derivations minimal and focused
 - Document non-obvious configuration options
 
@@ -68,7 +55,7 @@ The update script modifies `data/plugins.json` which is used to generate plugin 
 
 1. Create a feature branch from `main`
 2. Make your changes
-3. Run `nix flake check` to validate
+3. Run `just check` to validate
 4. Submit a PR with a clear description of the changes
 
 ## Reporting Issues
@@ -76,5 +63,5 @@ The update script modifies `data/plugins.json` which is used to generate plugin 
 When reporting issues, please include:
 - Your NixOS/Home Manager version
 - Relevant configuration snippets
-- Output of `cat ~/.local/state/bakkesmod/launcher.log` if it's a runtime issue
+- Output of `just logs` if it's a runtime issue
 - Steps to reproduce the problem

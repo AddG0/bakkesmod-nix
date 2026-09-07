@@ -865,11 +865,11 @@
   },
   {
     "id": 223,
-    "name": "Workshop Map Loader & Downloader",
-    "version": "1.0.19",
+    "name": "[New Update!] Workshop Map Loader & Downloader",
+    "version": "1.16.1",
     "description": "A plugin to load & download Workshop Maps For Epic Games",
-    "url": "https://cdn.bakkesplugins.com/uploads/1352_e351754760f447dded992d9a01385915fe9b78a1fb0e974e6d364a2ad93f5648.zip",
-    "hash": "sha256-2ijZZFCcwgRFsVXdeaNMpT1nY2dBoyUqpWRYG/jl+wM="
+    "url": "https://cdn.bakkesplugins.com/uploads/cad81d4f4ba54a77a76b6fec36385b20-WorkshopMapLoader_v1.16.1.zip",
+    "hash": "sha256-H4NxOvyY4LzBMVEKgUUXm5nH70ztE+YkiA+FHVq2JEA="
   },
   {
     "id": 225,
@@ -1086,14 +1086,6 @@
     "description": "Modify the camera settings of players in a replay.",
     "url": "https://cdn.bakkesplugins.com/uploads/7_ae70113c1dae4684d820c6acbf9bba413325cfcacaebcc844c504e90458823da.zip",
     "hash": "sha256-yi9QvOiOEO1Fwsi3aHV5co+ah1H9A4LMu7I0uD1h3No="
-  },
-  {
-    "id": 282,
-    "name": "IngameRank",
-    "version": "1.2.9",
-    "description": "View player ranks in-game next to the scoreboard.",
-    "url": "https://cdn.bakkesplugins.com/uploads/aa63788935604339bf39628a1ea5cbdd-Bakkesplugin_282-public-20260115-200025.zip",
-    "hash": "sha256-zoDeNqF3KNSyvHQnUOuVoq8NylG7eJdZfrdDMWUGUMk="
   },
   {
     "id": 284,
@@ -1320,14 +1312,6 @@
     "hash": "sha256-psqDoacqMUikmmbnrZO7nDskrGjCQmEspB+Y+25gnUo="
   },
   {
-    "id": 322,
-    "name": "JumpInReplay",
-    "version": "1.0.5",
-    "description": "JumpInReplay is a bakkesmod Plugin which allows you to open replays in a private match and take control of any car in any situation",
-    "url": "https://cdn.bakkesplugins.com/uploads/34614_2e6f2b38ac8c48291c2ed720e4425f48b620da34a6ee353be9e65c1d19657067.zip",
-    "hash": "sha256-iYo3H5uCsMEF/oVCms5oIyPqwJ0YB0yeMZR6DFm9VSA="
-  },
-  {
     "id": 324,
     "name": "CalmQuit",
     "version": "1.0.3",
@@ -1522,10 +1506,10 @@
   {
     "id": 351,
     "name": "TAS Plugin",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Create custom shots/speedruns inside rocket league",
-    "url": "https://cdn.bakkesplugins.com/uploads/1352_a6890de7c6fedf66eb3fa62f92891e9cdf3b7eba7f0a0df7aba13888c2720069.zip",
-    "hash": "sha256-3fnXCJAgWW5IMKr66AbXnXJSCV0bobvyyu8lwI0L5FQ="
+    "url": "https://cdn.bakkesplugins.com/uploads/362475a6a5ff4acbafb48df96a1cc452-TasPluginV1-1.zip",
+    "hash": "sha256-TaE7xD7eERxI64aeAIu6H4lFowp64RIEvAzcUiLDG64="
   },
   {
     "id": 352,
@@ -1710,14 +1694,6 @@
     "description": "Show your team's Ball Possession during a match.",
     "url": "https://cdn.bakkesplugins.com/uploads/28_17efd60212cee4cb67fb1b69f34c9ed5a60159b2da4a642c991626822f95f1fe.zip",
     "hash": "sha256-t6b09ZOm3ctL60V7+o/U/8I54z2QaIkzO+Yq/bF9a7I="
-  },
-  {
-    "id": 397,
-    "name": "Looking For Mates (LFM)",
-    "version": "1.0.0",
-    "description": "A plugin to find people to play with easily and quickly",
-    "url": "https://cdn.bakkesplugins.com/uploads/4_16f58ac6f7d30242cc55a49d936af96da73c19ddad276bd4141d9c58c1fc4924.zip",
-    "hash": "sha256-sBqrE8iuLpr7a9HMZb305YXqMEp3K+gVXejjKb0s7jA="
   },
   {
     "id": 398,
@@ -2038,14 +2014,6 @@
     "description": "Automatically track your custom training data, visualize your improvements!",
     "url": "https://cdn.bakkesplugins.com/uploads/1_48115f3dc513144caee9eddbed6162b67912df4607c8b5cf00ba00a88181063d.zip",
     "hash": "sha256-YPAt05bTtpjWyw3gUXg/RC7C1XNHu2RIjMOYpp/xewk="
-  },
-  {
-    "id": 506,
-    "name": "Rocky",
-    "version": "1.0.10",
-    "description": "Replay uploader to Rocky Website",
-    "url": "https://cdn.bakkesplugins.com/uploads/fe6a5047e9c24080907d85e41d6e566a-Bakkesplugin_506-public-20260219-195022.zip",
-    "hash": "sha256-VFOzDL+xG6O5Y+gWDS3IgBGDKbjagzRjZMF2HwrSGBg="
   },
   {
     "id": 509,
@@ -2416,14 +2384,6 @@
     "hash": "sha256-mj6C66LQMSATFeQ8m6Cl7IpsfuXA/Z+HYlncpaK95tQ="
   },
   {
-    "id": 616,
-    "name": "GPSpeeder",
-    "version": "1.0.0",
-    "description": "changes speed & lift of ground pinches",
-    "url": "https://cdn.bakkesplugins.com/uploads/1_29c80aa5a3d5be3f8c0b300c6cceb757ba3883fbb728149ac5d1de737d776ed6.zip",
-    "hash": "sha256-5zfNFdzemUx4RhdROaqFx1DZsqy2BOIP/qEDL6AG7nI="
-  },
-  {
     "id": 620,
     "name": "QuickSuite",
     "version": "1.2.2",
@@ -2466,10 +2426,10 @@
   {
     "id": 650,
     "name": "What if...?",
-    "version": "1.0.1",
+    "version": "1.4.1",
     "description": "A bakkesmod plugin that asks \"what if we were able to do certain things in Rocket League?\"",
-    "url": "https://cdn.bakkesplugins.com/uploads/06256072437c49f6a5c8594702ceec78-Bakkesplugin_650-public-20251217-160039.zip",
-    "hash": "sha256-naHCtbz5jFUV19vyUgEtoHAbYUDLka8dLIubmVKMpvs="
+    "url": "https://cdn.bakkesplugins.com/uploads/ffb3874b6c5549bf9633689898d463d8-what_if___.zip",
+    "hash": "sha256-NJR9i+bUTtD0nNPLIb2GZtBjjKecipMz41Z7a0FKPHw="
   },
   {
     "id": 662,
@@ -2522,18 +2482,18 @@
   {
     "id": 679,
     "name": "Multi-bind",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Be able to bind the same action to multiple keys.",
-    "url": "https://cdn.bakkesplugins.com/uploads/24eeb28fc97548aca8092811f97b66f1-Bakkesplugin_679-public-20251217-154557.zip",
-    "hash": "sha256-uq8p1ASh+2QNjdHu6/YUvWI1TiowR1LVIb9E38qSAJM="
+    "url": "https://cdn.bakkesplugins.com/uploads/8bb64f2170f0464aa2b96c22d5b19219-multi-bind.zip",
+    "hash": "sha256-gZIyyQkxlAQ+jWS3L7R3JcCyhq8WYt2hGgn+8RFql2E="
   },
   {
     "id": 680,
     "name": "FixTrainingGameSpeed",
-    "version": "1.0.0",
+    "version": "1.1.0-5",
     "description": "Fixes the issue where bakkesmod ignores the game speed set in game in training modes.",
-    "url": "https://cdn.bakkesplugins.com/uploads/4415ba2860354c1497dc922b21a18557-Bakkesplugin_680-public-20251215-000147.zip",
-    "hash": "sha256-Uyz8GS4nHgkd6DkLOIOKK4v1MV8IUXSJoeQ1KcsAKYw="
+    "url": "https://cdn.bakkesplugins.com/uploads/856ee1ab6fa840cf8bb7c5b6da6e03f6-FixTrainingGameSpeed.zip",
+    "hash": "sha256-EQToLlDR1Ad9UV7hspLejE0eNqHgd2eUDcu2hZ5lesQ="
   },
   {
     "id": 684,
@@ -2570,10 +2530,10 @@
   {
     "id": 707,
     "name": "Controller Overlay Pro",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Custom in-game controller overlay",
-    "url": "https://cdn.bakkesplugins.com/uploads/e8ac11f700b644839bf5f8a60c7a2c40-Bakkesplugin_707-public-20260227-001020.zip",
-    "hash": "sha256-vJ6k5mpFexwIvBug1AwApto46r3MFLHRFGQmj3SQtmE="
+    "url": "https://cdn.bakkesplugins.com/uploads/feb57eac272f4f0a8f95865f86d182be-Bakkesplugin_707-public-20260411-204747.zip",
+    "hash": "sha256-k3cxa7lknJ7hMdJl6P0IsUp5KtfAP2rbFeOu5yutctc="
   },
   {
     "id": 709,
@@ -2602,10 +2562,10 @@
   {
     "id": 732,
     "name": "Dribble 2 Timer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Timer for Dribble 2 Overhaul for speedrunning Individual Levels",
-    "url": "https://cdn.bakkesplugins.com/uploads/11f7d3376cea4785ae0aab102635b4f4-Bakkesplugin_732-public-20260126-104612.zip",
-    "hash": "sha256-XMmhc8G1kHR2mSowJaK3dAW193m3GctmNjh59Kxer04="
+    "url": "https://cdn.bakkesplugins.com/uploads/d59abf3233fb4b09904b720be87bdb1f-Bakkesplugin_732-public-20260411-204917.zip",
+    "hash": "sha256-Zyc2dF4zsifeYQn4unmPYzU2dNPLHCKJLeb9D6IE0qo="
   },
   {
     "id": 733,
@@ -2634,10 +2594,10 @@
   {
     "id": 749,
     "name": "RocketRhythm",
-    "version": "1.4.0",
+    "version": "2.0.1",
     "description": "RocketRhythm displays your currently playing music inside Rocket League with a sleek animated overlay. Supports album artwork, smooth progress tracking, DPI scaling, and automatic media detection using Windows GSMTC.",
-    "url": "https://cdn.bakkesplugins.com/uploads/6ff13ff0a4564b8c84af2b7a7cd27b9e-Bakkesplugin_749-public-20260212-061824.zip",
-    "hash": "sha256-E09NxZDaaAz86KLp0n0AOzW14OBuP26R+IodfU9sIh8="
+    "url": "https://cdn.bakkesplugins.com/uploads/68052e3fd0974d779c84740e59e63feb-RocketRhythm-2.0.1-release.zip",
+    "hash": "sha256-uyvvgvRmSGvqP/aJT5ToUVa6wV/lxA0JVECDe9Po7SA="
   },
   {
     "id": 751,
@@ -2698,10 +2658,10 @@
   {
     "id": 788,
     "name": "Quick Chat Custom UI",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Replace Rocket League's Quick Chat wheel with a customizable overlay.",
-    "url": "https://cdn.bakkesplugins.com/uploads/bb5bdb96a2194c2abf1d1492b75e164d-Bakkesplugin_788-public-20260305-023225.zip",
-    "hash": "sha256-gBXBXJeey6g4IZloN/Dabutm053YNhTs3zQY+OEk9i0="
+    "url": "https://cdn.bakkesplugins.com/uploads/cf4e3d6cfef64eb2bc6aaf8f039873e8-Bakkesplugin_788-public-20260316-201008.zip",
+    "hash": "sha256-8D0/GFym1RFGARckCFwUgGFIsRGbOtDNiq3fE/w8bmk="
   },
   {
     "id": 796,
@@ -2710,5 +2670,253 @@
     "description": "Swap between Rocket League's built-in fonts.",
     "url": "https://cdn.bakkesplugins.com/uploads/31548f311a924a49a58e65f3ac9b2601-Bakkesplugin_796-public-20260305-212555.zip",
     "hash": "sha256-OdE1+lUSYa4dJ2+AGWH/tbxmr7ZOmYKRITVks7L2oqc="
+  },
+  {
+    "id": 806,
+    "name": "Replaylab App Helper Plugin",
+    "version": "2.0.6",
+    "description": "Exports ranked MMR and match history for ReplayLab.",
+    "url": "https://cdn.bakkesplugins.com/uploads/e6465aa1c64341cc91424f634ac69bd1-Bakkesplugin_806-public-20260325-013914.zip",
+    "hash": "sha256-8MHe4hYwlL7A/ZGg6ucb3Mgr7hD/yk98l4Glqw9O+Yc="
+  },
+  {
+    "id": 807,
+    "name": "TwitchLink",
+    "version": "1.0.0",
+    "description": "View your Twitch chat In-Game!",
+    "url": "https://cdn.bakkesplugins.com/uploads/b894424560224585a43285808e7c9364-Bakkesplugin_807-public-20260316-202312.zip",
+    "hash": "sha256-q0JvPxT6x8VUllsQqH46wsC4WDjR/coa4I8Ir9gkmVY="
+  },
+  {
+    "id": 808,
+    "name": "ObfuscateMyLife",
+    "version": "1.0.1",
+    "description": "A plugin that anonymizes data for streaming or general comp",
+    "url": "https://cdn.bakkesplugins.com/uploads/65d97f2358394f80be0a74bb8a9ca850-Bakkesplugin_808-public-20260316-210730.zip",
+    "hash": "sha256-57TadB0DMRZFewHBPuPmln0mSwQZ2B1lzkhdMFcpdTs="
+  },
+  {
+    "id": 812,
+    "name": "Flip Reset Sounds",
+    "version": "1.0.1",
+    "description": "Add a flip reset sound effect",
+    "url": "https://cdn.bakkesplugins.com/uploads/be0d8568d1b84edebb01f0ae3e379a76-Bakkesplugin_812-public-20260411-205017.zip",
+    "hash": "sha256-SL9WV4DHmfKRYYQN5gMepFG2Wf2ahEm9Pk3NgEpKByc="
+  },
+  {
+    "id": 815,
+    "name": "RLDetect",
+    "version": "1.0.6",
+    "description": "Detect bots in your Rocket League matches \u2014 press one key, get instant in-game results.",
+    "url": "https://cdn.bakkesplugins.com/uploads/8974d4a2e777417eb346b943fd0a0840-Bakkesplugin_815-public-20260319-232148.zip",
+    "hash": "sha256-vYA3rXbRgLpNeBrLmFvLFSRlntbGoqsDw1C/AVW0w34="
+  },
+  {
+    "id": 817,
+    "name": "MECHTRAK",
+    "version": "2.0.0",
+    "description": "MechTrak automatically loads your training packs, tracks every shot, and gives you the data to train smarter",
+    "url": "https://cdn.bakkesplugins.com/uploads/a944e35f472c408a9867b26af3aacbc6-Bakkesplugin_817-public-20260411-205014.zip",
+    "hash": "sha256-vixqsG70BD5idsuPIStKLjK4xqJaRfcjgd2zZ81WF2c="
+  },
+  {
+    "id": 831,
+    "name": "ArabicChatFix",
+    "version": "1.0.0",
+    "description": "A BakkesMod plugin for Rocket League that safely intercepts, reshapes, and correctly renders right-to-left Arabic chat text using ImGui .",
+    "url": "https://cdn.bakkesplugins.com/uploads/0818943e9af04f828af644a3ccb2238c-ArabicChatFIx.zip",
+    "hash": "sha256-j80uxOLaoHOvTg8Ac+pWD1DeCp231gjwL9h5juSWrvI="
+  },
+  {
+    "id": 843,
+    "name": "Input shower",
+    "version": "1.0.0",
+    "description": "Displays live controller inputs on screen while watching replays",
+    "url": "https://cdn.bakkesplugins.com/uploads/8533ac12c9d94b15a662cc41193b2e7d-InputShower.zip",
+    "hash": "sha256-chms3tFHWAjLUtlEBpOT4RqtvlMx8usp8gDbfo6uvwE="
+  },
+  {
+    "id": 844,
+    "name": "Rockpload Auto Uploader (Linux Version)",
+    "version": "1.5.2",
+    "description": "Rockpload is an automatic replay upload for Rocket League that doesn't need Bakkesmod at all and work for any console/PC account!",
+    "url": "https://cdn.bakkesplugins.com/uploads/e08dcd27ce584b6bb25622a8aad2c13e-rockpload_1.5.2-linux.zip",
+    "hash": "sha256-iC9BrVxOFF1TtciqP0mQohkPzpFKK4Xxyp0Zy/vn7bQ="
+  },
+  {
+    "id": 845,
+    "name": "Rockpload Auto Uploader (Windows Version)",
+    "version": "1.5.2",
+    "description": "Rockpload is an automatic replay upload for Rocket League that doesn't need Bakkesmod at all and work for any console/PC account!",
+    "url": "https://cdn.bakkesplugins.com/uploads/a5c5ce5d4e954caa982f1f57e461236f-rockpload_1.5.2-windows.zip",
+    "hash": "sha256-diSQdXULu5HwaOH9u7gDoXPLKzagiP0+qSasne57K34="
+  },
+  {
+    "id": 847,
+    "name": "InGameRank",
+    "version": "1.0.7",
+    "description": "In game rank, platform and mmr overlay.",
+    "url": "https://cdn.bakkesplugins.com/uploads/2aee6910de024ca585b51eb1d3e943bf-InGameRank.zip",
+    "hash": "sha256-J/mz+C5OekQf+9Opg66q8Sw4fadP0mEoLA6sD/YP/5k="
+  },
+  {
+    "id": 850,
+    "name": "RocketLeague-win-lose ( obs web source )",
+    "version": "1.0.2",
+    "description": "Overlay OBS Win/Lose compatible EAC via la Stats API officielle de Rocket League. Il ne hook pas le jeu et n'utilise pas BakkesMod.",
+    "url": "https://cdn.bakkesplugins.com/uploads/6488f834d5354805b62c88518bd03a3f-RocketLeague-win-lose-bakkesmod-upload.zip",
+    "hash": "sha256-VJ2JxLbWKCxmXs5dc78kAqYGDRQbUMlBEdRGFep0i8E="
+  },
+  {
+    "id": 855,
+    "name": "Custom Maps Plugin - Multiplayer Update!!!",
+    "version": "1.1.2",
+    "description": "A plugin to play custom maps solo or with friends!",
+    "url": "https://cdn.bakkesplugins.com/uploads/fd77acce75f64a008d450547135893ed-CustomMapsPlugin.zip",
+    "hash": "sha256-LPVx896U85FKv8MS8KRE+TcUpG/eOpcbs9wC2lzzuU8="
+  },
+  {
+    "id": 857,
+    "name": "AnimationStudio - No Work",
+    "version": "1.0.0",
+    "description": "Cinematic Editor Rocket League",
+    "url": "https://cdn.bakkesplugins.com/uploads/0ab281be9c4540d8a7e8b8c2064e57f9-PluginStudio.zip",
+    "hash": "sha256-xuGKgwcIe6JXKj7TwLyzmdhqinDNNDtMk8L0P+PSaa0="
+  },
+  {
+    "id": 859,
+    "name": "Car & Ball Ghost Mode",
+    "version": "0.2.0",
+    "description": "Disable collision with other cars & the ball, per player. Also includes a zombies mode, because why not?",
+    "url": "https://cdn.bakkesplugins.com/uploads/b124201475174a5a88b65bd7415502b3-GhostPlugin.zip",
+    "hash": "sha256-pkugkWh6e+421FAUFgS8LD+9HJMyyobzNoyF2VJGSuc="
+  },
+  {
+    "id": 860,
+    "name": "GPSpeeder",
+    "version": "1.0.0",
+    "description": "A plugin that boosts your ground pinches!",
+    "url": "https://cdn.bakkesplugins.com/uploads/37d7073f419a4247b1315da5946e44ff-GPSpeeder_release.zip",
+    "hash": "sha256-okvX8ITZg8KsOCkv1OmGNBvBHsf4g9+9fYqlQYZVW6U="
+  },
+  {
+    "id": 861,
+    "name": "RLMMTelescope",
+    "version": "1.0.0",
+    "description": "RLMMTelescope is a plugin for exporting meshes and textures directly from inside the game. Everything shown in the UI and everything that gets exported comes straight from the game's data at runtime.",
+    "url": "https://cdn.bakkesplugins.com/uploads/1ce05cda0a134f1491bbae78d17a253a-RLMMTelescope.zip",
+    "hash": "sha256-+sjvn+X8/xV0gZBX/Hwh1QyRyt15LXnR8BeDEf5jLxU="
+  },
+  {
+    "id": 862,
+    "name": "Better Dollycam",
+    "version": "1.2.1",
+    "description": "Improved dollycam with many new features that can make your path manipulation easier",
+    "url": "https://cdn.bakkesplugins.com/uploads/6405b01f0930406d9d4ba5a0316887f2-BetterDollycam.zip",
+    "hash": "sha256-SDJaB2nI5puBnGXDY+rBsPk7CR8BCmek7Az0vpcNEwE="
+  },
+  {
+    "id": 863,
+    "name": "RLStreams Updated",
+    "version": "1.0.2",
+    "description": "Small Improvement to Old RLStreams",
+    "url": "https://cdn.bakkesplugins.com/uploads/731be910865a41adae022afe78efc816-rlstreams.zip",
+    "hash": "sha256-ktZJYkMtTDCl/n03cjI/U9LqkCvRT3LoO0HaaQdieQQ="
+  },
+  {
+    "id": 866,
+    "name": "ResetCounterImproved",
+    "version": "1.3.0",
+    "description": "Counts flip resets in freeplay/training with a clean, customizable HUD \u2014 height as 0\u2013100, time & average between resets, keep-on-screen after landing, personal best, an optional air-dribble timer, and custom on-screen text for clips.",
+    "url": "https://cdn.bakkesplugins.com/uploads/e69f9e1d7f3344a9a02e4fcc746e88c7-ResetCounterImproved-plugin.zip",
+    "hash": "sha256-VDK9cEueG4QL192WVlcLn3Bp9yZlqcYVwlIXSrJG608="
+  },
+  {
+    "id": 867,
+    "name": "CARL2 Analysis Tool",
+    "version": "2.3.0",
+    "description": "CARL2 breaks down your Rocket League replays into actionable stats. Get passes maps, expected goals (xG), boost pickup routes, and heatmaps in seconds.",
+    "url": "https://cdn.bakkesplugins.com/uploads/fd5eeafd6768436e87c1ff419cbcebad-CARL2-Online-Setup.zip",
+    "hash": "sha256-le4CMv00MCZhNwz6BRNmKYRQLuQznDaAbQfpvGMVmGY="
+  },
+  {
+    "id": 868,
+    "name": "BARL Broadcast Assistant",
+    "version": "2.0.4",
+    "description": "BARL is a free broadcast overlay for Rocket League that pulls live match data straight from the game, including an automated series score tracker and real-time boost meters.",
+    "url": "https://cdn.bakkesplugins.com/uploads/3ad6d724d5ab43c795c04de80f0aa37a-BARL-Online-Setup.zip",
+    "hash": "sha256-U2Cpn1emqAVQy7naVjfNKf0u/OJ30TY5ppFUhNl3hyY="
+  },
+  {
+    "id": 869,
+    "name": "CustomHitboxes",
+    "version": "1.0.5",
+    "description": "Changes the hitbox dimensions and offset location.",
+    "url": "https://cdn.bakkesplugins.com/uploads/cd2dc76127e8464c866d0387e76d303c-CustomHitboxes1.0.5.zip",
+    "hash": "sha256-kQvHotfklflcz9VxYnFTPfCqQYGHyE2hEpQ0bCO1Z0A="
+  },
+  {
+    "id": 870,
+    "name": "Rocket LAN",
+    "version": "1.0.1",
+    "description": "Rocket LAN makes playing custom Rocket League maps with friends easy. A standalone app with no BakkesMod, no VPN, and no setup: just pick a map, invite, and play.",
+    "url": "https://cdn.bakkesplugins.com/uploads/ec7fbd5352a847e2b257bf0ffb6986b7-Rocket.LAN_1.0.1_x64-setup.zip",
+    "hash": "sha256-mzIecR6TWmyLzSGNWAKEc1lmIOfW/hkYtwZfnhRl760="
+  },
+  {
+    "id": 871,
+    "name": "PinchDistance",
+    "version": "1.0.3",
+    "description": "Shows pinch distance and speed",
+    "url": "https://cdn.bakkesplugins.com/uploads/1c2dc7cac60f4d6281c24bae8a8921cd-PinchDistance.zip",
+    "hash": "sha256-Zeov86QISDoJUisRyWk/l9SZqn7eqymVPODJBwgOlA8="
+  },
+  {
+    "id": 872,
+    "name": "Air Dribble Trainer",
+    "version": "1.0.4",
+    "description": "Ever wanted to replay your best air dribble instead of just remembering it? Score a goal and this trainer saves it as a controller overlay that shows you exactly what to press, frame by frame. Works on Xbox and PS4/PS5 pads. Build your own shot setups, auto-reset between attempts, and export/import \"bundles\" to trade your best shots with friends or download theirs.",
+    "url": "https://cdn.bakkesplugins.com/uploads/b86dfb5997754e0e9f7059511f75781e-AirDribbleTrainer.zip",
+    "hash": "sha256-hwzdILNjYVMXcyYT39hHp0GGL7e6t9o9WuYqOR9zP/o="
+  },
+  {
+    "id": 873,
+    "name": "Goal Speder",
+    "version": "1.0.0",
+    "description": "Makes The Ball Faster Pressing D",
+    "url": "https://cdn.bakkesplugins.com/uploads/3bc2acd15a0c4f1d99e8c9fff69541db-GoalSpeder.zip",
+    "hash": "sha256-hDnS5SlBGST/U6a2Ds+YYrzr/J4kspfnnjBYUTQ8nTM="
+  },
+  {
+    "id": 874,
+    "name": "TAS 2.0",
+    "version": "1.0.0",
+    "description": "I hope you have fun on my Plugin guys",
+    "url": "https://cdn.bakkesplugins.com/uploads/2ec317abd6074053870ba8cb7f90931d-TasPluginV1-1(2).zip",
+    "hash": "sha256-TaE7xD7eERxI64aeAIu6H4lFowp64RIEvAzcUiLDG64="
+  },
+  {
+    "id": 875,
+    "name": "Input Bridge",
+    "version": "1.0.1",
+    "description": "Puts your driver inputs \u2014 throttle, steer, air roll, boost, jump and the real dodge \u2014 on a local WebSocket at 120 Hz, for overlays, stream graphics and coaching tools. Draws nothing in game.",
+    "url": "https://cdn.bakkesplugins.com/uploads/61805680b4e04a63933967f77009acf9-InputBridge-1.0.1.zip",
+    "hash": "sha256-v5WojPSdji2n0oOizoM/QrOjJYP89MGRNl4gHHy9tC8="
+  },
+  {
+    "id": 876,
+    "name": "MapSwapper",
+    "version": "1.0.0",
+    "description": "Quickly activate local custom .udk maps from inside BakkesMod",
+    "url": "https://cdn.bakkesplugins.com/uploads/7e00639096734a148bb8e65e80c51d13-MapSwapper-Release.zip",
+    "hash": "sha256-GO8058NTcGzJy5PWMlPw9Uvt+jy/GKCIhL46eLa5zT8="
+  },
+  {
+    "id": 877,
+    "name": "Camera Tuner",
+    "version": "1.0.0",
+    "description": "Tune Rocket League camera settings live while driving in Freeplay",
+    "url": "https://cdn.bakkesplugins.com/uploads/e864f9e6d25c436b8a343c8909c7e701-CameraTuner-Release.zip",
+    "hash": "sha256-lfvQGqaY0t1fCftrBY44WpWVjAME/bsuVbKHPGXIyw8="
   }
 ]

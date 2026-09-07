@@ -21,6 +21,7 @@
         in {
           bakkesmod = final.callPackage ./pkgs/bakkesmod.nix {};
           bakkes-sync = final.callPackage ./pkgs/bakkes-sync/package.nix {};
+          rocketleague-workshop-textures = final.callPackage ./pkgs/workshop-textures.nix {};
           bakkesmod-plugins = final.lib.filterAttrs (n: _: n != "metadata") allPlugins;
         };
       };
@@ -40,6 +41,7 @@
         };
         bakkesmod = pkgs.callPackage ./pkgs/bakkesmod.nix {};
         bakkes-sync = pkgs.callPackage ./pkgs/bakkes-sync/package.nix {};
+        rocketleague-workshop-textures = pkgs.callPackage ./pkgs/workshop-textures.nix {};
 
         # Not a `checks` entry: disproving IFD needs a nested `nix eval` with
         # the option off, which the build sandbox has no store access to run.
@@ -60,14 +62,28 @@
           '';
         };
       in {
-        packages = {
-          default = bakkesmod;
-          inherit bakkesmod bakkes-sync;
-        } // pluginPackages;
+        # Everything here is unfree; without this, builds need NIXPKGS_ALLOW_UNFREE.
+        _module.args.pkgs = import inputs.nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
 
-        checks = {
-          inherit bakkesmod bakkes-sync;
-        } // pluginPackages;
+        packages =
+          {
+            default = bakkesmod;
+            inherit bakkesmod bakkes-sync rocketleague-workshop-textures;
+          }
+          // pluginPackages;
+
+        checks =
+          {
+            inherit bakkesmod bakkes-sync rocketleague-workshop-textures;
+            workshop-textures-test = pkgs.callPackage ./tests/workshop-textures.nix {src = inputs.self;};
+            config-generation-test = pkgs.callPackage ./tests/config-generation.nix {src = inputs.self;};
+          }
+          // pluginPackages;
+
+        formatter = pkgs.alejandra;
 
         devShells.default = pkgs.mkShell {
           inputsFrom = [bakkes-sync];

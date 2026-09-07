@@ -270,3 +270,144 @@ fn register_dll(bakkes_data: &Path, dll_stem: &str) -> Result<(), String> {
 
     Ok(())
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    struct Fixture {
+        data: std::path::PathBuf,
+    }
+
+    impl Fixture {
+        fn new(tag: &str) -> Self {
+            let data = std::env::temp_dir().join(format!("bakkes-sync-plugins-{tag}"));
+            let _ = fs::remove_dir_all(&data);
+            fs::create_dir_all(data.join("plugins")).unwrap();
+            fs::create_dir_all(data.join("cfg")).unwrap();
+            Fixture {
+                data: data.canonicalize().unwrap(),
+            }
+        }
+
+        fn preinstall(&self, name: &str, files: &[&str]) {
+            for rel in files {
+                let dest = self.data.join(rel);
+                fs::create_dir_all(dest.parent().unwrap()).unwrap();
+                fs::write(dest, "payload").unwrap();
+            }
+            fs::write(
+                self.data.join(format!("plugins/{name}.nix-managed")),
+                files.join("\n"),
+            )
+            .unwrap();
+        }
+
+        fn exists(&self, rel: &str) -> bool {
+            self.data.join(rel).exists()
+        }
+
+        fn remove_stale(&self, wanted: &[&str]) {
+            remove_stale_plugins(&self.data, &wanted.iter().copied().collect()).unwrap();
+        }
+    }
+
+    #[test]
+    fn deletes_the_files_of_a_plugin_no_longer_declared() {
+        let f = Fixture::new("removes");
+        f.preinstall("rocketstats", &["plugins/rocketstats.dll", "data/rocketstats/x.bin"]);
+
+        f.remove_stale(&[]);
+
+        assert!(!f.exists("plugins/rocketstats.dll"), "left the plugin dll behind");
+        assert!(!f.exists("data/rocketstats/x.bin"), "left the plugin data behind");
+        assert!(!f.exists("plugins/rocketstats.nix-managed"), "left the marker behind");
+    }
+
+    #[test]
+    fn keeps_a_plugin_that_is_still_declared() {
+        let f = Fixture::new("keeps");
+        f.preinstall("rocketstats", &["plugins/rocketstats.dll"]);
+
+        f.remove_stale(&["rocketstats"]);
+
+        assert!(f.exists("plugins/rocketstats.dll"), "removed a plugin that is still wanted");
+        assert!(f.exists("plugins/rocketstats.nix-managed"), "removed a live marker");
+    }
+
+    #[test]
+    fn ignores_a_marker_line_that_points_outside_the_data_directory() {
+        let f = Fixture::new("traversal");
+        let outside = f.data.parent().unwrap().join("bakkes-sync-plugins-traversal-victim");
+        fs::write(&outside, "precious").unwrap();
+        f.preinstall("evil", &["../bakkes-sync-plugins-traversal-victim"]);
+
+        f.remove_stale(&[]);
+
+        assert!(outside.exists(), "a marker with '..' deleted a file outside the data directory");
+    }
+
+    #[test]
+    fn unregisters_the_dll_of_a_removed_plugin_but_leaves_others_loaded() {
+        let f = Fixture::new("unregister");
+        fs::write(
+            f.data.join("cfg/plugins.cfg"),
+            "plugin load rocketstats\nplugin load keepme\n",
+        )
+        .unwrap();
+        f.preinstall("rocketstats", &["plugins/rocketstats.dll"]);
+
+        f.remove_stale(&[]);
+
+        let cfg = fs::read_to_string(f.data.join("cfg/plugins.cfg")).unwrap();
+        assert!(!cfg.contains("rocketstats"), "left the removed plugin loading: {cfg:?}");
+        assert!(cfg.contains("plugin load keepme"), "unloaded an unrelated plugin: {cfg:?}");
+    }
+
+    #[test]
+    fn leaves_files_that_no_marker_claims() {
+        let f = Fixture::new("unmanaged");
+        fs::write(f.data.join("plugins/handinstalled.dll"), "payload").unwrap();
+
+        f.remove_stale(&[]);
+
+        assert!(
+            f.exists("plugins/handinstalled.dll"),
+            "deleted a plugin the user installed by hand"
+        );
+    }
+
+    #[test]
+    fn installs_every_file_in_the_source_tree_and_records_them_in_the_marker() {
+        let f = Fixture::new("install");
+        let src = f.data.parent().unwrap().join("bakkes-sync-plugins-install-src");
+        let _ = fs::remove_dir_all(&src);
+        fs::create_dir_all(src.join("plugins")).unwrap();
+        fs::create_dir_all(src.join("data/nested")).unwrap();
+        fs::write(src.join("plugins/demo.dll"), "dll").unwrap();
+        fs::write(src.join("data/nested/asset.bin"), "asset").unwrap();
+
+        install_plugin(&f.data, "demo", &src).unwrap();
+
+        assert!(f.exists("plugins/demo.dll"), "did not install the dll");
+        assert!(f.exists("data/nested/asset.bin"), "did not install the nested asset");
+
+        let marker = fs::read_to_string(f.data.join("plugins/demo.nix-managed")).unwrap();
+        assert!(marker.contains("plugins/demo.dll"), "marker missing the dll: {marker:?}");
+        assert!(marker.contains("data/nested/asset.bin"), "marker missing the asset: {marker:?}");
+
+        let cfg = fs::read_to_string(f.data.join("cfg/plugins.cfg")).unwrap();
+        assert!(cfg.contains("plugin load demo"), "did not register the dll: {cfg:?}");
+    }
+
+    #[test]
+    fn registering_the_same_plugin_twice_loads_it_once() {
+        let f = Fixture::new("register-twice");
+
+        register_dll(&f.data, "demo").unwrap();
+        register_dll(&f.data, "demo").unwrap();
+
+        let cfg = fs::read_to_string(f.data.join("cfg/plugins.cfg")).unwrap();
+        assert_eq!(cfg.matches("plugin load demo").count(), 1, "duplicated the load line: {cfg:?}");
+    }
+}

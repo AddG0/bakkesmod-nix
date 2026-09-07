@@ -71,6 +71,30 @@ in {
     log "=== BakkesMod Launcher Started ==="
     log "Args: $*"
 
+    # Inert data, so this runs ahead of the EAC bail-out. They belong in the
+    # game's install - not the prefix - on whichever library %command% points at.
+    COOKED_DIR=""
+    for arg in "$@"; do
+      case "$arg" in
+        */Binaries/Win64/RocketLeague*.exe)
+          COOKED_DIR="''${arg%/Binaries/*}/TAGame/CookedPCConsole"
+          break
+          ;;
+      esac
+    done
+
+    if [ -d "$COOKED_DIR" ]; then
+      # Clearing ours first drops a stale store path and leaves only the game's
+      # own files under these names - which plain `ln -s` (no -f) won't overwrite.
+      # Two packages under one name is an "ambiguous package name" crash.
+      ${pkgs.findutils}/bin/find "$COOKED_DIR" -maxdepth 1 -name '*.upk' -lname '/nix/store/*' -delete
+      ${optionalString cfg.workshopTextures.enable ''
+      ${pkgs.findutils}/bin/find ${cfg.workshopTextures.package} -maxdepth 1 -name '*.upk' \
+        -exec ${pkgs.coreutils}/bin/ln -s -t "$COOKED_DIR" {} + 2>>"$BAKKES_LOG"
+      log "Workshop textures linked into $COOKED_DIR"
+    ''}
+    fi
+
     # BakkesMod cannot inject into Steam's EAC executable; the "Anti-Cheat
     # Disabled" launch option runs RocketLeague.exe instead.
     case "$*" in

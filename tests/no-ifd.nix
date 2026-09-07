@@ -25,6 +25,10 @@
           # The option default would drag this test's `pkgs` through the overlay.
           package = pkgs.callPackage "${src}/pkgs/bakkesmod.nix" {};
           plugins = [plugins.rocketstats];
+          workshopTextures = {
+            enable = true;
+            package = pkgs.callPackage "${src}/pkgs/workshop-textures.nix" {};
+          };
         };
       }
     ];
