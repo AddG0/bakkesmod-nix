@@ -76,9 +76,13 @@ in {
 
         Syncs config and plugins, starts BakkesMod, and stays in the foreground
         with it. `--prefix` and `--tool` set the Rocket League prefix and the
-        Proton build to use; both are detected when omitted. `--no-wait` starts
-        BakkesMod at once and lets it wait for the game itself, leaving the
-        caller to kill it when the game exits.
+        Proton build to use; both are detected when omitted.
+
+        `--no-wait` skips waiting for Rocket League, leaving the lifetime to the
+        caller. Only pass it once the game is running: BakkesMod verifies the
+        build id against the Steam manifest it finds through Rocket League's own
+        log, and its safe mode reports itself out of date rather than injecting
+        if it cannot.
       '';
     };
 

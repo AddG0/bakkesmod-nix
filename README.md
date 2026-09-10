@@ -62,7 +62,7 @@ RLBot's core starts Rocket League itself, so there is no `%command%` to wrap. Ru
 programs.bakkesmod.injectorPackage  # bakkes-inject
 ```
 
-It syncs, starts BakkesMod, and stays in the foreground with it, logging to `inject.log`. `--prefix` and `--tool` set the Rocket League prefix and the Proton build to use; both are detected when omitted. `--no-wait` leaves waiting for the game to BakkesMod itself, and the lifetime to the caller — kill it when the game exits.
+It syncs, starts BakkesMod, and stays in the foreground with it, logging to `inject.log`. `--prefix` and `--tool` set the Rocket League prefix and the Proton build to use; both are detected when omitted. `--no-wait` skips waiting for Rocket League and leaves the lifetime to the caller — kill it when the game exits. Only pass it once the game is running: BakkesMod verifies the build id against the Steam manifest it finds through Rocket League's own log, and its safe mode reports itself out of date rather than injecting if it cannot.
 
 > **First install:** plugins activate on the **second** launch — BakkesMod creates its data directory on the first.
 

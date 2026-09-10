@@ -92,7 +92,8 @@ with lib; let
       case "$1" in
         --prefix) PREFIX="$2"; shift 2 ;;
         --tool) TOOL="$2"; shift 2 ;;
-        # BakkesMod waits for the game on its own; the caller owns the lifetime.
+        # Only for a game already running: started first, BakkesMod cannot read the
+        # build id from RL's Launch.log and wedges in OUT_OF_DATE_SAFEMODE_ENABLED.
         --no-wait) WAIT_FOR_GAME=false; shift ;;
         *) echo "bakkes-inject: unknown argument: $1" >&2; exit 2 ;;
       esac
