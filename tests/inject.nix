@@ -72,10 +72,14 @@ in
       printf 'GE-Proton\n/fonts/\n%s\n' "$1" > "$prefix/config_info"
     }
 
+    # No grace by default: only the cases below that exercise the wait pay for it.
     inject() {
-      "${injector}/bin/bakkes-inject" "$@" >/dev/null
+      BAKKES_LOG_GRACE="''${BAKKES_LOG_GRACE:-0}" \
+        "${injector}/bin/bakkes-inject" "$@" >/dev/null
       echo $?
     }
+
+    logs_dir="$prefix/pfx/drive_c/users/steamuser/Documents/My Games/Rocket League/TAGame/Logs"
 
     echo "declines a prefix that does not exist"
     rm -rf "$HOME"
@@ -133,6 +137,28 @@ in
     [ "$(BAKKES_WAIT_TIMEOUT=1 inject --tool "$PWD/tool")" = 1 ] || fail "did not wait for the game"
     ${pkgs.gnugrep}/bin/grep -q "Timeout waiting for game" "$log" || fail "did not time out waiting"
     [ ! -f "$PWD/proton-argv" ] || fail "launched BakkesMod before the game existed"
+
+    echo "launches BakkesMod once the game has logged its install directory"
+    setup_prefix
+    fake_tool
+    logs="$prefix/pfx/drive_c/users/steamuser/Documents/My Games/Rocket League/TAGame/Logs"
+    mkdir -p "$logs"
+    echo 'Init: Base directory: Z:\steamapps\common\rocketleague\Binaries\Win64\' > "$logs/Launch.log"
+    [ "$(inject --no-wait --tool "$PWD/tool")" = 0 ] || fail "exited nonzero"
+    ${pkgs.gnugrep}/bin/grep -q "WARNING: no install directory" "$log" \
+      && fail "waited for a directory the log already had"
+    [ -f "$PWD/proton-argv" ] || fail "never launched BakkesMod"
+
+    echo "injects late rather than never when the install directory does not land"
+    setup_prefix
+    fake_tool
+    mkdir -p "$logs"
+    # Rotated but not yet flushed - the state that wedges BakkesMod on a real launch.
+    : > "$logs/Launch.log"
+    [ "$(BAKKES_LOG_GRACE=1 inject --no-wait --tool "$PWD/tool")" = 0 ] || fail "exited nonzero"
+    ${pkgs.gnugrep}/bin/grep -q "WARNING: no install directory" "$log" \
+      || fail "did not report the missing install directory"
+    [ -f "$PWD/proton-argv" ] || fail "gave up instead of injecting late"
 
     touch $out
   ''

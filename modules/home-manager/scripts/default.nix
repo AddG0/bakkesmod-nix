@@ -158,6 +158,21 @@ with lib; let
         log "Game detected (PID: $GAME_PID)"
     fi
 
+    # BakkesMod verifies the build id against the Steam manifest it finds through
+    # this log, which Rocket League rotates on launch and flushes a few seconds in.
+    # Injecting against the empty file wedges it in OUT_OF_DATE_SAFEMODE_ENABLED.
+    LAUNCH_LOG="$PREFIX/pfx/drive_c/users/steamuser/Documents/My Games/Rocket League/TAGame/Logs/Launch.log"
+    TICKS=$(( ''${BAKKES_LOG_GRACE:-60} * 2 ))
+    until ${pkgs.gnugrep}/bin/grep -aq "Base directory:" "$LAUNCH_LOG" 2>/dev/null; do
+        # Documents kept elsewhere should cost a late injection, not lose it.
+        if [ "$TICKS" -le 0 ]; then
+            log "WARNING: no install directory in $LAUNCH_LOG; injecting anyway"
+            break
+        fi
+        ${pkgs.coreutils}/bin/sleep 0.5
+        TICKS=$((TICKS - 1))
+    done
+
     BAKKES_DATA="$PREFIX/pfx/drive_c/users/steamuser/AppData/Roaming/bakkesmod/bakkesmod"
 
     FIRST_RUN=false
