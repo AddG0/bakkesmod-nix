@@ -25,7 +25,7 @@ fmt:
 [group('testing')]
 [doc('Run the behavior tests (seconds; skips building every plugin)')]
 test:
-    nix build --no-link .#bakkes-sync .#checks.x86_64-linux.workshop-textures-test .#checks.x86_64-linux.config-generation-test
+    nix build --no-link .#bakkes-sync .#checks.x86_64-linux.workshop-textures-test .#checks.x86_64-linux.config-generation-test .#checks.x86_64-linux.inject-test
     nix run .#check-no-ifd
 
 [group('testing')]
@@ -39,9 +39,15 @@ check-ifd:
     nix run .#check-no-ifd
 
 [group('testing')]
-[doc('Show BakkesMod launcher logs')]
+[doc('Show BakkesMod launcher and injector logs')]
 logs:
-    @cat "${XDG_STATE_HOME:-$HOME/.local/state}/bakkesmod/launcher.log"
+    #!/usr/bin/env bash
+    for f in launcher inject; do
+        log="${XDG_STATE_HOME:-$HOME/.local/state}/bakkesmod/$f.log"
+        [ -f "$log" ] || continue
+        echo "=== $f.log ==="
+        cat "$log"
+    done
 
 [group('testing')]
 [doc('Remove BakkesMod entirely for fresh install testing')]

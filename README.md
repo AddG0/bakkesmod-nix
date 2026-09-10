@@ -54,6 +54,16 @@ Under **Properties → General → Select Launch Option**, pick **Anti-Cheat Dis
 
 The launcher detects Proton, syncs plugins, and injects.
 
+### Launches that skip Steam
+
+RLBot's core starts Rocket League itself, so there is no `%command%` to wrap. Run the injector alongside it instead:
+
+```nix
+programs.bakkesmod.injectorPackage  # bakkes-inject
+```
+
+It syncs, starts BakkesMod, and stays in the foreground with it, logging to `inject.log`. `--prefix` and `--tool` set the Rocket League prefix and the Proton build to use; both are detected when omitted. `--no-wait` leaves waiting for the game to BakkesMod itself, and the lifetime to the caller — kill it when the game exits.
+
 > **First install:** plugins activate on the **second** launch — BakkesMod creates its data directory on the first.
 
 ## Configuration

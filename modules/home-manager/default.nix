@@ -2,6 +2,7 @@
 #
 # Provides declarative configuration for BakkesMod and its plugins.
 # Usage: add 'bakkes-launcher %command%' to Rocket League Steam launch options.
+# A launch that bypasses Steam entirely calls bakkes-inject instead.
 {
   config,
   lib,
@@ -61,6 +62,23 @@ in {
         config (e.g. steam-config-nix's
         `programs.steam.config.apps."252950".wrappers`) rather than typing
         `bakkes-launcher %command%` into the launch options by hand.
+      '';
+    };
+
+    injectorPackage = mkOption {
+      type = types.package;
+      default = scripts.bakkes-inject;
+      defaultText = literalExpression "the generated bakkes-inject";
+      readOnly = true;
+      description = ''
+        BakkesMod's injector, for starting it outside a Steam launch - RLBot's
+        core launches Rocket League itself, so no `%command%` wrapper runs.
+
+        Syncs config and plugins, starts BakkesMod, and stays in the foreground
+        with it. `--prefix` and `--tool` set the Rocket League prefix and the
+        Proton build to use; both are detected when omitted. `--no-wait` starts
+        BakkesMod at once and lets it wait for the game itself, leaving the
+        caller to kill it when the game exits.
       '';
     };
 
@@ -139,6 +157,6 @@ in {
   };
 
   config = mkIf cfg.enable {
-    home.packages = [cfg.launcherPackage];
+    home.packages = [cfg.launcherPackage cfg.injectorPackage];
   };
 }

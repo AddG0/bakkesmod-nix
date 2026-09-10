@@ -80,6 +80,7 @@
             inherit bakkesmod bakkes-sync rocketleague-workshop-textures;
             workshop-textures-test = pkgs.callPackage ./tests/workshop-textures.nix {src = inputs.self;};
             config-generation-test = pkgs.callPackage ./tests/config-generation.nix {src = inputs.self;};
+            inject-test = pkgs.callPackage ./tests/inject.nix {src = inputs.self;};
           }
           // pluginPackages;
 
